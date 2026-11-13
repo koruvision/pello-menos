@@ -1,0 +1,40 @@
+<link rel="canonical" href="https://loja.pellomenos.com.br/finalizar-pagamento/" />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Pello Menos &raquo;" href="https://loja.pellomenos.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Pello Menos &raquo;" href="https://loja.pellomenos.com.br/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://loja.pellomenos.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Floja.pellomenos.com.br%2Ffinalizar-pagamento%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://loja.pellomenos.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Floja.pellomenos.com.br%2Ffinalizar-pagamento%2F&#038;format=xml" />
+<link rel='stylesheet' id='contact-form-7-css' href='https://loja.pellomenos.com.br/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://loja.pellomenos.com.br/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.4.6' media='all' />
+<link rel='stylesheet' id='woo-variation-swatches-css' href='https://loja.pellomenos.com.br/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=2.6.1' media='all' />
+<link rel='preload' as='font' type='font/woff2' crossorigin='anonymous' id='tinvwl-webfont-font-css' href='https://loja.pellomenos.com.br/wp-content/plugins/ti-woocommerce-wishlist/assets/fonts/tinvwl-webfont.woff2?ver=xu2uyi' media='all' />
+<link rel='stylesheet' id='tinvwl-webfont-css' href='https://loja.pellomenos.com.br/wp-content/plugins/ti-woocommerce-wishlist/assets/css/webfont.min.css?ver=2.14.0' media='all' />
+<link rel='stylesheet' id='tinvwl-css' href='https://loja.pellomenos.com.br/wp-content/plugins/ti-woocommerce-wishlist/assets/css/public.min.css?ver=2.14.0' media='all' />
+<link rel='stylesheet' id='animate-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/animate.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//bootstrap/css/bootstrap.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='fontawesome-all-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/all.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='ionicons-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/ionicons.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='themify-icons-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/themify-icons.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='linearicons-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/linearicons.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='flaticon-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/flaticon.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/simple-line-icons.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//owlcarousel/css/owl.carousel.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='owl-theme-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//owlcarousel/css/owl.theme.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='owl-theme-default-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//owlcarousel/css/owl.theme.default.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/magnific-popup.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/slick.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='slick-theme-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/slick-theme.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='shopwise-custom-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/custom.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='shopwise-responsive-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise/assets//css/responsive.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='shopwise-font-roboto-css' href='//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&#038;subset=latin,latin-ext' media='all' />
+<link rel='stylesheet' id='shopwise-font-poppins-css' href='//fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&#038;subset=latin,latin-ext' media='all' />
+<link rel='stylesheet' id='shopwise-style-css' href='https://loja.pellomenos.com.br/wp-content/themes/shopwise-child/style.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='jquery-fixedheadertable-style-css' href='https://loja.pellomenos.com.br/wp-content/plugins/yith-woocommerce-compare/assets/css/jquery.dataTables.css?ver=1.10.18' media='all' />
+<link rel='stylesheet' id='yith_woocompare_page-css' href='https://loja.pellomenos.com.br/wp-content/plugins/yith-woocommerce-compare/assets/css/compare.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='yith-woocompare-widget-css' href='https://loja.pellomenos.com.br/wp-content/plugins/yith-woocommerce-compare/assets/css/widget.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='mm_icomoon-css' href='https://loja.pellomenos.com.br/wp-content/plugins/mega_main_menu/framework/src/css/icomoon.css?ver=2.2.1' media='all' />
+<link rel='stylesheet' id='mmm_mega_main_menu-css' href='https://loja.pellomenos.com.br/wp-content/plugins/mega_main_menu/src/css/cache.skin.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='pm-checkout-brand-css' href='https://loja.pellomenos.com.br/wp-content/uploads/pm-home/checkout-brand.css?v=brand19' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://loja.pellomenos.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.14.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://loja.pellomenos.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.5.6' media='all' />

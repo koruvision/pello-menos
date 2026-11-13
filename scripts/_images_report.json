@@ -1,0 +1,272 @@
+[
+  {
+    "key": "axila-cera-masc",
+    "status": "OK",
+    "media": 51187
+  },
+  {
+    "key": "barba-cera-masc",
+    "status": "OK",
+    "media": 51188
+  },
+  {
+    "key": "barba-laser-masc",
+    "status": "OK",
+    "media": 51189
+  },
+  {
+    "key": "barba-modeladora-cera-masc",
+    "status": "OK",
+    "media": 51190
+  },
+  {
+    "key": "bigode-cera-masc",
+    "status": "OK",
+    "media": 51191
+  },
+  {
+    "key": "bigode-laser-masc",
+    "status": "OK",
+    "media": 51192
+  },
+  {
+    "key": "bracos-cera-masc",
+    "status": "OK",
+    "media": 51193
+  },
+  {
+    "key": "costas-cera-masc",
+    "status": "OK",
+    "media": 51194
+  },
+  {
+    "key": "coxa-cera-masc",
+    "status": "OK",
+    "media": 51195
+  },
+  {
+    "key": "coxa-laser-masc",
+    "status": "OK",
+    "media": 51196
+  },
+  {
+    "key": "design-sobrancelha-masc",
+    "status": "OK",
+    "media": 51197
+  },
+  {
+    "key": "esfoliacao-abdomen",
+    "status": "OK",
+    "media": 51198
+  },
+  {
+    "key": "esfoliacao-abdomen-masc",
+    "status": "OK",
+    "media": 51199
+  },
+  {
+    "key": "esfoliacao-axilas",
+    "status": "OK",
+    "media": 51200
+  },
+  {
+    "key": "esfoliacao-axilas-masc",
+    "status": "OK",
+    "media": 51201
+  },
+  {
+    "key": "esfoliacao-braco",
+    "status": "OK",
+    "media": 51202
+  },
+  {
+    "key": "esfoliacao-braco-masc",
+    "status": "OK",
+    "media": 51203
+  },
+  {
+    "key": "esfoliacao-costas",
+    "status": "OK",
+    "media": 51204
+  },
+  {
+    "key": "esfoliacao-costas-masc",
+    "status": "OK",
+    "media": 51205
+  },
+  {
+    "key": "esfoliacao-coxa",
+    "status": "OK",
+    "media": 51206
+  },
+  {
+    "key": "esfoliacao-coxa-masc",
+    "status": "OK",
+    "media": 51207
+  },
+  {
+    "key": "esfoliacao-faixa",
+    "status": "OK",
+    "media": 51208
+  },
+  {
+    "key": "esfoliacao-faixa-masc",
+    "status": "OK",
+    "media": 51209
+  },
+  {
+    "key": "esfoliacao-meia-nadega",
+    "status": "OK",
+    "media": 51210
+  },
+  {
+    "key": "esfoliacao-meia-perna",
+    "status": "OK",
+    "media": 51211
+  },
+  {
+    "key": "esfoliacao-meia-perna-masc",
+    "status": "OK",
+    "media": 51212
+  },
+  {
+    "key": "esfoliacao-meio-braco",
+    "status": "OK",
+    "media": 51213
+  },
+  {
+    "key": "esfoliacao-nadegas",
+    "status": "OK",
+    "media": 51214
+  },
+  {
+    "key": "esfoliacao-nadegas-masc",
+    "status": "OK",
+    "media": 51215
+  },
+  {
+    "key": "esfoliacao-perna",
+    "status": "OK",
+    "media": 51216
+  },
+  {
+    "key": "esfoliacao-perna-masc",
+    "status": "OK",
+    "media": 51217
+  },
+  {
+    "key": "esfoliacao-seios",
+    "status": "OK",
+    "media": 51218
+  },
+  {
+    "key": "esfoliacao-virilha",
+    "status": "OK",
+    "media": 51219
+  },
+  {
+    "key": "esfoliacao-virilha-faixa",
+    "status": "OK",
+    "media": 51220
+  },
+  {
+    "key": "esfoliacao-virilha-masc",
+    "status": "OK",
+    "media": 51221
+  },
+  {
+    "key": "faixa-cera-masc",
+    "status": "OK",
+    "media": 51222
+  },
+  {
+    "key": "mamilo-laser-masc",
+    "status": "OK",
+    "media": 51223
+  },
+  {
+    "key": "mamilos-cera-masc",
+    "status": "OK",
+    "media": 51224
+  },
+  {
+    "key": "meia-nadega-cera-masc",
+    "status": "OK",
+    "media": 51225
+  },
+  {
+    "key": "meia-perna-cera-masc",
+    "status": "OK",
+    "media": 51226
+  },
+  {
+    "key": "nadegas-cera-masc",
+    "status": "OK",
+    "media": 51227
+  },
+  {
+    "key": "orelha-cera-masc",
+    "status": "OK",
+    "media": 51229
+  },
+  {
+    "key": "peito-cera-masc",
+    "status": "OK",
+    "media": 51230
+  },
+  {
+    "key": "peito-laser-masc",
+    "status": "OK",
+    "media": 51231
+  },
+  {
+    "key": "perna-cera-masc",
+    "status": "OK",
+    "media": 51232
+  },
+  {
+    "key": "pescoco-cera-masc",
+    "status": "OK",
+    "media": 51233
+  },
+  {
+    "key": "rosto-inteiro-laser-masc",
+    "status": "OK",
+    "media": 51234
+  },
+  {
+    "key": "saco-escrotal-cera-masc",
+    "status": "OK",
+    "media": 51235
+  },
+  {
+    "key": "sobrancelha-cera-masc",
+    "status": "OK",
+    "media": 51236
+  },
+  {
+    "key": "torax-abdomen-cera-masc",
+    "status": "OK",
+    "media": 51237
+  },
+  {
+    "key": "torax-abdomen-laser-masc",
+    "status": "OK",
+    "media": 51238
+  },
+  {
+    "key": "virilha-cera-masc",
+    "status": "OK",
+    "media": 51239
+  },
+  {
+    "key": "virilha-laser",
+    "status": "OK",
+    "media": 51240
+  },
+  {
+    "key": "virilha-laser-masc",
+    "status": "OK",
+    "media": 51241
+  }
+]

@@ -1,0 +1,1071 @@
+{
+  "changed": [
+    {
+      "file": "busca.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "carrinho.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "checkout-footer.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "compra-nao-realizada.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "conta.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "home.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "lost-password.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "masculino.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\contrato-clube-do-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\contrato-laser-servico-avulso.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\contrato-planos-assinaturas-vip.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\contratos-indice.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\pacote-servicos-cera-pagamento-antecipado.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\docs\\termo-consentimento-pagina.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\contrato-clube-do-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\contrato-laser-servico-avulso.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\contrato-planos-assinaturas-vip.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\contratos-indice.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\pacote-servicos-cera-pagamento-antecipado.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "media\\images\\docs\\termo-consentimento-pagina.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\area-axilas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\area-corpo.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\area-pernas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\area-rosto.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\area-virilha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\cartao-presente.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\desejos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\loja.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-area-axilas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-area-corpo.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-area-pernas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-area-rosto.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-area-torax.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-cartao-presente.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-planos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-produtos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-servicos-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-servicos-esfoliacao.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-servicos-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\masculino-servicos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\planos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\privacidade.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\produtos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\servicos-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\servicos-esfoliacao.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\servicos-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\servicos-linha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\servicos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pages\\termos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "pedido-recebido.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "products\\abdomen-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\abdomen-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\abdomen-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\abdomen-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\antebraco-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\antebraco-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\antebraco-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\antebraco-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\areola-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\axila-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\axila-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\axilas-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\axilas-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\barba-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\barba-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\barba-modeladora-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\bigode-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\bigode-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-autentica-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-autentica.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-livre-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-livre.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-marcante-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-marcante.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash-masc.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "products\\body-splash.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "products\\bracos-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\bracos-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\bracos-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\bracos-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\buco-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\buco-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\buco-linha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-160-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-160.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-215-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-215.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-290-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-290.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\cartao-presente.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\costas-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\costas-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\costas-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\costas-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\coxa-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\coxa-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\coxa-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\coxas-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\design-sobrancelha-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\design-sobrancelha-realce.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\design-sobrancelha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-abdomen-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-abdomen.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-axilas-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-axilas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-braco-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-braco.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-costas-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-costas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-coxa-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-coxa.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-faixa-02-masc.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-faixa-02.html",
+      "url": 3,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-faixa-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-faixa.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-meia-nadega.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-meia-perna-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-meia-perna.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-meio-braco.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-nadegas-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-nadegas.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-perna-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-perna.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-seios.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-virilha-faixa.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-virilha-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\esfoliacao-virilha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\faixa-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\faixa-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\faixa-linha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\henna.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\intergluteos-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\intergluteos-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\intergluteos-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\intergluteos-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\labios-genitais-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\mamilo-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\mamilos-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-nadega-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-nadega-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-nadega-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-nadega-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-perna-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-perna-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-perna-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\meia-perna-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nadegas-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nadegas-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nadegas-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nadegas-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nariz-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nariz-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nariz-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\nariz-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\orelha-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\orelhas-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\orelhas-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\peito-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\peito-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\perna-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\perna-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\perna-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\perna-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\pescoco-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\pescoco-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\pescoco-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-clube-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-gold-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-gold.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-prepago-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-prepago.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-silver-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\plano-silver.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-g-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-g-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-m-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-m-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-p-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\psd-p-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\queixo-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\queixo-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\queixo-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\queixo-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\queixo-linha.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\realce.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\rosto-inteiro-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\rosto-inteiro-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\saco-escrotal-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\seios-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\sobrancelha-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\sobrancelha-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\sobrancelha-henna-simples.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\sobrancelha-henna.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\sobrancelha-realce-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\tintura-pelos-pubianos.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\torax-abdomen-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\torax-abdomen-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cavada-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cavada-faixa-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cavada-faixa-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cavada-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-comum-cera-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-comum-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-comum-faixa-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-comum-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-faixa-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-laser-masc.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-laser.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-modelada-cera.html",
+      "url": 1,
+      "label": 1
+    },
+    {
+      "file": "products\\virilha-total-laser-masc.html",
+      "url": 1,
+      "label": 1
+    }
+  ],
+  "total_url": 231,
+  "total_label": 213
+}

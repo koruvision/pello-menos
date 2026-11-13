@@ -1,0 +1,156 @@
+publico;categoria;id;nome;preco_original;preco_exibido_site;fonte
+feminino;Cartão presente;cartao-presente;Gift Card R$ 79,99;79,99;79,99;fonte extra
+feminino;Cartão presente;cartao-presente-160;Gift Card R$ 160,00;160,00;160,00;fonte extra
+feminino;Cartão presente;cartao-presente-215;Gift Card R$ 215,00;215,00;215,00;fonte extra
+feminino;Cartão presente;cartao-presente-290;Gift Card R$ 290,00;290,00;290,00;fonte extra
+feminino;Cera;abdomen-cera;Abdômen – Cera;58,00;55,10;loja original
+feminino;Cera;antebraco-cera;Antebraço – Cera;49,90;47,41;loja original
+feminino;Cera;axila-cera;Axila – Cera;33,00;31,35;loja original
+feminino;Cera;bracos-cera;Braços – Cera;69,90;66,41;loja original
+feminino;Cera;buco-cera;Buço – Cera;26,90;25,56;loja original
+feminino;Cera;costas-cera;Costas – Cera;55,00;52,25;loja original
+feminino;Cera;coxa-cera;Coxa – Cera;49,90;47,41;loja original
+feminino;Cera;design-sobrancelha;Design de Sobrancelha – Cera;58,50;55,58;loja original
+feminino;Cera;design-sobrancelha-realce;Design de Sobrancelha + Realce – Cera;78,50;74,58;loja original
+feminino;Cera;faixa-cera;Faixa – Cera;26,00;24,70;loja original
+feminino;Cera;henna;Henna;41,00;38,95;loja original
+feminino;Cera;intergluteos-cera;Interglúteos – Cera;32,50;30,88;loja original
+feminino;Cera;labios-genitais-cera;Lábios Genitais – Cera;38,50;36,58;loja original
+feminino;Cera;meia-nadega-cera;Meia Nádega – Cera;24,99;23,74;loja original
+feminino;Cera;meia-perna-cera;Meia Perna – Cera;49,90;47,41;loja original
+feminino;Cera;nadegas-cera;Nádegas Completas – Cera;49,90;47,41;loja original
+feminino;Cera;nariz-cera;Nariz – Cera;28,90;27,46;loja original
+feminino;Cera;perna-cera;Perna Inteira – Cera;85,90;81,61;loja original
+feminino;Cera;produto-1-real;Produto R$ 1;1,00;1,00;loja original
+feminino;Cera;queixo-cera;Queixo – Cera;26,90;25,56;loja original
+feminino;Cera;realce;Realce;32,00;30,40;loja original
+feminino;Cera;seios-cera;Seios – Cera;27,90;26,51;loja original
+feminino;Cera;sobrancelha-cera;Sobrancelha – Cera;47,99;45,59;loja original
+feminino;Cera;sobrancelha-henna;Design de Sobrancelha + Henna Feminino;86,50;82,18;loja original
+feminino;Cera;sobrancelha-henna-simples;Sobrancelha Simples + Henna;83,90;79,71;loja original
+feminino;Cera;sobrancelha-realce-cera;Sobrancelha + Realce – Cera;75,90;72,11;loja original
+feminino;Cera;virilha-cavada-cera;Virilha Cavada – Cera;71,00;67,45;loja original
+feminino;Cera;virilha-cavada-faixa-cera;Virilha Cavada + Faixa – Cera;84,00;79,80;loja original
+feminino;Cera;virilha-cera;Virilha Total – Cera;85,00;80,75;loja original
+feminino;Cera;virilha-comum-cera;Virilha Comum – Cera;38,50;36,58;loja original
+feminino;Cera;virilha-comum-faixa-cera;Virilha Comum + Faixa – Cera;51,50;48,93;loja original
+feminino;Cera;virilha-modelada-cera;Virilha Modelada – Cera;83,90;79,71;loja original
+feminino;Esfoliação;esfoliacao-abdomen;Esfoliação de abdômen;29,00;27,55;loja original
+feminino;Esfoliação;esfoliacao-axilas;Esfoliação de axilas;16,50;15,68;loja original
+feminino;Esfoliação;esfoliacao-braco;Esfoliação de braço;34,95;33,20;loja original
+feminino;Esfoliação;esfoliacao-costas;Esfoliação de costas;27,50;26,13;loja original
+feminino;Esfoliação;esfoliacao-coxa;Esfoliação de coxa;24,95;23,70;loja original
+feminino;Esfoliação;esfoliacao-faixa;Esfoliação Faixa 01;13,00;12,35;loja original
+feminino;Esfoliação;esfoliacao-meia-nadega;Esfoliação de meia nádega;12,50;11,88;loja original
+feminino;Esfoliação;esfoliacao-meia-perna;Esfoliação de meia perna;24,95;23,70;loja original
+feminino;Esfoliação;esfoliacao-meio-braco;Esfoliação de meio braço;24,95;23,70;loja original
+feminino;Esfoliação;esfoliacao-nadegas;Esfoliação de nádegas;24,95;23,70;loja original
+feminino;Esfoliação;esfoliacao-perna;Esfoliação de perna inteira;42,95;40,80;loja original
+feminino;Esfoliação;esfoliacao-seios;Esfoliação de seios;13,95;13,25;loja original
+feminino;Esfoliação;esfoliacao-virilha;Esfoliação de virilha;19,25;18,29;loja original
+feminino;Esfoliação;esfoliacao-virilha-faixa;Esfoliação de virilha + faixa;25,75;24,46;loja original
+feminino;Laser;abdomen-laser;Abdômen Laser;1020,00;969,00;loja original
+feminino;Laser;antebraco-laser;Antebraço Laser;1080,00;1026,00;loja original
+feminino;Laser;areola-laser;Aréola Laser;380,90;361,86;loja original
+feminino;Laser;axilas-laser;Axilas Laser;899,90;854,91;loja original
+feminino;Laser;bracos-laser;Braços Inteiros Laser;1440,00;1368,00;loja original
+feminino;Laser;buco-laser;Buço Laser;425,90;404,61;loja original
+feminino;Laser;costas-laser;Costas Laser;1495,00;1420,25;loja original
+feminino;Laser;coxas-laser;Coxas Inteiras Laser;2199,90;2089,91;loja original
+feminino;Laser;intergluteos-laser;Interglúteos Laser;470,00;446,50;loja original
+feminino;Laser;meia-nadega-laser;Meia Nádega Laser;703,00;667,85;loja original
+feminino;Laser;meia-perna-laser;Meia Perna Laser;2030,00;1928,50;loja original
+feminino;Laser;nadegas-laser;Nádegas Laser;1230,90;1169,36;loja original
+feminino;Laser;nariz-laser;Nariz Laser;340,00;323,00;loja original
+feminino;Laser;orelhas-laser;Orelhas Laser;439,90;417,91;loja original
+feminino;Laser;perna-laser;Perna Inteira Laser;4235,00;4023,25;loja original
+feminino;Laser;pescoco-laser;Pescoço Laser;703,00;667,85;loja original
+feminino;Laser;psd-g-laser;PSD G Laser (a partir de 21 cm);769,00;730,55;loja original
+feminino;Laser;psd-m-laser;PSD M Laser (até 20 cm);495,00;470,25;loja original
+feminino;Laser;psd-p-laser;PSD P Laser (até 10 cm);430,00;408,50;loja original
+feminino;Laser;queixo-laser;Queixo Laser;733,00;696,35;loja original
+feminino;Laser;rosto-inteiro-laser;Rosto Inteiro Laser (BU+QU+NZ+PSD P);1445,00;1372,75;loja original
+feminino;Laser;virilha-cavada-faixa-laser;Virilha Cavada c/ Faixa Laser;2035,00;1933,25;loja original
+feminino;Laser;virilha-cavada-laser;Virilha Cavada Laser;1790,00;1700,50;loja original
+feminino;Laser;virilha-comum-laser;Virilha Comum Laser;1320,00;1254,00;loja original
+feminino;Laser;virilha-faixa-laser;Virilha Comum + Faixa Laser;1560,00;1482,00;loja original
+feminino;Laser;virilha-laser;Virilha Total Laser;2090,00;1985,50;loja original
+feminino;Linha;buco-linha;Buço – Linha;20,92;19,87;loja original
+feminino;Linha;faixa-linha;Faixa – Linha;25,50;24,23;loja original
+feminino;Linha;queixo-linha;Queixo – Linha;27,90;26,51;loja original
+feminino;Planos;plano-clube-laser;Clube do Laser;249,90;249,90;loja original
+feminino;Planos;plano-gold;Plano de Assinatura VIP – Gold;114,90;114,90;loja original
+feminino;Planos;plano-prepago;Pré-pago Pello Menos;344,70;344,70;loja original
+feminino;Planos;plano-silver;Plano de Assinatura VIP – Silver;109,90;109,90;loja original
+feminino;Produtos (retail);body-splash;Body Splash Pello Menos;69,00;65,55;fonte extra
+masculino;Cartão presente;cartao-presente-160-masc;Gift Card R$ 160,00 (masc);160,00;160,00;fonte extra
+masculino;Cartão presente;cartao-presente-215-masc;Gift Card R$ 215,00 (masc);215,00;215,00;fonte extra
+masculino;Cartão presente;cartao-presente-290-masc;Gift Card R$ 290,00 (masc);290,00;290,00;fonte extra
+masculino;Cartão presente;cartao-presente-masc;Gift Card R$ 79,99 (masc);79,99;79,99;fonte extra
+masculino;Cera;abdomen-cera-masc;Abdômen – Cera;57,90;57,90;e-mail supervisão
+masculino;Cera;antebraco-cera-masc;Antebraço – Cera;38,50;38,50;ajuste preço
+masculino;Cera;axila-cera-masc;Axila – Cera;38,90;38,90;e-mail supervisão
+masculino;Cera;barba-cera-masc;Barba – Cera;56,90;56,90;e-mail supervisão
+masculino;Cera;barba-modeladora-cera-masc;Barba Modeladora – Cera;74,90;74,90;e-mail supervisão
+masculino;Cera;bigode-cera-masc;Bigode – Cera;38,50;38,50;e-mail supervisão
+masculino;Cera;bracos-cera-masc;Braços – Cera;74,00;74,00;e-mail supervisão
+masculino;Cera;costas-cera-masc;Costas – Cera;59,90;59,90;e-mail supervisão
+masculino;Cera;coxa-cera-masc;Coxa – Cera;61,90;61,90;e-mail supervisão
+masculino;Cera;design-sobrancelha-masc;Design de Sobrancelha – Cera;69,90;69,90;e-mail supervisão
+masculino;Cera;faixa-cera-masc;Faixa – Cera;34,00;34,00;e-mail supervisão
+masculino;Cera;intergluteos-cera-masc;Interglúteos – Cera;48,50;48,50;e-mail supervisão
+masculino;Cera;mamilos-cera-masc;Mamilos – Cera;32,90;32,90;e-mail supervisão
+masculino;Cera;meia-nadega-cera-masc;Meia nádega – Cera;27,95;27,95;ajuste preço
+masculino;Cera;meia-perna-cera-masc;Meia Perna – Cera;61,90;61,90;e-mail supervisão
+masculino;Cera;nadegas-cera-masc;Nádegas – Cera;52,50;52,50;e-mail supervisão
+masculino;Cera;nariz-cera-masc;Nariz – Cera;32,90;32,90;e-mail supervisão
+masculino;Cera;orelha-cera-masc;Orelha – Cera;32,90;32,90;e-mail supervisão
+masculino;Cera;peito-cera-masc;Peito – Cera;49,90;49,90;e-mail supervisão
+masculino;Cera;perna-cera-masc;Perna Inteira – Cera;115,00;115,00;e-mail supervisão
+masculino;Cera;pescoco-cera-masc;Pescoço – Cera;32,90;32,90;e-mail supervisão
+masculino;Cera;queixo-cera-masc;Queixo – Cera;32,90;32,90;e-mail supervisão
+masculino;Cera;saco-escrotal-cera-masc;Saco Escrotal – Cera;58,90;58,90;e-mail supervisão
+masculino;Cera;sobrancelha-cera-masc;Sobrancelha – Cera;52,90;52,90;e-mail supervisão
+masculino;Cera;torax-abdomen-cera-masc;Tórax + Abdômen – Cera;89,90;89,90;e-mail supervisão
+masculino;Cera;virilha-cera-masc;Virilha Total – Cera;88,90;88,90;e-mail supervisão
+masculino;Cera;virilha-comum-cera-masc;Virilha comum – Cera;58,90;58,90;e-mail supervisão
+masculino;Esfoliação;esfoliacao-abdomen-masc;Esfoliação de abdômen;28,95;28,95;e-mail supervisão
+masculino;Esfoliação;esfoliacao-axilas-masc;Esfoliação de axilas;19,45;19,45;e-mail supervisão
+masculino;Esfoliação;esfoliacao-braco-masc;Esfoliação de braço;37,00;37,00;e-mail supervisão
+masculino;Esfoliação;esfoliacao-costas-masc;Esfoliação de costas;29,95;29,95;e-mail supervisão
+masculino;Esfoliação;esfoliacao-coxa-masc;Esfoliação de coxa;30,95;30,95;e-mail supervisão
+masculino;Esfoliação;esfoliacao-faixa-masc;Esfoliação Faixa 01;17,00;17,00;e-mail supervisão
+masculino;Esfoliação;esfoliacao-meia-perna-masc;Esfoliação de meia perna;30,95;30,95;e-mail supervisão
+masculino;Esfoliação;esfoliacao-nadegas-masc;Esfoliação de nádegas;26,25;26,25;e-mail supervisão
+masculino;Esfoliação;esfoliacao-perna-masc;Esfoliação de perna inteira;57,50;57,50;e-mail supervisão
+masculino;Esfoliação;esfoliacao-virilha-masc;Esfoliação de virilha;29,45;29,45;e-mail supervisão
+masculino;Laser;abdomen-laser-masc;Abdômen Laser;272,50;258,88;tabela Account Manager
+masculino;Laser;antebraco-laser-masc;Antebraço Laser;288,75;274,31;tabela Account Manager
+masculino;Laser;axilas-laser-masc;Axila Laser;245,00;232,75;tabela Account Manager
+masculino;Laser;barba-laser-masc;Barba Laser;267,50;254,13;tabela Account Manager
+masculino;Laser;bigode-laser-masc;Bigode Laser;126,25;119,94;tabela Account Manager
+masculino;Laser;bracos-laser-masc;Braço Laser;365,00;346,75;tabela Account Manager
+masculino;Laser;costas-laser-masc;Costas Laser;395,00;375,25;tabela Account Manager
+masculino;Laser;coxa-laser-masc;Coxa Laser;570,00;541,50;tabela Account Manager
+masculino;Laser;intergluteos-laser-masc;Interglúteos Laser;137,50;130,63;tabela Account Manager
+masculino;Laser;mamilo-laser-masc;Mamilo Laser;115,00;109,25;tabela Account Manager
+masculino;Laser;meia-nadega-laser-masc;Meia Nádega Laser;195,00;185,25;tabela Account Manager
+masculino;Laser;meia-perna-laser-masc;Meia Perna Laser;528,75;502,31;tabela Account Manager
+masculino;Laser;nadegas-laser-masc;Nádegas Laser;327,50;311,13;tabela Account Manager
+masculino;Laser;nariz-laser-masc;Nariz Laser;103,75;98,56;tabela Account Manager
+masculino;Laser;orelhas-laser-masc;Orelhas Laser;130,00;123,50;tabela Account Manager
+masculino;Laser;peito-laser-masc;Tórax Laser;355,00;337,25;tabela Account Manager
+masculino;Laser;perna-laser-masc;Perna Inteira Laser;1080,00;1026,00;tabela Account Manager
+masculino;Laser;pescoco-laser-masc;Pescoço Laser;195,00;185,25;tabela Account Manager
+masculino;Laser;psd-g-laser-masc;PSD G Laser (a partir de 21 cm);212,50;201,88;tabela Account Manager
+masculino;Laser;psd-m-laser-masc;PSD M Laser (até 20 cm);145,00;137,75;tabela Account Manager
+masculino;Laser;psd-p-laser-masc;PSD P Laser (até 10 cm);126,25;119,94;tabela Account Manager
+masculino;Laser;queixo-laser-masc;Queixo Laser;202,50;192,38;tabela Account Manager
+masculino;Laser;rosto-inteiro-laser-masc;Rosto Inteiro Laser (Barba + NZ + PSD P);398,75;378,81;tabela Account Manager
+masculino;Laser;torax-abdomen-laser-masc;Tórax + Abdômen Laser;591,25;561,69;tabela Account Manager
+masculino;Laser;virilha-laser-masc;Virilha Laser;349,75;332,26;tabela Account Manager
+masculino;Laser;virilha-total-laser-masc;Virilha Total Laser;542,50;515,38;tabela Account Manager
+masculino;Planos;plano-gold-masc;Plano de Assinatura VIP – Gold (masc);129,90;129,90;e-mail supervisão
+masculino;Planos;plano-prepago-masc;Pré-pago Pello Menos (masc);344,70;344,70;loja original
+masculino;Planos;plano-silver-masc;Plano de Assinatura VIP – Silver (masc);124,90;124,90;e-mail supervisão
+masculino;Produtos (retail);body-splash-masc;Body Splash Pello Menos (masc);69,00;65,55;fonte extra

@@ -1,0 +1,100 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+
+# dumps e senhas da inspeção WordPress (nunca versionar)
+wordpress-loja/.secrets/
+projeto-migracao/.secrets/
+projeto-migracao/*.html
+wordpress-loja/*.html
+wordpress-loja/*.json
+wordpress-loja/pm-home/media/
+wordpress-loja/pm-home/fonts/
+
+# Hostinger/OT dumps (podem conter API keys Accesstage)
+scripts/_hostinger_ot_dumps/
+scripts/_hostinger_accesstage_excerpt.md
+scripts/_hostinger_*_findings.json
+scripts/_hostinger_ot_study.json
+scripts/_hostinger_ot_restudy.json
+scripts/_ot_wp_restudy.json
+
+# Copias de leitura do child theme (contem chaves API em texto claro)
+scripts/_hostinger_loja_dumps/
+scripts/_hostinger_ot_dumps/
+
+# ---- dados de clientes e dumps de API (nunca versionar) ----
+orders_*.json
+users.json
+wc_v3_settings*.json
+system_status.json
+email_*.json
+test-results/
+tabelas/
+drive-download-*.zip
+*.bak
+*.bak-host
+*.bak-ids
+*.bak2
+
+# screenshots e arquivos soltos na raiz
+cart-empty*.png
+"Carregando, text-sm"
+
+# material de marketing solto (nao e asset do app)
+post 7 carrossel*.png
+wordpress-loja/pm-home/*.pre-regulariza.json
+
+# artefatos de execucao (ids de transacao, e-mails de teste, dumps)
+scripts/*_result.json
+scripts/_tmp_*.json
+scripts/_audit_accesstage_ot.json
+scripts/_audit_encoding_mojibake_result.json
+scripts/_audit_loja_cache_headers*.json
+
+# bytecode python
+__pycache__/
+*.pyc
+
+# backups locais do reordenamento
+wordpress-loja/pm-home/*.bak-rail

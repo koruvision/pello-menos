@@ -1,0 +1,1723 @@
+<title>Documentação Técnica Pello Menos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f6f5f2;
+  --surface: #ffffff;
+  --surface-2: #efece7;
+  --fg: #1a1917;
+  --muted: #6b6660;
+  --faint: #8d8780;
+  --border: #e0dcd5;
+  --border-strong: #cbc5bb;
+  --accent: #8a5a2b;
+  --accent-soft: #f0e4d5;
+  --ok: #2f6b4f;
+  --ok-soft: #e2efe8;
+  --warn: #8a6320;
+  --warn-soft: #f6ecd9;
+  --risk: #9b3b32;
+  --risk-soft: #f6e3e0;
+  --code-bg: #f1eee9;
+  --shadow: 0 1px 2px rgba(26,25,23,.05), 0 8px 24px -12px rgba(26,25,23,.14);
+  --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151412;
+    --surface: #1d1c19;
+    --surface-2: #242220;
+    --fg: #ece8e2;
+    --muted: #a9a29a;
+    --faint: #837d75;
+    --border: #302d29;
+    --border-strong: #443f39;
+    --accent: #dfa76a;
+    --accent-soft: #33281c;
+    --ok: #7fbd9a;
+    --ok-soft: #1e2e26;
+    --warn: #d9b070;
+    --warn-soft: #2f2718;
+    --risk: #e09189;
+    --risk-soft: #33201e;
+    --code-bg: #232120;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151412;
+  --surface: #1d1c19;
+  --surface-2: #242220;
+  --fg: #ece8e2;
+  --muted: #a9a29a;
+  --faint: #837d75;
+  --border: #302d29;
+  --border-strong: #443f39;
+  --accent: #dfa76a;
+  --accent-soft: #33281c;
+  --ok: #7fbd9a;
+  --ok-soft: #1e2e26;
+  --warn: #d9b070;
+  --warn-soft: #2f2718;
+  --risk: #e09189;
+  --risk-soft: #33201e;
+  --code-bg: #232120;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- layout ---------- */
+.shell {
+  display: grid;
+  grid-template-columns: 244px minmax(0, 1fr);
+  gap: 48px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-block: 0 96px;
+}
+@media (max-width: 940px) {
+  .shell { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
+
+.toc {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-block: 32px 32px;
+  font-size: 13.5px;
+}
+@media (max-width: 940px) {
+  .toc { position: static; max-height: none; padding-block: 24px 0; overflow: visible; }
+  .toc ol { display: flex; flex-wrap: wrap; gap: 6px; }
+  .toc li { margin: 0 !important; }
+  .toc a { border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+  .toc .toc-label { width: 100%; }
+}
+.toc .toc-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: 14px;
+  display: block;
+}
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc li { margin-bottom: 2px; }
+.toc a {
+  color: var(--muted);
+  text-decoration: none;
+  display: block;
+  padding: 4px 8px 4px 10px;
+  border-left: 2px solid transparent;
+  border-radius: 0 6px 6px 0;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.toc a:hover { color: var(--fg); background: var(--surface-2); border-left-color: var(--accent); }
+.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+main { min-width: 0; padding-block: 0 40px; }
+
+/* ---------- hero ---------- */
+.hero {
+  border-bottom: 1px solid var(--border);
+  padding-block: 56px 40px;
+}
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 18px;
+}
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 5.2vw, 46px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.025em;
+  margin: 0 0 18px;
+  text-wrap: balance;
+}
+.lede {
+  font-size: 17.5px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 62ch;
+  margin: 0 0 28px;
+}
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.meta-grid div { background: var(--surface); padding: 12px 14px; }
+.meta-grid dt {
+  font-family: var(--font-display);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 4px;
+}
+.meta-grid dd {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+}
+
+/* ---------- sections ---------- */
+section { padding-block: 52px 0; scroll-margin-top: 20px; }
+section > h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3.4vw, 29px);
+  font-weight: 600;
+  letter-spacing: -.018em;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+.sec-num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 8px;
+  letter-spacing: .04em;
+}
+section > .sub {
+  color: var(--muted);
+  font-size: 15.5px;
+  max-width: 66ch;
+  margin: 0 0 26px;
+}
+h3 {
+  font-family: var(--font-display);
+  font-size: 17.5px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  margin: 32px 0 10px;
+}
+h4 {
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  margin: 22px 0 8px;
+  color: var(--fg);
+}
+p { margin: 0 0 14px; max-width: 72ch; }
+ul, ol { margin: 0 0 16px; padding-left: 22px; max-width: 72ch; }
+li { margin-bottom: 6px; }
+li > ul, li > ol { margin-top: 6px; }
+strong { font-weight: 600; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: .875em;
+  background: var(--code-bg);
+  padding: 1.5px 5px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  word-break: break-word;
+}
+pre {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.62;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  overflow-x: auto;
+  margin: 0 0 18px;
+}
+pre code { background: none; border: 0; padding: 0; font-size: inherit; }
+
+/* ---------- tables ---------- */
+.tw { overflow-x: auto; margin: 0 0 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; min-width: 480px; }
+th {
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-strong);
+  white-space: nowrap;
+  background: var(--surface-2);
+}
+td { padding: 9px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td code { font-size: 12px; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- callouts ---------- */
+.note {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin: 0 0 18px;
+  font-size: 14.5px;
+}
+.note p:last-child { margin-bottom: 0; }
+.note strong:first-child { color: var(--accent); }
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: .02em;
+  padding: 2px 7px;
+  border-radius: 5px;
+  border: 1px solid;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+.b-ok { color: var(--ok); background: var(--ok-soft); border-color: color-mix(in srgb, var(--ok) 30%, transparent); }
+.b-code { color: var(--muted); background: var(--surface-2); border-color: var(--border-strong); }
+.b-hyp { color: var(--warn); background: var(--warn-soft); border-color: color-mix(in srgb, var(--warn) 30%, transparent); }
+.b-risk { color: var(--risk); background: var(--risk-soft); border-color: color-mix(in srgb, var(--risk) 30%, transparent); }
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 14px 16px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+  margin-bottom: 26px;
+  font-size: 13px;
+  color: var(--muted);
+  align-items: center;
+}
+
+/* ---------- cards / modules ---------- */
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin: 0 0 20px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 15px 17px;
+}
+.card h4 { margin: 0 0 6px; font-size: 14px; }
+.card p { font-size: 13.5px; color: var(--muted); margin: 0; max-width: none; }
+.card .path {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--accent);
+  margin-bottom: 7px;
+  word-break: break-all;
+}
+
+/* ---------- mermaid ---------- */
+pre.mermaid {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 16px;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  overflow-x: auto;
+  min-height: 60px;
+}
+
+/* ---------- stats ---------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 10px;
+  margin: 0 0 22px;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 15px;
+}
+.stat b {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -.03em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+.stat span {
+  font-size: 11.5px;
+  color: var(--faint);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+hr.sep { border: 0; border-top: 1px solid var(--border); margin: 44px 0 0; }
+
+footer {
+  border-top: 1px solid var(--border);
+  margin-top: 64px;
+  padding-block: 26px 0;
+  color: var(--faint);
+  font-size: 13px;
+}
+footer p { max-width: 68ch; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+
+<div class="shell">
+  <nav class="toc" aria-label="Índice">
+    <span class="toc-label">Índice</span>
+    <ol>
+      <li><a href="#visao">1 · Visão geral</a></li>
+      <li><a href="#arquitetura">2 · Arquitetura</a></li>
+      <li><a href="#frontend">3 · Front-end</a></li>
+      <li><a href="#fluxo">4 · Fluxo de compra</a></li>
+      <li><a href="#unidades">5 · Sistema de unidades</a></li>
+      <li><a href="#backend">6 · Back-end</a></li>
+      <li><a href="#dados">7 · Dados</a></li>
+      <li><a href="#pagamentos">8 · Pagamentos</a></li>
+      <li><a href="#plugins">9 · Plugins</a></li>
+      <li><a href="#automacoes">10 · Automações</a></li>
+      <li><a href="#arquivos">11 · Arquivos</a></li>
+      <li><a href="#seguranca">12 · Segurança</a></li>
+      <li><a href="#dividas">13 · Dívidas técnicas</a></li>
+      <li><a href="#diagramas">14 · Diagramas</a></li>
+      <li><a href="#conclusao">15 · Conclusão</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <p class="eyebrow">Documentação técnica e funcional</p>
+      <h1>Plataforma Pello Menos</h1>
+      <p class="lede">
+        Como a loja online da rede de depilação funciona de ponta a ponta: o catálogo estático
+        servido pelo WordPress, o carrinho na Store API do WooCommerce, o checkout em Contact Form 7
+        com pagamento Accesstage, e as regras de unidade que amarram tudo isso ao pedido.
+      </p>
+      <dl class="meta-grid">
+        <div><dt>Ambiente</dt><dd>WordPress 7.1.4</dd></div>
+        <div><dt>Loja</dt><dd>WooCommerce 11.2.1</dd></div>
+        <div><dt>PHP / DB</dt><dd>7.4.33 · MySQL 11.8.9</dd></div>
+        <div><dt>Servidor</dt><dd>LiteSpeed</dd></div>
+        <div><dt>Tema</dt><dd>Shopwise Child 1.4.8</dd></div>
+        <div><dt>Levantamento</dt><dd>12 nov 2026</dd></div>
+      </dl>
+    </header>
+
+    <div class="legend">
+      <span><span class="badge b-ok">confirmado</span> verificado por execução na produção</span>
+      <span><span class="badge b-code">código</span> encontrado no repositório</span>
+      <span><span class="badge b-hyp">hipótese</span> inferido, não comprovado</span>
+      <span><span class="badge b-risk">risco</span> ponto frágil identificado</span>
+    </div>
+
+    <!-- ============ 1 ============ -->
+    <section id="visao">
+      <span class="sec-num">01</span>
+      <h2>Visão geral</h2>
+      <p class="sub">O que é a plataforma, o que ela resolve e com quais peças é montada.</p>
+
+      <h3>O negócio</h3>
+      <p>
+        A Pello Menos é uma rede de franquias de depilação (cera e laser) com unidades no Rio de
+        Janeiro, São Paulo e Distrito Federal. A loja online vende <strong>sessões avulsas</strong>,
+        <strong>pacotes a laser</strong>, <strong>planos de assinatura</strong> e
+        <strong>cartões-presente</strong> — todos vinculados a uma unidade física onde o serviço será
+        executado.
+      </p>
+      <p>
+        Isso define a particularidade central do sistema: <strong>o produto não é só “axila a cera”,
+        é “axila a cera na unidade X”</strong>. Preço, disponibilidade e — principalmente — a linha
+        do pedido dependem da unidade. Toda a arquitetura de checkout gira em torno de preservar esse
+        vínculo do carrinho até o registro no WooCommerce.
+      </p>
+
+      <h3>Arquitetura em uma frase</h3>
+      <p>
+        O site é um <strong>tema WordPress</strong> cujo conteúdo principal é um
+        <strong>front estático gerado a partir de um projeto Next.js</strong> e publicado em
+        <code>wp-content/uploads/pm-home/</code>. O WordPress não renderiza essas páginas: um snippet
+        PHP intercepta a requisição e devolve o HTML pronto. O carrinho e o checkout são a exceção —
+        ali a lógica é <strong>JavaScript puro</strong> falando com a Store API do WooCommerce, e o
+        envio final é um formulário <strong>Contact Form 7</strong>.
+      </p>
+
+      <div class="grid2">
+        <div class="card">
+          <span class="path">src/ · Next.js 16 + React 19</span>
+          <h4>Protótipo / fonte do HTML</h4>
+          <p>Gera as páginas estáticas exportadas. Também roda como site separado na Vercel.</p>
+        </div>
+        <div class="card">
+          <span class="path">wordpress-loja/pm-home/</span>
+          <h4>Front publicado</h4>
+          <p>HTML, CSS e JS que a loja realmente serve em produção.</p>
+        </div>
+        <div class="card">
+          <span class="path">Code Snippets (15 snippets)</span>
+          <h4>Camada PHP de cola</h4>
+          <p>Rotas, enfileiramento de assets, sync de pedido, captura de carrinho abandonado.</p>
+        </div>
+        <div class="card">
+          <span class="path">WooCommerce + Store API</span>
+          <h4>Catálogo e sessão</h4>
+          <p>Produtos variáveis por unidade, carrinho por sessão, pedidos e cupons.</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b>130</b><span>produtos no Woo</span></div>
+        <div class="stat"><b>149</b><span>itens no catálogo</span></div>
+        <div class="stat"><b>35</b><span>unidades</span></div>
+        <div class="stat"><b>193</b><span>rotas estáticas</span></div>
+        <div class="stat"><b>27.047</b><span>pedidos</span></div>
+        <div class="stat"><b>10.466</b><span>clientes</span></div>
+      </div>
+
+      <h3>Stack</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Camada</th><th>Tecnologia</th><th>Papel</th></tr></thead>
+          <tbody>
+            <tr><td>Servidor</td><td>WordPress 7.1.4 · PHP 7.4.33 · LiteSpeed</td><td>Hospedagem, rotas, snippets</td></tr>
+            <tr><td>Loja</td><td>WooCommerce 11.2.1</td><td>Produtos variáveis, pedidos, cupons</td></tr>
+            <tr><td>Tema</td><td>Shopwise Child 1.4.8</td><td>Base visual, hospeda o handler <code>payment_CF7</code></td></tr>
+            <tr><td>Formulário</td><td>Contact Form 7 6.1.1 + Conditional Fields 2.8.5</td><td>Checkout real (form <code>#1831</code>)</td></tr>
+            <tr><td>Front estático</td><td>HTML + CSS + JS vanilla</td><td>Home, produtos, carrinho</td></tr>
+            <tr><td>Front-fonte</td><td>Next.js 16.3.1 · React 19.2.8 · Tailwind 4 · GSAP</td><td>Gera o HTML; roda na Vercel</td></tr>
+            <tr><td>Banco</td><td>MySQL 11.8.9</td><td>Tabelas nativas WP + Woo</td></tr>
+            <tr><td>Pagamento</td><td>Accesstage (via child theme)</td><td>Cobrança de cartão</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 2 ============ -->
+    <section id="arquitetura">
+      <span class="sec-num">02</span>
+      <h2>Arquitetura</h2>
+      <p class="sub">Como uma requisição atravessa as camadas.</p>
+
+      <p>
+        O ponto menos óbvio do projeto: <strong>o WordPress não renderiza o site com o tema</strong>.
+        O snippet <code>pm-home</code> registra um <code>template_redirect</code> com prioridade alta
+        que, para rotas conhecidas, limpa o buffer de saída e devolve um arquivo HTML de
+        <code>uploads/pm-home/</code>, encerrando a execução com <code>exit</code>.
+      </p>
+
+      <pre class="mermaid">
+flowchart TB
+  B["Navegador"]
+  B -->|GET /produto/axila-cera/| WP["WordPress · LiteSpeed"]
+  WP --> SN["snippet pm-home<br/>template_redirect"]
+  SN -->|GET + rota conhecida| UP["uploads/pm-home/<br/>products/axila-cera.html"]
+  UP -->|HTML pronto + assets| B
+  SN -->|POST / wp-admin/admin-ajax.php / wc-ajax| WC["WooCommerce"]
+  B -->|fetch Store API| WCS["/wp-json/wc/store/v1/cart"]
+  WCS --> WC
+  B -->|POST CF7 #1831| CF["Contact Form 7"]
+  CF --> CT["child theme<br/>payment_CF7"]
+  CT --> ACC["Accesstage"]
+  CT --> ORD["wc order"]
+  ORD --> DB[("MySQL")]
+      </pre>
+
+      <h3>Três camadas de código convivem no mesmo repositório</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Camada</th><th>Onde vive</th><th>O que controla</th><th>Como é publicada</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>A · Front estático</strong></td>
+              <td><code>wordpress-loja/pm-home/</code> (162 MB)</td>
+              <td>Todo o visual público: home, 192 fichas de produto, carrinho, área do cliente</td>
+              <td><code>POST /wp-json/pm-home/v1/bundle</code> — zip extraído em <code>uploads/</code></td>
+            </tr>
+            <tr>
+              <td><strong>B · Snippets PHP</strong></td>
+              <td>Code Snippets (banco de dados)</td>
+              <td>Rotas, assets, sync de pedido, carrinho abandonado, reCAPTCHA</td>
+              <td>REST <code>/wp-json/code-snippets/v1/snippets/{id}</code></td>
+            </tr>
+            <tr>
+              <td><strong>C · Tema filho</strong></td>
+              <td><code>wp-content/themes/shopwise-child/functions.php</code> no servidor; cópia somente-leitura em <code>scripts/_hostinger_loja_dumps/</code></td>
+              <td>O handler <code>payment_CF7</code> que cria o pedido e chama o gateway</td>
+              <td>Não publicável pelo repositório — ver §8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <p><strong>Consequência prática:</strong> mudar o front é deploy de arquivo (dormente e
+        reversível); mudar o snippet é mudança de lógica em produção; e a camada C não está no
+        repositório, então qualquer diagnóstico de pedido para na fronteira do <code>payment_CF7</code>.</p>
+      </div>
+
+      <h3>Onde o Next.js entra — e onde não entra</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> O Next.js <strong>não atende a produção</strong>.
+        A loja é WordPress. O projeto Next é usado para gerar o HTML publicado e roda paralelamente na
+        Vercel. As rotas <code>/carrinho</code> e <code>/checkout</code> do Next existem como
+        protótipo; o carrinho real é <code>carrinho.html</code> e o checkout real é o CF7 em
+        <code>/finalizar-pagamento/</code>. O link “Ir para o pagamento” do carrinho aponta para
+        <code>/finalizar-pagamento/</code>, nunca para o mock.
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Aspecto</th><th>Realidade no código</th></tr></thead>
+          <tbody>
+            <tr><td>Rotas de API</td><td>Nenhuma — não há <code>src/app/api</code></td></tr>
+            <tr><td>Server actions</td><td>Nenhuma — não há <code>"use server"</code></td></tr>
+            <tr><td>Banco de dados</td><td>Nenhum acesso; todo dado vem de <code>data.ts</code> e JSON importado no build</td></tr>
+            <tr><td>Fetch</td><td>Nenhum <code>fetch</code> em <code>src/</code></td></tr>
+            <tr><td>Catálogo</td><td>149 linhas semente em <code>catalogItems</code>, expandidas para 159 <code>Product</code> (10 twins <code>-masc</code>)</td></tr>
+            <tr><td>Carrinho no Next</td><td><code>StoreProvider</code> mantém em memória React — <strong>não persiste</strong>; a persistência real é <code>pm-cart-v1</code>, escrita pelo JS do WordPress</td></tr>
+            <tr><td>Auth no Next</td><td>Simulação em <code>localStorage</code> (<code>pello-menos-accounts</code>), sem servidor</td></tr>
+            <tr><td><code>/checkout</code></td><td>Mock visual: dados de exemplo somente-leitura, “(simulação)”, sem rede nem criação de pedido</td></tr>
+            <tr><td>Fontes e GTM</td><td>Manrope + Cormorant Garamond via <code>next/font</code>; GTM <code>GTM-52G8XVQ8</code> antes de qualquer script</td></tr>
+            <tr><td><code>checkoutPaths.ts</code></td><td>Só lógica de chrome (esconder seletor de público e botão flutuante no funil), não roteamento</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 3 ============ -->
+    <section id="frontend">
+      <span class="sec-num">03</span>
+      <h2>Front-end</h2>
+      <p class="sub">As páginas, seus arquivos e o que cada script faz.</p>
+
+      <h3>Mapa de páginas</h3>
+      <p>
+        Existem dois índices de rota em <code>uploads/pm-home/</code>. O
+        <code>pages.json</code> mapeia 33 páginas institucionais e de categoria; o
+        <code>routes.json</code> mapeia 193 rotas, das quais 192 são fichas de produto
+        (160 arquivos distintos — 33 rotas são aliases, como <code>virilha-total-cera</code>
+        servindo o mesmo HTML de <code>virilha-cera</code>).
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Rota</th><th>Arquivo</th><th>Script principal</th></tr></thead>
+          <tbody>
+            <tr><td><code>/</code> e <code>/masculino</code></td><td><code>home.html</code>, <code>masculino.html</code></td><td><code>home.js</code>, <code>promo-popup.js</code></td></tr>
+            <tr><td><code>/produto/{slug}</code></td><td><code>products/*.html</code> (160)</td><td><code>product.js</code></td></tr>
+            <tr><td><code>/area/{cat}</code>, <code>/servicos/*</code>, <code>/produtos</code>, <code>/planos</code></td><td><code>pages/*.html</code> (29)</td><td><code>product.js</code></td></tr>
+            <tr><td><code>/carrinho</code></td><td><code>carrinho.html</code></td><td><code>cart.js</code></td></tr>
+            <tr><td><code>/finalizar-pagamento</code></td><td>Tema WP + CF7 #1831</td><td><code>checkout-shell-c24.js</code>, <code>checkout-loading.js</code></td></tr>
+            <tr><td><code>/minha-conta</code></td><td><code>conta.html</code></td><td><code>account.js</code></td></tr>
+            <tr><td><code>/busca</code></td><td><code>busca.html</code></td><td><code>busca.js</code></td></tr>
+            <tr><td><code>/compra-nao-realizada</code></td><td><code>compra-nao-realizada.html</code></td><td>—</td></tr>
+            <tr><td><code>…/order-received/{id}</code></td><td><code>pedido-recebido.html</code> + corpo PHP</td><td>—</td></tr>
+            <tr><td><code>/desejos</code>, <code>/termos</code>, <code>/privacidade</code></td><td><code>desejos.html</code>, etc.</td><td>Wishlist (plugin)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <p><strong>Atenção ao documentar:</strong> <code>/conta/</code> retorna 404. A área do cliente
+        vive em <code>/minha-conta/</code>. Já <code>/loja/</code> responde 200, mas com o HTML da
+        home — não é um grid do WooCommerce. Quatro arquivos de produto existem em
+        <code>products/</code> sem rota correspondente no <code>routes.json</code>
+        (<code>body-splash.html</code>, <code>body-splash-masc.html</code>,
+        <code>esfoliacao-faixa-02.html</code> e a versão masc).</p>
+      </div>
+
+      <h3>Ficha de produto — a peça mais importante do front</h3>
+      <p>
+        Cada página de produto carrega o preço por região em atributos <code>data-*</code> e as
+        unidades em um <code>&lt;select&gt;</code> com <code>data-pm-unit</code>:
+      </p>
+      <pre><code>&lt;div data-catalog-id="axila-cera" data-method="cera"
+     data-rj-sale="2805" data-rj-regular="3300"
+     data-sp-sale="2805" data-sp-regular="3300"&gt;
+  &lt;select data-pm-unit&gt;
+    &lt;option value="sp-avp" data-unit-name="Avenida Paulista"
+            data-city="São Paulo" data-state="SP"
+            data-region="sp-df" data-variation="23138"
+            data-woo-option="SP - Capital - Av. Paulista"&gt;…&lt;/option&gt;</code></pre>
+      <p>
+        <code>product.js</code> lê essa opção em <code>selected()</code> e calcula o preço pela
+        região marcada em <code>data-region</code>: <code>sp-df</code> (SP Capital e DF) usa a tabela
+        SP, o resto usa a tabela RJ/Interior. <code>pruneUnitSelect()</code> remove do select as
+        unidades onde aquele serviço não é oferecido (as quatro flags de capacidade por unidade).
+      </p>
+
+      <h3>Estado do carrinho</h3>
+      <p>
+        O carrinho vive em dois lugares ao mesmo tempo — a sessão do WooCommerce (fonte da verdade
+        para o checkout) e um espelho em <code>localStorage["pm-cart-v1"]</code> (fonte da verdade
+        para a UI). Cada item guarda:
+      </p>
+      <pre><code>{
+  "lineId": "axila-cera::sp-avp",   // id do catálogo + unidade
+  "id": "axila-cera",               // chave do catálogo
+  "name": "Axila – Cera",
+  "unitId": "sp-avp",               // slug interno da unidade
+  "unitName": "Avenida Paulista",   // rótulo curto
+  "city": "São Paulo",
+  "stateName": "SP",
+  "wooOption": "SP - Capital - Av. Paulista",  // rótulo exato do &lt;option&gt; do CF7
+  "priceCents": 2805,
+  "variationId": "23138",           // variação WooCommerce
+  "productId": "2319",              // produto pai WooCommerce
+  "qty": 1,
+  "wooKey": "be6c08a2…",            // key da linha no Store API
+  "wooId": "23138"
+}</code></pre>
+
+      <h3>Scripts do front publicado</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Arquivo</th><th>Responsabilidade</th></tr></thead>
+          <tbody>
+            <tr><td><code>product.js</code></td><td><code>window.pmWoo</code>: Store API, add/update/remove, máscara de preço, prune de unidades</td></tr>
+            <tr><td><code>cart.js</code></td><td>Render do carrinho, cupons, regra de unidade única, sync antes do checkout</td></tr>
+            <tr><td><code>checkout-shell-c24.js</code></td><td>Chrome do checkout: abas, parcelas, unidade, draft, guard, captura de abandono</td></tr>
+            <tr><td><code>checkout-loading.js</code></td><td>Overlay de processamento (4 estados, GSAP sob demanda)</td></tr>
+            <tr><td><code>black-nov-campaign.js</code></td><td>Fases da campanha, preço “any/multi”, render de selo</td></tr>
+            <tr><td><code>promo-popup.js</code></td><td>Pop-up dividido (cupom de 1ª compra + ofertas Black), 1× por sessão</td></tr>
+            <tr><td><code>account.js</code></td><td>Login, cadastro, pedidos, endereço via <code>admin-ajax</code></td></tr>
+            <tr><td><code>busca.js</code></td><td>Filtro client-side sobre os cards já renderizados</td></tr>
+            <tr><td><code>whatsapp-float.js</code></td><td>Botão flutuante; oculto em carrinho e checkout</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Campanha vigente (Esquenta Black)</h3>
+      <p>
+        <span class="badge b-code">código</span> Os percentuais ficam em
+        <code>black-nov-campaign.json</code>, lido pelo front e espelhado em
+        <code>src/lib/black-nov-campaign.ts</code>:
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Fase</th><th>Janela</th><th>Laser</th><th>Cera / esfoliação</th></tr></thead>
+          <tbody>
+            <tr><td>Esquenta</td><td>03 a 21 nov 2026</td><td>60% (65% em 3+ itens)</td><td>15% (20% em 3+ itens)</td></tr>
+            <tr><td>Black Week</td><td>23 a 30 nov 2026</td><td>70% (75% em 3+)</td><td>15% esfoliação · cera 40/30/25% por tier P/M/G</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        A cera é dividida em três tiers de ticket (<code>ceraTierP</code>, <code>M</code>,
+        <code>G</code>) definidos por lista de IDs. Planos, cartões-presente, body splash e o produto
+        de R$ 1,99 são excluídos da campanha. O desconto é aplicado <strong>na vitrine</strong>
+        (<code>priceCents</code> do <code>cart-related.json</code>); o pedido no Woo, porém, recebe o
+        valor efetivamente cobrado pelo gateway — ver §8.
+      </p>
+    </section>
+
+    <!-- ============ 4 ============ -->
+    <section id="fluxo">
+      <span class="sec-num">04</span>
+      <h2>Fluxo completo de compra</h2>
+      <p class="sub">Do primeiro clique ao pedido no banco, com os caminhos de falha.</p>
+
+      <pre class="mermaid">
+sequenceDiagram
+  autonumber
+  participant C as Cliente
+  participant F as Front estático
+  participant SA as Store API
+  participant CF as CF7 1831
+  participant T as payment_CF7
+  participant G as Accesstage
+  participant W as WooCommerce
+
+  C->>F: abre /produto/axila-cera/
+  C->>F: escolhe unidade + adiciona
+  F->>SA: POST cart/add-item (variationId)
+  SA-->>F: linha + Nonce
+  F->>F: grava pm-cart-v1 (localStorage)
+  C->>F: /carrinho → Ir para o pagamento
+  F->>SA: reconcile itens + cupons
+  C->>CF: GET /finalizar-pagamento/
+  CF-->>C: form com hidden fields preenchidos
+  C->>CF: preenche dados + cartão + FINALIZAR
+  CF->>T: wpcf7_before_send_mail
+  T->>G: cobrança
+  G-->>T: aprovada / recusada
+  T->>W: cria pedido
+  W-->>CF: order id
+  CF-->>C: wpcf7mailsent
+  alt aprovada
+    C->>F: redireciona /order-received/{id}
+  else recusada
+    C->>F: "Compra não realizada" (mesma página)
+  end
+      </pre>
+
+      <h3>Etapa por etapa</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>#</th><th>Etapa</th><th>Tecnicamente</th><th>Onde o dado mora</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1–3</td><td>Navega e escolhe serviço</td><td>HTML estático do <code>products/</code>; sem consulta ao banco</td><td>—</td></tr>
+            <tr><td class="num">4</td><td>Seleciona unidade</td><td><code>product.js</code> lê <code>data-pm-unit</code>, recalcula preço por região</td><td>DOM</td></tr>
+            <tr><td class="num">5–6</td><td>Adiciona ao carrinho</td><td><code>pmWoo.push()</code> → <code>POST cart/add-item</code> com <code>variationId</code></td><td>Sessão Woo + <code>pm-cart-v1</code></td></tr>
+            <tr><td class="num">7</td><td>Vê valores</td><td><code>cart.js</code> cruza carrinho local com <code>cart-related.json</code> e totais do Woo</td><td>DOM</td></tr>
+            <tr><td class="num">8</td><td>Vai ao pagamento</td><td><code>syncCartFieldsBeforeSubmit()</code> reconcilia itens e reaplica cupons antes de sair</td><td>—</td></tr>
+            <tr><td class="num">9</td><td>Preenche dados</td><td>CF7 #1831; <code>checkout-shell</code> preenche <code>cart</code>, <code>cartqtd</code>, <code>totalamount</code>, <code>cupom</code>, <code>cupomamount</code>, <code>fullvalue</code>, <code>siteinstallment</code> (forçado a <code>"1"</code>); <code>category</code> e <code>subscribemode</code> vêm do HTML do formulário</td><td>DOM + <code>pm-ck-draft-v1</code></td></tr>
+            <tr><td class="num">10–11</td><td>Escolhe pagamento</td><td>Parcelas filtradas por total (mín. R$ 180, parcela mín. R$ 50)</td><td>DOM</td></tr>
+            <tr><td class="num">12</td><td>Processa</td><td><code>bindSubmitCartSync</code> intercepta, valida vínculos, abre overlay e reenvia</td><td>—</td></tr>
+            <tr><td class="num">13</td><td>Pedido criado</td><td><code>payment_CF7</code> (child theme) cria o pedido; snippet <code>pm-accesstage-order-total-sync</code> alinha linhas e total</td><td>Tabelas <code>wp_posts</code> + <code>wp_postmeta</code></td></tr>
+            <tr><td class="num">14</td><td>Retorno</td><td><code>wpcf7mailsent</code>; sucesso redireciona, falha reabre o formulário</td><td>Cookie <code>redirectSuccess</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Campos ocultos do formulário — quem escreve cada um</h3>
+      <p>
+        <span class="badge b-code">código</span> Este é o elo entre o carrinho e o gateway. Todos
+        passam por <code>setField()</code> (<code>checkout-shell-c24.js</code>, linha 185), que
+        redefine a propriedade <code>value</code> do nó para impedir que outro script a sobrescreva:
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Campo</th><th>Escrito por</th><th>Valor</th></tr></thead>
+          <tbody>
+            <tr><td><code>cart</code></td><td><code>paintCheckoutLines()</code></td><td>IDs das linhas do Store API, separados por vírgula</td></tr>
+            <tr><td><code>cartqtd</code></td><td><code>paintCheckoutLines()</code></td><td>quantidades, pareadas por posição com <code>cart</code></td></tr>
+            <tr><td><code>fullvalue</code></td><td><code>paintCheckoutTotals()</code></td><td><code>total_items</code> do Woo</td></tr>
+            <tr><td><code>totalamount</code></td><td><code>paintCheckoutTotals()</code></td><td><code>total_price</code> (corrigido para <code>total_items − desconto</code> quando necessário)</td></tr>
+            <tr><td><code>cupom</code> / <code>cupomamount</code></td><td><code>paintCheckoutTotals()</code></td><td>último cupom aplicado / <code>total_discount</code></td></tr>
+            <tr><td><code>siteinstallment</code></td><td><code>ensureInstallmentsUi()</code></td><td><code>"1"</code> = compra avulsa; <code>"0"</code> = assinatura. Não é o número de parcelas.</td></tr>
+            <tr><td><code>unit</code> / <code>easyunit</code></td><td><code>pickOrInject()</code></td><td>rótulo exato de uma <code>&lt;option&gt;</code> existente</td></tr>
+            <tr><td><code>estado</code></td><td><code>validateEstadoUfField()</code></td><td>UF normalizada contra a lista das 27</td></tr>
+            <tr><td><code>category</code>, <code>subscribemode</code></td><td>HTML do formulário / JS inline do tema</td><td>nenhum script do <code>pm-home</code> escreve nesses campos</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        O <code>totalamount</code> é também espelhado em <code>window.__pmLastTotals</code> e relido por
+        <code>checkoutTotalMajor()</code>, que alimenta o filtro de parcelas (mínimo de R$ 180 no
+        pedido e R$ 50 por parcela).
+      </p>
+
+      <h3>Os cinco desfechos</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Desfecho</th><th>Como o sistema trata</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Aprovado</strong></td><td>Pedido criado com meta <code>Pedido Accesstage</code>; snippet <code>pm-order-paid-completed</code> promove <code>processing → completed</code> sem reenviar e-mail de concluído</td></tr>
+            <tr><td><strong>Recusado</strong></td><td><code>payment_CF7</code> ainda dispara <code>wpcf7mailsent</code> com a mensagem “Compra não realizada”; o shell detecta por regex (<code>checkoutPaymentFailedMessage</code>), fecha o overlay e mantém o cliente na página</td></tr>
+            <tr><td><strong>Pendente</strong></td><td>Pedido fica em <code>on-hold</code>/<code>pending</code> até a confirmação</td></tr>
+            <tr><td><strong>Erro de comunicação</strong></td><td>Tratado como falha (mensagem de erro/cURL), mesmo caminho do recusado</td></tr>
+            <tr><td><strong>Nova tentativa</strong></td><td>Draft restaura os campos; a unidade volta ao valor do carrinho</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Preservação de dados após falha</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> O ponto mais delicado do checkout, e o que exigiu
+        correção. O mecanismo atual é o <strong>draft</strong> em
+        <code>localStorage["pm-ck-draft-v1"]</code>:
+      </p>
+      <ul>
+        <li><code>ckDraftSave()</code> grava os campos a cada 400 ms de inatividade e no <code>wpcf7submit</code>, com timestamp <code>_at</code>.</li>
+        <li><code>ckDraftRead()</code> descarta rascunho com mais de 6 h.</li>
+        <li><code>ckDraftRestore()</code> preenche <strong>apenas campos vazios</strong> — nunca sobrescreve o que a cliente corrigiu.</li>
+        <li><code>ckDraftRestoreUnit()</code> restaura a unidade pela ordem <code>wooOption → unitId → draft</code> e <strong>não injeta opção nova</strong>.</li>
+        <li>O rascunho só é apagado com mensagem de sucesso explícita; mensagem ambígua mantém os dados.</li>
+      </ul>
+      <div class="note">
+        <p><strong>Bug histórico e causa raiz:</strong> o código apagava o rascunho em todo
+        <code>wpcf7mailsent</code>. Como o gateway também dispara esse evento na <em>falha</em>, o
+        próprio checkout zerava os dados. A correção foi condicionar a limpeza à mensagem de sucesso.</p>
+      </div>
+    </section>
+
+    <!-- ============ 5 ============ -->
+    <section id="unidades">
+      <span class="sec-num">05</span>
+      <h2>Sistema de unidades</h2>
+      <p class="sub">A entidade que amarra produto, preço e pedido.</p>
+
+      <h3>Cadastro e identificação</h3>
+      <p>
+        As 35 unidades são definidas em <code>src/lib/data.ts</code> pela função
+        <code>unit(code, name, city, state, address, offersCera, offersLaser, offersCeraMasculino,
+        offersLaserMasculino, priceRegion)</code>. O <code>id</code> é derivado do código em
+        minúsculas (<code>APE → ape</code>, <code>13M → 13m</code>, <code>SP-AVP → sp-avp</code>).
+      </p>
+      <p>
+        As quatro flags booleanas determinam em quais serviços aquela unidade aparece.
+        <code>pruneUnitSelect()</code> usa exatamente essas flags para remover do
+        <code>&lt;select&gt;</code> as unidades incompatíveis com o serviço aberto.
+      </p>
+
+      <h3>Os três identificadores de uma unidade</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Identificador</th><th>Exemplo</th><th>Onde circula</th></tr></thead>
+          <tbody>
+            <tr><td><code>unitId</code></td><td><code>sp-avp</code></td><td>carrinho local, <code>pm-cart-v1</code></td></tr>
+            <tr><td><code>unitName</code> / rótulo curto</td><td><code>Avenida Paulista</code></td><td>exibição, card do produto</td></tr>
+            <tr><td><code>wooOption</code> / label do termo</td><td><code>SP - Capital - Av. Paulista</code></td><td><strong>valor do <code>&lt;option&gt;</code> no CF7</strong></td></tr>
+            <tr><td><code>variationId</code></td><td><code>23138</code></td><td>Store API e linha do pedido</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Transporte da unidade</h3>
+      <pre class="mermaid">
+flowchart LR
+  A["product.js<br/>select.data-pm-unit"] -->|unitId, unitName, wooOption, variationId| B["pm-cart-v1<br/>localStorage"]
+  B --> C["cart.js<br/>regra unidade única"]
+  C --> D["checkout-shell<br/>cartUnitHint()"]
+  D -->|wooOption exato| E["select name=unit"]
+  E -->|POST| F["CF7 posted data"]
+  F -->|Unidade| G["postmeta do pedido"]
+      </pre>
+
+      <h3>A regra de ouro e as validações</h3>
+      <ul>
+        <li><strong>Unidade única por carrinho.</strong> <code>cart.js</code> calcula <code>mixed</code>; se houver itens de unidades diferentes, o link de pagamento desaparece e aparece aviso.</li>
+        <li><strong>Unidade não editável no checkout.</strong> O <code>&lt;select name="unit"&gt;</code> recebe <code>pointer-events: none</code>.</li>
+        <li><strong>Nunca injetar valor inválido.</strong> O CF7 valida o POST contra as <code>&lt;option&gt;</code> do HTML; injetar <code>value="sp-avp"</code> gerava <em>“Undefined value was submitted through this field”</em>. Hoje <code>pickOrInject()</code> só injeta quando o rótulo existe, e sempre com <code>value = rótulo</code>.</li>
+        <li><strong>Não sobrescrever seleção válida.</strong> A guarda <code>currentValid</code> faz o restaurador sair cedo se o select já tem um valor válido.</li>
+        <li><strong>Guard de vínculo.</strong> <code>validateCartUnitLinks()</code> + <code>bindCartLinkGuard()</code> abortam o envio com mensagem clara se algum item tiver produto, variação ou unidade faltando.</li>
+      </ul>
+
+      <div class="note">
+        <p><strong>Parcelamento — causa raiz confirmada e corrigida.</strong>
+        <span class="badge b-ok">confirmado</span> Os três selects de parcelas ficam em grupos
+        condicionais diferentes (<code>installments</code> em <code>subscribe</code>, só 1x;
+        <code>cerainstallments</code> em <code>productcera</code>, 1x–3x; <code>allinstallments</code>
+        em <code>nosubscribe</code>, 1x–10x). O <code>payment_CF7</code> lê
+        <code>installments → cerainstallments → allinstallments</code> e usa o primeiro
+        <strong>não vazio</strong>. Como o formulário enviava os três preenchidos, o
+        <code>installments</code> — que só oferecia 1x — vencia sempre. Correção: a escolha vai para o
+        select que a comporta e os anteriores na fila ficam vazios (o plug-in isenta de validação os
+        campos de grupo oculto, verificado no servidor). <code>siteinstallment</code> <em>não</em> é o
+        número de parcelas: é o marcador avulso/assinatura que controla os grupos, e mantê-lo em
+        <code>"1"</code> está correto.</p>
+      </div>
+
+      <h3>Como a unidade chega ao pedido</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> No pedido, a unidade aparece em dois lugares: a
+        <strong>meta <code>Unidade</code></strong> (slug do termo, ex.: <code>estradabandeirantes</code>)
+        e o <strong>meta de linha <code>pa_unidade</code></strong> da variação comprada. O nome da
+        linha segue o formato <code>"{Produto} - {Unidade}"</code>, por exemplo
+        <code>Virilha Total - Cera - RJ - Nova Iguaçu II - Ao lado TOP Shopping Nova Iguaçu</code>.
+      </p>
+    </section>
+
+    <!-- ============ 6 ============ -->
+    <section id="backend">
+      <span class="sec-num">06</span>
+      <h2>Back-end e regras de negócio</h2>
+      <p class="sub">O que roda no servidor, snippet por snippet.</p>
+
+      <p>
+        <span class="badge b-ok">confirmado</span> Existem <strong>15 snippets</strong> no Code
+        Snippets, dos quais <strong>9 estão ativos</strong>. Deste total, 6 têm código versionado no
+        repositório; os demais vivem apenas no banco.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>#</th><th>Snippet</th><th>Status</th><th>Função</th></tr></thead>
+          <tbody>
+            <tr><td class="num">5</td><td>FAQ Schema Depilação a laser</td><td><span class="badge b-ok">ativo</span></td><td>JSON-LD de FAQ para SEO</td></tr>
+            <tr><td class="num">6</td><td>pm-ecommerce-maintenance</td><td><span class="badge b-code">inativo</span></td><td>Modo manutenção (desligado em produção)</td></tr>
+            <tr><td class="num">7</td><td>pm-email-styles</td><td><span class="badge b-ok">ativo</span></td><td>Marca nos e-mails do WooCommerce</td></tr>
+            <tr><td class="num">8</td><td>pm-wcar</td><td><span class="badge b-ok">ativo</span></td><td>Carrinho abandonado + lead parcial (47 KB)</td></tr>
+            <tr><td class="num">9</td><td>pm-home</td><td><span class="badge b-ok">ativo</span></td><td>Rotas, assets, order-received, bundle REST (26 KB)</td></tr>
+            <tr><td class="num">10</td><td>pm-black-nov-pricing</td><td><span class="badge b-ok">ativo</span></td><td>Preço de campanha no servidor (17 KB)</td></tr>
+            <tr><td class="num">11</td><td>pm-accesstage-order-total-sync</td><td><span class="badge b-ok">ativo</span></td><td>Alinha linhas e total ao valor cobrado</td></tr>
+            <tr><td class="num">12</td><td>Checkout sem reCAPTCHA</td><td><span class="badge b-ok">ativo</span></td><td>Desativa reCAPTCHA e checagem de spam no 1831</td></tr>
+            <tr><td class="num">13</td><td>pm-accesstage-normalize-test</td><td><span class="badge b-ok">ativo</span></td><td>Normalizações do fluxo Accesstage</td></tr>
+            <tr><td class="num">14</td><td>pm-order-paid-completed</td><td><span class="badge b-ok">ativo</span></td><td><code>processing → completed</code> ao gravar <code>Pedido Accesstage</code></td></tr>
+            <tr><td class="num">15</td><td>pm-home-test-order-nil-lma</td><td><span class="badge b-code">inativo</span></td><td>Ensaio de pedido (não usar)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>REST e AJAX expostos</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Endpoint</th><th>Método</th><th>Permissão</th><th>Função</th></tr></thead>
+          <tbody>
+            <tr><td><code>/wp-json/pm-home/v1/bundle</code></td><td>POST</td><td><code>edit_pages</code></td><td>Recebe zip e extrai em <code>uploads/pm-home/</code></td></tr>
+            <tr><td><code>/wp-json/pm-home/v1/purge-media</code></td><td>POST</td><td><code>edit_pages</code></td><td>Remove mídias órfãs (máx. 500)</td></tr>
+            <tr><td><code>/wp-admin/admin-ajax.php</code> · <code>action=pm_account</code></td><td>POST</td><td>público</td><td><code>me · login · register · logout · orders · order · address</code></td></tr>
+            <tr><td><code>…</code> · <code>cartflows_save_cart_abandonment_data</code></td><td>POST</td><td>nonce</td><td>Grava carrinho abandonado</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Regras implementadas no servidor</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Regra</th><th>Implementação</th></tr></thead>
+          <tbody>
+            <tr><td>Remover <code>demo_mode</code> do CF7 #1831</td><td><code>wpcf7_contact_form_properties</code> filtro 999 — em demo mode o form “processa” sem concluir</td></tr>
+            <tr><td>Código de cupom ≤ 20 caracteres</td><td><code>woocommerce_before_coupon_object_save</code> (limite do ERP)</td></tr>
+            <tr><td>Alinhar total do pedido</td><td><code>wpcf7_before_send_mail</code> prioridade 20, depois do <code>payment_CF7</code></td></tr>
+            <tr><td>Pedido pago → concluído</td><td><code>added_post_meta</code> / <code>updated_post_meta</code> na chave <code>Pedido Accesstage</code></td></tr>
+            <tr><td>Filtro de preço de teste</td><td><code>woocommerce_product_get_price</code> prioridade 20 (R$ 1,00 → R$ 1,01 com cupom)</td></tr>
+            <tr><td>Cache privado com sessão</td><td>Detecta <code>wordpress_logged_in*</code>, <code>woocommerce_items_in_cart*</code>, <code>wp_woocommerce_session*</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <p><strong>Fronteira do repositório:</strong> a criação do pedido e a chamada ao gateway estão
+        no handler <code>payment_CF7</code> do child theme, no servidor. O repositório guarda uma
+        <strong>cópia somente-leitura</strong> em <code>scripts/_hostinger_loja_dumps/</code>, sem
+        forma de publicá-la. O que o repositório realmente <em>implanta</em> é o depois: o snippet que
+        corrige linhas, total e status.</p>
+      </div>
+    </section>
+
+    <!-- ============ 7 ============ -->
+    <section id="dados">
+      <span class="sec-num">07</span>
+      <h2>Banco de dados</h2>
+      <p class="sub">MySQL nativo do WordPress, sem tabelas próprias para o catálogo.</p>
+
+      <p>
+        O projeto não cria tabelas para o catálogo. Tudo usa a estrutura nativa do WordPress e do
+        WooCommerce, com dois padrões de armazenamento: <strong>produtos variáveis</strong> (um produto
+        pai + N variações, uma por unidade) e <strong>pedidos com metadados</strong>. A exceção é a
+        captura de leads do checkout, que tem tabela própria — ver abaixo.
+      </p>
+
+      <h3>Produto variável = serviço</h3>
+      <pre><code>wp_posts (post_type = product)
+  ID 2319 · "Axila – Cera" · variable
+    └── wp_posts (post_type = product_variation)
+          ID 23138 · atributo pa_unidade = "paulista" · regular_price 34.50
+          ID 40121 · atributo pa_unidade = "afonsopena" · …
+          … 35 variações</code></pre>
+      <p>
+        O atributo global é <code>pa_unidade</code> (<code>product_attribute_id = 4</code>), com
+        <strong>35 termos</strong> taxonômicos. O slug do termo é o identificador usado no pedido.
+      </p>
+
+      <h3>Pedido e metadados</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> Estrutura real observada em pedido de produção
+        (dados pessoais omitidos):
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Meta</th><th>Valor típico</th><th>Origem</th></tr></thead>
+          <tbody>
+            <tr><td><code>Pedido Accesstage</code></td><td><code>17944981940373</code></td><td>retorno do gateway</td></tr>
+            <tr><td><code>Unidade</code></td><td><code>estradabandeirantes</code></td><td>slug do termo</td></tr>
+            <tr><td><code>Modalidade</code></td><td><code>Cartão de crédito</code></td><td>CF7</td></tr>
+            <tr><td><code>Cartão</code></td><td><code>visa</code></td><td>bandeira, sem número</td></tr>
+            <tr><td><code>CPF</code></td><td><em>(dado pessoal)</em></td><td>CF7</td></tr>
+            <tr><td><code>_pm_cf7_totalamount</code></td><td><code>68.64</code></td><td>hidden do CF7</td></tr>
+            <tr><td><code>_pm_accesstage_amount_cents</code></td><td><code>6864</code></td><td>snippet 11</td></tr>
+            <tr><td><code>_pm_accesstage_lines_synced</code></td><td><code>1</code></td><td>snippet 11</td></tr>
+            <tr><td><code>_cartflows_ca_recovered</code></td><td><code>yes</code></td><td>plugin de abandono</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        A linha do pedido carrega <code>product_id</code>, <code>variation_id</code>,
+        <code>parent_name</code> e o meta <code>pa_unidade</code>. O campo
+        <code>payment_method</code> fica <strong>vazio</strong> em todos os pedidos observados — a
+        cobrança acontece fora dos gateways do WooCommerce.
+      </p>
+
+      <h3>Volumes</h3>
+      <div class="stats">
+        <div class="stat"><b>27.047</b><span>pedidos</span></div>
+        <div class="stat"><b>10.466</b><span>clientes</span></div>
+        <div class="stat"><b>283</b><span>cupons</span></div>
+        <div class="stat"><b>130</b><span>produtos</span></div>
+        <div class="stat"><b>35</b><span>termos de unidade</span></div>
+      </div>
+      <p>
+        Os 283 cupons são majoritariamente códigos de 8 caracteres, 5% e uso único, gerados
+        automaticamente na janela da campanha. O cupom nomeado permanente é
+        <code>PRIMEIRACOMPRA5</code>.
+      </p>
+
+      <h3>Tabelas além das nativas</h3>
+      <p>
+        <span class="badge b-code">código</span> O snippet <code>pm-wcar</code> cria e mantém duas
+        famílias de tabelas, ambas com prefixo do site:
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Tabela</th><th>Origem</th><th>Conteúdo</th></tr></thead>
+          <tbody>
+            <tr><td><code>wp_pm_checkout_leads</code></td><td>criada pelo snippet (<code>dbDelta</code>)</td><td>lead do checkout sem exigir e-mail: <code>lead_id</code>, nome, telefone, CPF, unidade, cidade, UF, página, resumo do carrinho, sessão</td></tr>
+            <tr><td><code>wp_cartflows_ca_cart_abandonment</code></td><td>plugin de abandono</td><td>carrinhos abandonados e recuperados</td></tr>
+            <tr><td><code>wp_cartflows_ca_email_history</code></td><td>plugin</td><td>fila de e-mails de recuperação</td></tr>
+            <tr><td><code>wp_cartflows_ca_email_templates</code> (+ <code>_meta</code>)</td><td>plugin, populada pelo snippet</td><td>6 templates: 1 h, 6 h, 1 d, 2 d, 4 d, 7 d (o de 7 d com cupom de 5% válido por 48 h)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Retenção configurada: <strong>30 dias</strong>. Ao pedido mudar para
+        <code>processing</code>, <code>completed</code> ou <code>on-hold</code>, as linhas daquele
+        e-mail (e dos últimos 8 dígitos do telefone) são apagadas. A tela de leads fica em
+        <em>WooCommerce → Leads do checkout</em>, com exportação CSV e CPF mascarado na listagem.
+      </p>
+    </section>
+
+    <!-- ============ 8 ============ -->
+    <section id="pagamentos">
+      <span class="sec-num">08</span>
+      <h2>Pagamentos e integrações</h2>
+      <p class="sub">Accesstage fora dos gateways do WooCommerce.</p>
+
+      <h3>O gateway</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> O gateway é a <strong>Accesstage</strong>. Não há
+        plugin de PagSeguro, Cielo, Stripe, Mercado Pago, Rede ou Getnet instalado. Nenhum gateway
+        nativo do WooCommerce está habilitado (<code>bacs</code>, <code>cheque</code> e
+        <code>cod</code> desligados), e <code>payment_method</code> fica vazio no pedido.
+      </p>
+
+      <pre class="mermaid">
+flowchart TD
+  A["POST CF7 #1831<br/>cart-number · holder · expiration · securityCode · installments"] --> B["payment_CF7<br/>(child theme)"]
+  B --> C{"Accesstage"}
+  C -->|autorizado| D["pedido Woo<br/>processing"]
+  C -->|recusado| E["wpcf7mailsent<br/>'Compra não realizada'"]
+  D --> F["meta Pedido Accesstage"]
+  F --> G["snippet 11<br/>alinha linhas + total"]
+  G --> H["snippet 14<br/>processing → completed"]
+  E --> I["overlay fecha<br/>cliente permanece no form"]
+      </pre>
+
+      <h3>Dados enviados e validação de preço</h3>
+      <p>
+        O formulário envia os dados de cartão (número, portador, validade, CVV) e os campos ocultos
+        <code>cart</code> (ID da variação), <code>cartqtd</code>, <code>totalamount</code>,
+        <code>cupom</code>, <code>cupomamount</code>. O snippet 11 compara o total cobrado com o total
+        das linhas criadas e corrige a diferença — é a rede de segurança caso o preço do pedido divirja
+        do valor cobrado.
+      </p>
+
+      <h3>A criação do pedido, em detalhe</h3>
+      <p>
+        <span class="badge b-code">código</span> O handler <code>payment_CF7()</code> fica em
+        <code>wp-content/themes/shopwise-child/functions.php</code>, no servidor. O repositório guarda
+        uma <strong>cópia somente-leitura</strong> desse arquivo em
+        <code>scripts/_hostinger_loja_dumps/</code>, e é dela que vem a sequência abaixo:
+      </p>
+      <ol>
+        <li>Confere que o formulário é o <code>#1831</code>; lê telefone, CPF e número do cartão, e deriva a bandeira por regex.</li>
+        <li>Resolve as parcelas a partir de <code>installments</code>, <code>cerainstallments</code> ou <code>allinstallments</code>.</li>
+        <li>Gera a referência do pedido como <code>timestamp + 4 primeiros dígitos do CPF</code> e monta o payload com <code>amount = totalamount × 100</code>.</li>
+        <li>Envia o POST ao gateway (<code>access-pay/transactions</code>, gateway REDE) com API e chave da unidade escolhida.</li>
+        <li>Se a resposta não for <code>Success.</code>, o formulário devolve <code>"Compra não realizada."</code> como mensagem de envio bem-sucedido — é por isso que o JavaScript precisa distinguir falha de sucesso pela mensagem.</li>
+        <li>Se for sucesso: cria o usuário WP se não existir, chama <code>wc_create_order()</code>, adiciona um produto por par <code>cart</code>/<code>cartqtd</code>, define endereço, aplica cupom quando houver e calcula totais.</li>
+        <li>Grava as metas <code>Pedido Accesstage</code>, <code>Unidade</code>, <code>CPF</code>, <code>Modalidade</code> e <code>Cartão</code>, define <code>processing</code> e salva.</li>
+        <li>Escreve o cookie <code>redirectSuccess</code> com a URL de pedido recebido, que o JS inline do tema lê para redirecionar.</li>
+      </ol>
+
+      <div class="note">
+        <p><strong>Ponto de atenção para futuras evoluções:</strong> os campos
+        <code>totalamount</code> e <code>cart</code> são preenchidos no navegador, e o valor cobrado
+        sai diretamente de <code>totalamount</code>. A conferência acontece <em>depois</em>, no snippet
+        11, que realinha as linhas ao valor já cobrado. Não existe uma checagem que recuse a cobrança
+        antes de enviá-la.</p>
+      </div>
+
+      <h3>Integrações externas</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Integração</th><th>Papel</th><th>Onde</th></tr></thead>
+          <tbody>
+            <tr><td>Accesstage</td><td>Cobrança de cartão, autorização, antifraude</td><td>Child theme</td></tr>
+            <tr><td>Google Tag Manager / GA4</td><td>Eventos de e-commerce (<code>ViewItem</code>, <code>AddToCart</code>)</td><td><code>layout.tsx</code> + front</td></tr>
+            <tr><td>Google for WooCommerce</td><td>Feed de produtos</td><td>Plugin</td></tr>
+            <tr><td>Mailchimp (MC4WP)</td><td>Newsletter</td><td>Plugin</td></tr>
+            <tr><td>Cart Abandonment Recovery</td><td>Recuperação de carrinho</td><td>Plugin + snippet 8</td></tr>
+            <tr><td>ViaCEP</td><td>Preenchimento de cidade/UF pelo CEP</td><td><code>checkout-shell</code> + inline do tema</td></tr>
+            <tr><td>WhatsApp</td><td>Atendimento (SAC 0800 282 1233)</td><td><code>whatsapp-float.js</code> + HTML</td></tr>
+            <tr><td>WP Mail SMTP</td><td>Envio de e-mail transacional</td><td>Plugin</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 9 ============ -->
+    <section id="plugins">
+      <span class="sec-num">09</span>
+      <h2>Plugins e personalizações</h2>
+      <p class="sub">32 plugins ativos; 6 são essenciais ao checkout.</p>
+
+      <h3>Essenciais ao checkout</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Plugin</th><th>Versão</th><th>Por que é essencial</th></tr></thead>
+          <tbody>
+            <tr><td>WooCommerce</td><td>11.2.1</td><td>Produtos, variações, sessão, pedidos, cupons, Store API</td></tr>
+            <tr><td>Contact Form 7</td><td>6.1.1</td><td>O formulário de checkout em si</td></tr>
+            <tr><td>Conditional Fields for CF7</td><td>2.8.5</td><td>Mostra os grupos <code>unit</code> / <code>easyunit</code> / <code>productcera</code> conforme o carrinho</td></tr>
+            <tr><td>CPF e CNPJ para Contact Form 7</td><td>1.0.2</td><td>Campo e validação de CPF — <span class="badge b-risk">risco</span> quebra em PHP 8</td></tr>
+            <tr><td>Code Snippets</td><td>4.0.0</td><td>Camada PHP inteira do projeto</td></tr>
+            <tr><td>Cart Abandonment Recovery</td><td>2.2.2</td><td>Captura e recuperação de carrinho</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Diretamente ligados à experiência</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Plugin</th><th>Papel</th></tr></thead>
+          <tbody>
+            <tr><td>Variation Swatches</td><td>Render das variações por unidade</td></tr>
+            <tr><td>TI WooCommerce Wishlist</td><td>Lista de desejos (<code>/desejos</code>)</td></tr>
+            <tr><td>YITH WooCommerce Compare</td><td>Comparador de produtos</td></tr>
+            <tr><td>Redirection</td><td>Redirecionamentos de URL</td></tr>
+            <tr><td>Really Simple Security</td><td>Segurança e hardening</td></tr>
+            <tr><td>Yoast SEO</td><td>Metadados e sitemap</td></tr>
+            <tr><td>WPvivid Backup</td><td>Backups</td></tr>
+            <tr><td>Loco Translate</td><td>Tradução de strings</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Desativados com propósito</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> <code>wpcf7-recaptcha/wpcf7-recaptcha</code> está
+        <strong>inactive</strong>. O snippet 12 também força <code>__return_false</code> em
+        <code>wpcf7_recaptcha_available</code>. Ambas as defesas estão desligadas — ver §12.
+      </p>
+
+      <h3>O que é nativo e o que é próprio</h3>
+      <div class="grid2">
+        <div class="card">
+          <h4>Nativo WooCommerce</h4>
+          <p>Produtos variáveis, atributo <code>pa_unidade</code>, pedidos, cupons, Store API, e-mails transacionais.</p>
+        </div>
+        <div class="card">
+          <h4>Nativo CF7</h4>
+          <p>Formulário, validação, envio de e-mail, Conditional Fields.</p>
+        </div>
+        <div class="card">
+          <h4>Desenvolvido para a Pello</h4>
+          <p>Todo o front estático, o shell do checkout, o bridge de IDs, a campanha, o draft, o guard de unidade, o sync de pedido, a captura de abandono.</p>
+        </div>
+        <div class="card">
+          <h4>Fora do repositório</h4>
+          <p><code>payment_CF7</code>, JS inline do tema no checkout, templates de e-mail do gateway.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 ============ -->
+    <section id="automacoes">
+      <span class="sec-num">10</span>
+      <h2>Automações e comunicação</h2>
+      <p class="sub">O que dispara sozinho depois de um evento.</p>
+
+      <h3>E-mails transacionais</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>E-mail</th><th>Ativo</th><th>Dispara quando</th></tr></thead>
+          <tbody>
+            <tr><td>Novo pedido (admin)</td><td>sim</td><td>pedido criado</td></tr>
+            <tr><td>Pedido em processamento (cliente)</td><td>sim</td><td>status <code>processing</code></td></tr>
+            <tr><td>Pedido concluído (cliente)</td><td>sim</td><td>status <code>completed</code></td></tr>
+            <tr><td>Pedido em espera (cliente)</td><td>sim</td><td><code>on-hold</code></td></tr>
+            <tr><td>Pedido cancelado</td><td>admin sim · cliente não</td><td>cancelamento</td></tr>
+            <tr><td>Pedido falhou (admin)</td><td>sim</td><td>falha de pagamento</td></tr>
+            <tr><td>Nova conta / nota / reembolso</td><td>sim</td><td>eventos respectivos</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        O snippet 7 aplica a marca visual nos templates. O snippet 14 evita o e-mail duplicado de
+        “concluído” ao promover o status.
+      </p>
+
+      <h3>Carrinho abandonado e lead parcial</h3>
+      <p>
+        <span class="badge b-code">código</span> O checkout real é um CF7, então o plugin de
+        abandono não roda nativamente. O snippet <code>pm-wcar</code> injeta
+        <code>window.pmWcar</code> com <code>ajaxurl</code> e nonces; <code>checkout-shell</code>
+        captura nome, e-mail, telefone, CPF, CEP, endereço e unidade com debounce de 1,2 s, guarda
+        identidade em <code>localStorage["pm-identity-v1"]</code> e envia ao endpoint do plugin. Há
+        também captura de <strong>lead sem e-mail</strong> (só telefone) para follow-up por WhatsApp.
+      </p>
+      <ul>
+        <li><strong>Dois envios por captura:</strong> um para o plugin de abandono (<code>cartflows_save_cart_abandonment_data</code>, com <code>pm_cpf</code> e <code>pm_unidade</code> anexados por filtro) e outro para a tabela de leads (<code>pm_lead_save</code>).</li>
+        <li><strong>Disparo:</strong> digitação, <code>blur</code>, mudança de carrinho e <code>pagehide</code>.</li>
+        <li><strong>Deduplicação:</strong> assinatura do payload + assinatura do carrinho; reenvia só se mudou.</li>
+        <li><strong>Sequência de recuperação:</strong> 6 e-mails em 1 h, 6 h, 1 d, 2 d, 4 d e 7 d; o último traz cupom de 5% válido por 48 h.</li>
+        <li><strong>Limpeza:</strong> ao o pedido virar <code>processing</code>, <code>completed</code> ou <code>on-hold</code>, as linhas daquele e-mail e telefone são apagadas, para a cliente não receber cobrança de recuperação.</li>
+        <li><strong>Retorno:</strong> <code>wcarPrefill()</code> repõe os campos a partir da identidade salva, da conta logada ou do link de e-mail.</li>
+      </ul>
+
+      <h3>Cupons e campanha</h3>
+      <p>
+        <code>promo-popup.js</code> mostra, uma vez por sessão na home, um pop-up dividido: cupom
+        <code>PRIMEIRACOMPRA5</code> (5%) de um lado e preços da Black do outro. Cliente com pedido
+        vê só o lado Black. A campanha em si não usa cupom — o desconto é gravado no preço.
+      </p>
+
+      <h3>WhatsApp</h3>
+      <p>
+        <span class="badge b-ok">confirmado</span> Inventário de 108 páginas + 53 assets:
+        <strong>325 links</strong> de WhatsApp. O SAC aponta para o 0800 282 1233 (111 ocorrências em
+        108 páginas); o link de dúvidas do cabeçalho/rodapé e o widget flutuante usam (21) 2549-4265
+        (214 ocorrências). O widget é oculto em carrinho e checkout.
+      </p>
+    </section>
+
+    <!-- ============ 11 ============ -->
+    <section id="arquivos">
+      <span class="sec-num">11</span>
+      <h2>Estrutura do projeto</h2>
+      <p class="sub">Onde cada coisa está.</p>
+
+      <pre><code>pello-menos/
+├── src/                          # Next.js — gera o HTML publicado
+│   ├── app/                      # 24 rotas (produto, carrinho, checkout-mock, conta…)
+│   ├── components/               # 51 componentes React
+│   └── lib/
+│       ├── data.ts               # catálogo (149 itens) + 35 unidades
+│       ├── woo-bridge.ts         # Store API
+│       ├── black-nov-campaign.ts # regras da campanha
+│       └── product-copy.ts       # textos longos por produto
+│
+├── wordpress-loja/pm-home/       # 162 MB — o que a loja serve
+│   ├── home.html · masculino.html · carrinho.html · busca.html
+│   ├── conta.html · pedido-recebido.html · compra-nao-realizada.html
+│   ├── products/                 # 160 fichas
+│   ├── pages/                    # 29 páginas de categoria
+│   ├── routes.json               # 193 rotas → arquivo
+│   ├── pages.json                # 33 rotas institucionais
+│   ├── woo-bridge.json           # 146 entradas: productId + units
+│   ├── cart-related.json         # 149 produtos: preço de vitrine + units
+│   ├── black-nov-campaign.json   # percentuais e tiers
+│   ├── product.js · cart.js      # front de produto e carrinho
+│   ├── checkout-shell-c24.js     # 104 KB — o shell do checkout ativo
+│   ├── checkout-loading.js       # overlay
+│   ├── account.php · account.js  # área do cliente
+│   └── pm-accesstage-order-total-sync.php
+│
+├── scripts/                      # ~300 utilitários de operação
+│   ├── pm_home_snippet.php       # fonte do snippet de rotas/assets
+│   ├── pm_wcar_snippet.php       # fonte do snippet de abandono
+│   ├── _publish_catalog_and_checkout.py
+│   ├── _publish_checkout_shell.py
+│   └── _audit_catalog_final.py
+│
+└── projeto-migracao/             # documentação operacional e segredos
+    ├── conhecimento-checkout.md  # base de conhecimento do checkout
+    ├── auditoria-cutover-loja/   # 11 documentos de auditoria
+    └── .secrets/                 # credenciais (gitignored)</code></pre>
+
+      <h3>Assets realmente servidos</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Página</th><th>JS/CSS carregado</th></tr></thead>
+          <tbody>
+            <tr><td>Home</td><td><code>home.css?v=premium6</code>, <code>home.js?v=premium7</code>, <code>promo-popup.js?v=promo3</code>, <code>whatsapp-float.js?v=wa7</code></td></tr>
+            <tr><td>Produto</td><td><code>product.js?v=units6</code>, <code>cart.js?v=cart29</code>, <code>home.css</code></td></tr>
+            <tr><td>Checkout</td><td><code>checkout-shell-c24.js?v=c57</code>, <code>checkout-loading.js?v=load6</code>, <code>checkout-brand.css?v=brand22</code>, <code>black-nov-campaign.js?v=black2</code>, <code>cart-related.json</code>, <code>checkout-header.html</code>, <code>checkout-footer.html</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        <p><strong>O checkout não carrega <code>product.js</code> nem <code>cart.js</code>.</strong>
+        <span class="badge b-ok">confirmado</span> A dependência corre no sentido inverso do que
+        parece: é o <code>cart.js</code> (na página <code>/carrinho</code>, que carrega
+        <code>product.js</code>) que precisa de <code>window.pmWoo.reconcile</code> para navegar ao
+        checkout. O shell do checkout tem camada própria de Store API — <code>wooGetCart</code>,
+        <code>wooPost</code>, <code>ensureCouponsOnCart</code> — e nunca usa <code>window.pmWoo</code>.
+        Das globais, exige apenas <code>window.pmWcar</code> (injetada pelo snippet PHP) e
+        <code>window.pmCheckoutLoading</code>; <code>window.pmBlackNov</code> é opcional e, sem ela, o
+        preço cai para o <code>cart-related.json</code>.</p>
+      </div>
+      <div class="note">
+        <p><strong>Fonte × servido:</strong> as versões numeradas (<code>c24</code>, <code>c57</code>,
+        <code>cart29</code>) são cópias congeladas. O arquivo “fonte” <code>checkout-shell.js</code>
+        <strong>não é o que roda</strong> — quem roda é <code>checkout-shell-c24.js</code>. Editar o
+        fonte sem publicar o arquivo versionado não altera nada em produção.</p>
+      </div>
+    </section>
+
+    <!-- ============ 12 ============ -->
+    <section id="seguranca">
+      <span class="sec-num">12</span>
+      <h2>Segurança e tratamento de erros</h2>
+      <p class="sub">O que está protegido e o que está frágil.</p>
+
+      <h3>Proteções presentes</h3>
+      <ul>
+        <li><strong>Permissões REST:</strong> os endpoints de publicação exigem <code>edit_pages</code>; o de abandono exige nonce.</li>
+        <li><strong>Sanitização:</strong> dados do CF7 passam por <code>sanitize_email</code>, <code>sanitize_text_field</code>, <code>sanitize_user</code>.</li>
+        <li><strong>Anti-duplicidade:</strong> o overlay bloqueia duplo envio (<code>btn.__pmSyncingSubmit</code>) e o botão é desabilitado durante o sync.</li>
+        <li><strong>Cache privado:</strong> respostas com cookie de sessão não são cacheadas publicamente.</li>
+        <li><strong>SVG/HTML:</strong> o bundle extrai zip apenas para <code>uploads/pm-home/</code>, e o purge de mídia rejeita <code>..</code> e caminhos absolutos.</li>
+        <li><strong>Cartão:</strong> número não é persistido no pedido; a meta <code>Cartão</code> guarda só a bandeira.</li>
+      </ul>
+
+      <h3>Riscos identificados</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Risco</th><th>Detalhe</th><th>Severidade</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Chaves do gateway em texto claro em dumps</td>
+              <td>As chaves Accesstage por unidade estão no arquivo do child theme e aparecem em texto claro nas cópias em <code>scripts/_hostinger_*/</code>. O <code>.md</code> de trecho está no <code>.gitignore</code>, mas a pasta <code>_hostinger_loja_dumps/</code> está apenas <em>não rastreada</em> — um <code>git add -A</code> a versionaria.</td>
+              <td><span class="badge b-risk">alta</span></td>
+            </tr>
+            <tr>
+              <td>Endpoint de teste que cobra de verdade</td>
+              <td>A versão de ensaio do snippet <code>pm-accesstage-normalize-test</code> publica <code>POST /wp-json/pm-home/v1/test-order</code>, que cria cobrança e pedido real. Se essa versão estiver ativa, há um endpoint de cobrança no ar.</td>
+              <td><span class="badge b-risk">alta</span></td>
+            </tr>
+            <tr>
+              <td>Config de leads expõe CPF</td>
+              <td><code>GET /wp-json/pm-wcar/v1/config</code> é público e, para usuário logado, devolve e-mail, telefone e CPF dele. Não vaza terceiros, mas deveria exigir autenticação explícita.</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+            <tr>
+              <td>Upload de bundle confia no zip</td>
+              <td><code>/pm-home/v1/bundle</code> extrai o arquivo em <code>uploads/pm-home/</code> sem validar travessia de caminho. A barreira é só a capability <code>edit_pages</code> (nível Editor).</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+            <tr>
+              <td>reCAPTCHA desligado</td>
+              <td>Plugin <code>wpcf7-recaptcha</code> inativo <em>e</em> snippet 12 forçando <code>__return_false</code> em <code>wpcf7_recaptcha_available</code> e <code>wpcf7_spam</code>. O formulário de pagamento está sem proteção anti-bot.</td>
+              <td><span class="badge b-risk">alta</span></td>
+            </tr>
+            <tr>
+              <td>PHP 7.4 no fim de vida</td>
+              <td>Sem atualizações de segurança desde nov/2022. Subir para PHP 8 quebra o plugin de CPF.</td>
+              <td><span class="badge b-risk">alta</span></td>
+            </tr>
+            <tr>
+              <td>Preço vem do navegador</td>
+              <td><code>totalamount</code> é hidden preenchido no cliente. A conferência depende do snippet 11 e do gateway.</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+            <tr>
+              <td>WP File Manager ativo</td>
+              <td>Plugin com acesso a arquivos do servidor, exposto no admin.</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+            <tr>
+              <td>Camada C fora do git</td>
+              <td>O <code>payment_CF7</code> não é versionado — não há histórico nem revisão de código do ponto que cria o pedido.</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+            <tr>
+              <td>CPF em meta de pedido</td>
+              <td>Gravado em texto claro em <code>postmeta</code>. Exigido pelo ERP, mas é dado pessoal sem criptografia.</td>
+              <td><span class="badge b-hyp">média</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 13 ============ -->
+    <section id="dividas">
+      <span class="sec-num">13</span>
+      <h2>Dívidas técnicas</h2>
+      <p class="sub">Separadas entre confirmado, hipótese e decisão pendente.</p>
+
+      <h3>Confirmado</h3>
+      <ul>
+        <li><strong>Duplicação de arquivos versionados.</strong> Existem 16 cópias de <code>checkout-shell-c*.js</code> (25 KB a 105 KB) no repositório; só uma roda. O mesmo vale para backups <code>*.pre-regulariza.json</code> (772 KB e 437 KB) dentro da pasta publicada.</li>
+        <li><strong>Duas fontes de verdade do catálogo.</strong> <code>src/lib/data.ts</code> (149 itens), <code>woo-bridge.json</code> (146 entradas) e <code>cart-related.json</code> (149 itens) precisam ser mantidos em sincronia manualmente. Divergência entre eles foi a causa do bug “Virilha Total → Comum”.</li>
+        <li><strong>Script de publicação antigo publicava o arquivo errado.</strong> O <code>_publish_loja_cart_js.py</code> enviava apenas <code>cart.js</code>, embora o checkout rode <code>checkout-shell-c24.js</code>. Correções ficavam só no disco.</li>
+        <li><strong>20 productIds compartilhados</strong> entre pares feminino/masculino do mesmo serviço (ex.: <code>axila-cera</code> e <code>axila-cera-masc</code> apontam para o produto 2319). Um pedido masculino é registrado sob o produto feminino.</li>
+        <li><strong>10 produtos masculinos criados sem variação</strong> ainda hoje não têm variações — o checkout agora bloqueia com mensagem em vez de registrar errado.</li>
+        <li><strong><code>/conta/</code> retorna 404</strong> enquanto o correto é <code>/minha-conta/</code>; quatro HTMLs de produto não têm rota.</li>
+        <li><strong>Fonte e arquivo servido divergem:</strong> <code>checkout-shell.js</code> e <code>checkout-shell-c24.js</code> evoluem separados. O que roda é o <code>c24</code>; qualquer correção precisa ser aplicada nele e publicada com bump de <code>?v=</code>.</li>
+        <li><strong>Parcelas em 1x (corrigido em 12/11).</strong> O <code>installments</code>, que só oferecia 1x, vencia a fila lida pelo <code>payment_CF7</code>. O shell agora move a escolha para o select que a comporta e esvazia os anteriores.</li>
+      </ul>
+
+      <h3>Hipóteses a validar</h3>
+      <ul>
+        <li><span class="badge b-hyp">hipótese</span> O JS inline do tema que preenche <code>cart</code> e <code>unit</code> pode sobrescrever o valor em cenários não cobertos pelos testes.</li>
+        <li><span class="badge b-hyp">hipótese</span> O snippet 13 (<code>normalize-test</code>) pode ter sido criado para ensaio e estar ativo em produção sem necessidade.</li>
+        <li><span class="badge b-hyp">hipótese</span> Os 283 cupons auto-gerados podem impactar a performance da tabela <code>wp_posts</code> conforme crescem.</li>
+      </ul>
+
+      <h3>Pontos de manutenção</h3>
+      <ul>
+        <li>Todo o front publicado é HTML estático: cada mudança de layout exige regerar o Next e republicar o bundle.</li>
+        <li>A pasta publicada tem 162 MB, dos quais ~4 MB são mídias e o restante HTML/JSON de dados.</li>
+        <li>Não há testes automatizados no pipeline de deploy; a suíte Playwright em <code>tests/</code> roda manualmente contra produção.</li>
+        <li>Ambientes: produção (<code>loja.pellomenos.com.br</code>), clone (<code>pellomenos.companygenesis.com.br</code>, PHP 8) e ensaio (<code>pellomenosoficialteste…</code>).</li>
+      </ul>
+    </section>
+
+    <!-- ============ 14 ============ -->
+    <section id="diagramas">
+      <span class="sec-num">14</span>
+      <h2>Diagramas</h2>
+      <p class="sub">Os cinco fluxos que explicam o sistema.</p>
+
+      <h3>Comunicação entre camadas</h3>
+      <pre class="mermaid">
+flowchart LR
+  U["Cliente"] --> HTTP["HTTP"]
+  HTTP --> LS["LiteSpeed"]
+  LS --> SNIP["snippet pm-home"]
+  LS --> WCP["WooCommerce"]
+  SNIP -.->|HTML estático| U
+  U -->|fetch| API["Store API"]
+  API --> SESS[("Sessão Woo")]
+  U -->|POST CF7| CF7["CF7 1831"]
+  CF7 --> PAY["payment_CF7"]
+  PAY --> GW["Accesstage"]
+  PAY --> DB[("MySQL<br/>posts + postmeta")]
+  GW -.->|retorno| PAY
+      </pre>
+
+      <h3>Jornada de compra</h3>
+      <pre class="mermaid">
+flowchart TD
+  A["Home"] --> B["Categoria / busca"]
+  B --> C["Ficha do produto"]
+  C --> D["Seleciona unidade"]
+  D --> E["Adiciona ao carrinho"]
+  E --> F["Carrinho"]
+  F -->|mesma unidade| G["Finalizar pagamento"]
+  F -->|unidades misturadas| F
+  G --> H["Dados pessoais"]
+  H --> I["Dados de pagamento"]
+  I --> J["Overlay de processamento"]
+  J --> K{"Aprovado?"}
+  K -->|sim| L["Pedido concluído"]
+  K -->|não| M["Draft restaura dados"]
+  M --> I
+      </pre>
+
+      <h3>Persistência da unidade</h3>
+      <pre class="mermaid">
+flowchart TD
+  A["option.data-pm-unit"] --> B["unitId + wooOption + variationId"]
+  B --> C["pm-cart-v1"]
+  C --> D["cartUnitHint()"]
+  D --> E{"select já válido?"}
+  E -->|sim| F["não toca"]
+  E -->|não| G["pickOrInject com wooOption"]
+  G --> H["select name=unit válido"]
+  H --> I["POST CF7: Unidade"]
+  I --> J["postmeta Unidade + linha pa_unidade"]
+      </pre>
+
+      <h3>Tratamento de falha de pagamento</h3>
+      <pre class="mermaid">
+flowchart TD
+  A["Cliente clica Finalizar"] --> B["bindSubmitCartSync"]
+  B --> C{"vínculos ok?"}
+  C -->|não| D["mensagem + aborta"]
+  C -->|sim| E["overlay + reenvio"]
+  E --> F["wpcf7mailsent"]
+  F --> G{"mensagem de falha?"}
+  G -->|sim| H["fecha overlay<br/>mantém draft<br/>restaura unidade"]
+  G -->|não| I["limpa draft<br/>redireciona"]
+      </pre>
+
+      <h3>Estados do pedido</h3>
+      <pre class="mermaid">
+stateDiagram-v2
+  [*] --> pending: pedido criado
+  pending --> on-hold: aguardando confirmação
+  pending --> processing: pagamento autorizado
+  processing --> completed: meta Pedido Accesstage
+  processing --> cancelled: cancelamento
+  pending --> failed: falha de cobrança
+      </pre>
+    </section>
+
+    <!-- ============ 15 ============ -->
+    <section id="conclusao">
+      <span class="sec-num">15</span>
+      <h2>Como a plataforma funciona</h2>
+      <p class="sub">A explicação de ponta a ponta, para quem nunca viu o projeto.</p>
+
+      <p>
+        A cliente entra na loja e vê um site rápido que, por baixo, é um conjunto de arquivos HTML
+        prontos guardados dentro do WordPress. Quando ela abre a ficha de “Axila – Cera”, a página já
+        veio com todos os preços e todas as 35 unidades escritos no próprio HTML. O JavaScript só
+        troca o preço na tela quando ela escolhe a unidade de São Paulo em vez de uma do Rio, porque
+        SP Capital e DF usam uma tabela e o resto usa outra.
+      </p>
+      <p>
+        Ao adicionar ao carrinho, duas coisas acontecem ao mesmo tempo: o WooCommerce guarda o item na
+        sessão do servidor (usando o <strong>ID da variação</strong>, que já é “axila a cera na
+        unidade X”) e o navegador guarda uma cópia com o nome bonito da unidade e o rótulo exato que o
+        formulário de pagamento espera. Essa cópia é o que permite ao carrinho mostrar “Avenida
+        Paulista” em vez de um número.
+      </p>
+      <p>
+        O carrinho só libera o botão de pagamento se todos os itens forem da mesma unidade. No clique,
+        ele reconcilia a sessão com o que está na tela, reaplica os cupons e leva para
+        <code>/finalizar-pagamento</code> — que não é uma página do projeto, e sim o formulário do
+        Contact Form 7 servido pelo tema, com o visual do projeto por cima.
+      </p>
+      <p>
+        Ali o shell do checkout faz três coisas essenciais. Preenche os campos escondidos que o
+        gateway vai ler (valor total, quantidade, cupom, categoria). Restaura a unidade escolhida,
+        procurando pelo rótulo exato dentro das opções que o formulário já tem — nunca inventando uma.
+        E guarda tudo o que a cliente digita num rascunho, para que uma recusa de cartão não apague o
+        formulário.
+      </p>
+      <p>
+        Quando ela clica em Finalizar, o JavaScript confere se todo item do carrinho tem produto,
+        variação e unidade. Se faltar algo, mostra o erro e não envia — melhor recusar do que registrar
+        o serviço errado. Se estiver tudo certo, o formulário vai para o PHP. O handler
+        <code>payment_CF7</code> do tema chama a Accesstage, cria o pedido e grava as metas. Um snippet
+        confere se o total das linhas bate com o valor cobrado e corrige se não bater; outro promove o
+        pedido de “em processamento” para “concluído” no momento em que a referência do gateway
+        aparece.
+      </p>
+      <p>
+        Se o pagamento for aprovado, a cliente vai para a página de pedido recebido, que também é um
+        HTML do projeto preenchido por PHP. Se for recusado, ela continua na mesma página, com todos
+        os campos preenchidos, a unidade intacta e o erro visível — e tenta de novo corrigindo só o
+        dado do cartão.
+      </p>
+
+      <h3>Em cinco frases</h3>
+      <ol>
+        <li>O site é HTML estático dentro do WordPress; o snippet <code>pm-home</code> serve os arquivos.</li>
+        <li>Cada serviço é um produto variável do WooCommerce, com uma variação por unidade.</li>
+        <li>O carrinho vive na sessão do Woo e é espelhado no navegador com os rótulos das unidades.</li>
+        <li>O checkout é um Contact Form 7; o shell do projeto preenche, valida e preserva os dados.</li>
+        <li>O pagamento é Accesstage, fora dos gateways do Woo; o pedido nasce no child theme e é corrigido por snippets.</li>
+      </ol>
+
+      <div class="note">
+        <p><strong>Limites deste levantamento:</strong> produtos, pedidos, rotas, plugins, volumes e
+        snippets ativos foram confirmados por consulta à produção. A criação do pedido e a chamada ao
+        gateway rodam no child theme, no servidor: a sequência descrita vem da cópia somente-leitura em
+        <code>scripts/_hostinger_loja_dumps/</code> e das metas gravadas nos pedidos — não da execução
+        do código. Nenhuma compra foi realizada durante a análise.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Documentação técnica e funcional da plataforma Pello Menos · levantamento de 12 de novembro
+        de 2026. Elaborada a partir de leitura do código-fonte, consulta à API do WooCommerce em
+        produção e verificação das rotas públicas. Nenhum arquivo, pedido, produto ou configuração
+        foi alterado durante a investigação.
+      </p>
+    </footer>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script>
+(function () {
+  // ---- diagramas ----
+  if (window.mermaid) {
+    var dark = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    var attr = document.documentElement.getAttribute('data-theme');
+    if (attr === 'dark') dark = true;
+    if (attr === 'light') dark = false;
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: dark ? 'dark' : 'neutral',
+      securityLevel: 'loose',
+      themeVariables: {
+        fontFamily: 'Inter, system-ui, sans-serif',
+        fontSize: '13px',
+        primaryColor: dark ? '#33281c' : '#f0e4d5',
+        primaryBorderColor: dark ? '#dfa76a' : '#8a5a2b',
+        primaryTextColor: dark ? '#ece8e2' : '#1a1917',
+        lineColor: dark ? '#6b6660' : '#9d968c',
+        tertiaryColor: dark ? '#242220' : '#efece7'
+      }
+    });
+  }
+
+  // ---- índice: marca a seção visível ----
+  var links = {};
+  document.querySelectorAll('.toc a').forEach(function (a) {
+    var id = a.getAttribute('href').slice(1);
+    links[id] = a;
+  });
+  if (!('IntersectionObserver' in window)) return;
+  var current = null;
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      if (current) {
+        current.style.borderLeftColor = '';
+        current.style.color = '';
+      }
+      var a = links[e.target.id];
+      if (a) {
+        a.style.borderLeftColor = 'var(--accent)';
+        a.style.color = 'var(--fg)';
+        current = a;
+      }
+    });
+  }, { rootMargin: '-15% 0px -70% 0px' });
+  document.querySelectorAll('section[id]').forEach(function (s) { obs.observe(s); });
+})();
+</script>

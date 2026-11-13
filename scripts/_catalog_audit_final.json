@@ -1,0 +1,1313 @@
+{
+  "summary": {
+    "OK": 140,
+    "SEM_UNIDADE": 9
+  },
+  "rows": [
+    {
+      "key": "abdomen-cera",
+      "name": "Abdômen – Cera",
+      "pid": "2285",
+      "woo_name": "Abdômen - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "axila-cera",
+      "name": "Axila – Cera",
+      "pid": "2319",
+      "woo_name": "Axila - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-cera",
+      "name": "Antebraço – Cera",
+      "pid": "2250",
+      "woo_name": "Antebraço - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-cera",
+      "name": "Braços – Cera",
+      "pid": "5232",
+      "woo_name": "Braços - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "buco-cera",
+      "name": "Buço – Cera",
+      "pid": "2076",
+      "woo_name": "Buço - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-cera",
+      "name": "Costas – Cera",
+      "pid": "3565",
+      "woo_name": "Costas - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxa-cera",
+      "name": "Coxa – Cera",
+      "pid": "3601",
+      "woo_name": "Coxa - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "faixa-cera",
+      "name": "Faixa – Cera",
+      "pid": "3674",
+      "woo_name": "Faixa - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "intergluteos-cera",
+      "name": "Interglúteos – Cera",
+      "pid": "3741",
+      "woo_name": "Interglúteos - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-cera",
+      "name": "Nariz – Cera",
+      "pid": "3803",
+      "woo_name": "Nariz - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-cera",
+      "name": "Nádegas Completas – Cera",
+      "pid": "3908",
+      "woo_name": "Nádegas Completas - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-cera",
+      "name": "Meia Nádega – Cera",
+      "pid": "3843",
+      "woo_name": "Meia Nádega - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-cera",
+      "name": "Perna Inteira – Cera",
+      "pid": "3973",
+      "woo_name": "Perna Inteira - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-cera",
+      "name": "Meia Perna – Cera",
+      "pid": "4013",
+      "woo_name": "Meia Perna - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-cera",
+      "name": "Queixo – Cera",
+      "pid": "4075",
+      "woo_name": "Queixo - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "seios-cera",
+      "name": "Seios – Cera",
+      "pid": "4114",
+      "woo_name": "Seios - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-cera",
+      "name": "Virilha Comum – Cera",
+      "pid": "4282",
+      "woo_name": "Virilha Comum - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-faixa-cera",
+      "name": "Virilha Comum + Faixa – Cera",
+      "pid": "4347",
+      "woo_name": "Virilha Comum + Faixa - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-cera",
+      "name": "Virilha Cavada – Cera",
+      "pid": "4382",
+      "woo_name": "Virilha Cavada - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-faixa-cera",
+      "name": "Virilha Cavada + Faixa – Cera",
+      "pid": "4453",
+      "woo_name": "Virilha Cavada + Faixa - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-modelada-cera",
+      "name": "Virilha Modelada – Cera",
+      "pid": "4177",
+      "woo_name": "Virilha Modelada - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cera",
+      "name": "Virilha Total – Cera",
+      "pid": "4213",
+      "woo_name": "Virilha Total - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "labios-genitais-cera",
+      "name": "Lábios Genitais – Cera",
+      "pid": "4585",
+      "woo_name": "Lábios Genitais - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-cera",
+      "name": "Sobrancelha – Cera",
+      "pid": "4619",
+      "woo_name": "Sobrancelha - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-realce-cera",
+      "name": "Sobrancelha + Realce – Cera",
+      "pid": "4653",
+      "woo_name": "Sobrancelha + Realce - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-henna-simples",
+      "name": "Sobrancelha Simples + Henna",
+      "pid": "4857",
+      "woo_name": "Sobrancelha Simples + Henna",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "design-sobrancelha",
+      "name": "Design de Sobrancelha – Cera",
+      "pid": "4723",
+      "woo_name": "Design de Sobrancelha - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "design-sobrancelha-realce",
+      "name": "Design de Sobrancelha + Realce – Cera",
+      "pid": "4789",
+      "woo_name": "Design de Sobrancelha + Realce - Cera",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-henna",
+      "name": "Design de Sobrancelha + Henna Feminino",
+      "pid": "4687",
+      "woo_name": "Design de Sobrancelha + Henna Feminino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "realce",
+      "name": "Realce",
+      "pid": "4896",
+      "woo_name": "Realce",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "henna",
+      "name": "Henna",
+      "pid": "4964",
+      "woo_name": "Henna",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "tintura-pelos-pubianos",
+      "status": "SEM_UNIDADE",
+      "pid": ""
+    },
+    {
+      "key": "buco-linha",
+      "name": "Buço – Linha",
+      "pid": "16394",
+      "woo_name": "Buço - Linha",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-linha",
+      "name": "Queixo – Linha",
+      "pid": "17216",
+      "woo_name": "Queixo - Linha",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "faixa-linha",
+      "name": "Faixa – Linha",
+      "pid": "17255",
+      "woo_name": "Faixa - Linha",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-faixa",
+      "name": "Esfoliação Faixa 01",
+      "pid": "50336",
+      "woo_name": "Esfoliação Faixa 01",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-meio-braco",
+      "name": "Esfoliação de meio braço",
+      "pid": "50028",
+      "woo_name": "Esfoliação de meio braço",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-braco",
+      "name": "Esfoliação de braço",
+      "pid": "50078",
+      "woo_name": "Esfoliação de braço",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-meia-perna",
+      "name": "Esfoliação de meia perna",
+      "pid": "50644",
+      "woo_name": "Esfoliação de meia perna",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-abdomen",
+      "name": "Esfoliação de abdômen",
+      "pid": "49837",
+      "woo_name": "Esfoliação de abdômen",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-axilas",
+      "name": "Esfoliação de axilas",
+      "pid": "49939",
+      "woo_name": "Esfoliação de axilas",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-nadegas",
+      "name": "Esfoliação de nádegas",
+      "pid": "50422",
+      "woo_name": "Esfoliação de nádegas",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-meia-nadega",
+      "name": "Esfoliação de meia nádega",
+      "pid": "50508",
+      "woo_name": "Esfoliação de meia nádega",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-coxa",
+      "name": "Esfoliação de coxa",
+      "pid": "50250",
+      "woo_name": "Esfoliação de coxa",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-costas",
+      "name": "Esfoliação de costas",
+      "pid": "50164",
+      "woo_name": "Esfoliação de costas",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-perna",
+      "name": "Esfoliação de perna inteira",
+      "pid": "50558",
+      "woo_name": "Esfoliação de perna inteira",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-virilha",
+      "name": "Esfoliação de virilha",
+      "pid": "50802",
+      "woo_name": "Esfoliação de virilha",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-virilha-faixa",
+      "name": "Esfoliação de virilha + faixa",
+      "pid": "50766",
+      "woo_name": "Esfoliação de virilha + faixa",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-seios",
+      "name": "Esfoliação de seios",
+      "pid": "50730",
+      "woo_name": "Esfoliação de seios",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "axilas-laser",
+      "name": "Axilas Laser",
+      "pid": "8650",
+      "woo_name": "Axilas Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "areola-laser",
+      "name": "Aréola Laser",
+      "pid": "9659",
+      "woo_name": "Aréola Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "buco-laser",
+      "name": "Buço Laser",
+      "pid": "10271",
+      "woo_name": "Buço Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-laser",
+      "name": "Virilha Total Laser",
+      "pid": "50910",
+      "woo_name": "Virilha Total Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-laser",
+      "name": "Virilha Comum Laser",
+      "pid": "9863",
+      "woo_name": "Virilha Comum Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-laser",
+      "name": "Virilha Cavada Laser",
+      "pid": "9795",
+      "woo_name": "Virilha Cavada Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-faixa-laser",
+      "name": "Virilha Cavada c/ Faixa Laser",
+      "pid": "9761",
+      "woo_name": "Virilha Cavada c/ Faixa Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-faixa-laser",
+      "name": "Virilha Comum + Faixa Laser",
+      "pid": "9829",
+      "woo_name": "Virilha c/ Faixa Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-laser",
+      "name": "Perna Inteira Laser",
+      "pid": "9931",
+      "woo_name": "Perna Inteira Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-laser",
+      "name": "Meia Perna Laser",
+      "pid": "9897",
+      "woo_name": "Meia Perna Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxas-laser",
+      "name": "Coxas Inteiras Laser",
+      "pid": "9965",
+      "woo_name": "Coxas Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-laser",
+      "name": "Braços Inteiros Laser",
+      "pid": "9591",
+      "woo_name": "Braços Inteiros Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-laser",
+      "name": "Antebraço Laser",
+      "pid": "9557",
+      "woo_name": "Antebraço Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "abdomen-laser",
+      "name": "Abdômen Laser",
+      "pid": "9625",
+      "woo_name": "Abdômen Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-laser",
+      "name": "Costas Laser",
+      "pid": "9523",
+      "woo_name": "Costas Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-laser",
+      "name": "Queixo Laser",
+      "pid": "10305",
+      "woo_name": "Queixo Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "pescoco-laser",
+      "name": "Pescoço Laser",
+      "pid": "9208",
+      "woo_name": "Pescoço Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-laser",
+      "name": "Nariz Laser",
+      "pid": "9276",
+      "woo_name": "Nariz Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "orelhas-laser",
+      "name": "Orelhas Laser",
+      "pid": "9242",
+      "woo_name": "Orelhas Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "rosto-inteiro-laser",
+      "name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "pid": "9173",
+      "woo_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "intergluteos-laser",
+      "name": "Interglúteos Laser",
+      "pid": "9693",
+      "woo_name": "Interglúteos Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-laser",
+      "name": "Meia Nádega Laser",
+      "pid": "9310",
+      "woo_name": "Meia Nádega Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-laser",
+      "name": "Nádegas Laser",
+      "pid": "9345",
+      "woo_name": "Nádegas Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-p-laser",
+      "name": "PSD P Laser (até 10 cm)",
+      "pid": "9447",
+      "woo_name": "PSD P Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-m-laser",
+      "name": "PSD M Laser (até 20 cm)",
+      "pid": "9413",
+      "woo_name": "PSD M Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-g-laser",
+      "name": "PSD G Laser (a partir de 21 cm)",
+      "pid": "9379",
+      "woo_name": "PSD G Laser",
+      "units": 17,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "body-splash-livre",
+      "status": "SEM_UNIDADE",
+      "pid": "24206"
+    },
+    {
+      "key": "body-splash-marcante",
+      "status": "SEM_UNIDADE",
+      "pid": "24207"
+    },
+    {
+      "key": "body-splash-autentica",
+      "status": "SEM_UNIDADE",
+      "pid": "24208"
+    },
+    {
+      "key": "cartao-presente",
+      "status": "SEM_UNIDADE",
+      "pid": ""
+    },
+    {
+      "key": "cartao-presente-160",
+      "status": "SEM_UNIDADE",
+      "pid": ""
+    },
+    {
+      "key": "cartao-presente-215",
+      "status": "SEM_UNIDADE",
+      "pid": ""
+    },
+    {
+      "key": "cartao-presente-290",
+      "status": "SEM_UNIDADE",
+      "pid": ""
+    },
+    {
+      "key": "plano-silver",
+      "name": "Plano de Assinatura VIP – Silver",
+      "pid": "8176",
+      "woo_name": "Plano de Assinatura VIP - Silver",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "plano-gold",
+      "name": "Plano de Assinatura VIP – Gold",
+      "pid": "24195",
+      "woo_name": "Plano de Assinatura VIP - Gold",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "plano-clube-laser",
+      "status": "SEM_UNIDADE",
+      "pid": "5285"
+    },
+    {
+      "key": "plano-prepago",
+      "name": "Pré-pago Pello Menos",
+      "pid": "11403",
+      "woo_name": "Pré-pago Pello Menos",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "peito-cera-masc",
+      "name": "Peito – Cera",
+      "pid": "49873",
+      "woo_name": "Peito – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "abdomen-cera-masc",
+      "name": "Abdômen – Cera",
+      "pid": "49888",
+      "woo_name": "Abdômen – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "axila-cera-masc",
+      "name": "Axila – Cera",
+      "pid": "49975",
+      "woo_name": "Axila – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-cera-masc",
+      "name": "Antebraço – Cera",
+      "pid": "50064",
+      "woo_name": "Antebraço – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-cera-masc",
+      "name": "Braços – Cera",
+      "pid": "50114",
+      "woo_name": "Braços – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-cera-masc",
+      "name": "Costas – Cera",
+      "pid": "50200",
+      "woo_name": "Costas – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxa-cera-masc",
+      "name": "Coxa – Cera",
+      "pid": "50286",
+      "woo_name": "Coxa – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "faixa-cera-masc",
+      "name": "Faixa – Cera",
+      "pid": "50372",
+      "woo_name": "Faixa – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "intergluteos-cera-masc",
+      "name": "Interglúteos – Cera",
+      "pid": "3741",
+      "woo_name": "Interglúteos - Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-cera-masc",
+      "name": "Nariz – Cera",
+      "pid": "3803",
+      "woo_name": "Nariz - Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-cera-masc",
+      "name": "Nádegas – Cera",
+      "pid": "50458",
+      "woo_name": "Nádegas – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-cera-masc",
+      "name": "Meia nádega – Cera",
+      "pid": "50544",
+      "woo_name": "Meia nádega – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-cera-masc",
+      "name": "Perna Inteira – Cera",
+      "pid": "50594",
+      "woo_name": "Perna Inteira – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-cera-masc",
+      "name": "Meia Perna – Cera",
+      "pid": "50680",
+      "woo_name": "Meia Perna – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-cera-masc",
+      "name": "Queixo – Cera",
+      "pid": "4075",
+      "woo_name": "Queixo - Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-cera-masc",
+      "name": "Virilha comum – Cera",
+      "pid": "4282",
+      "woo_name": "Virilha Comum - Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cera-masc",
+      "name": "Virilha Total – Cera",
+      "pid": "50838",
+      "woo_name": "Virilha Total – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "barba-cera-masc",
+      "name": "Barba – Cera",
+      "pid": "51005",
+      "woo_name": "Barba – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "barba-modeladora-cera-masc",
+      "name": "Barba Modeladora – Cera",
+      "pid": "51019",
+      "woo_name": "Barba Modeladora – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bigode-cera-masc",
+      "name": "Bigode – Cera",
+      "pid": "51033",
+      "woo_name": "Bigode – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "orelha-cera-masc",
+      "name": "Orelha – Cera",
+      "pid": "51047",
+      "woo_name": "Orelha – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "pescoco-cera-masc",
+      "name": "Pescoço – Cera",
+      "pid": "51061",
+      "woo_name": "Pescoço – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "mamilos-cera-masc",
+      "name": "Mamilos – Cera",
+      "pid": "51075",
+      "woo_name": "Mamilos – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-cera-masc",
+      "name": "Sobrancelha – Cera",
+      "pid": "51089",
+      "woo_name": "Sobrancelha – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "design-sobrancelha-masc",
+      "name": "Design de Sobrancelha – Cera",
+      "pid": "51103",
+      "woo_name": "Design de Sobrancelha – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "torax-abdomen-cera-masc",
+      "name": "Tórax + Abdômen – Cera",
+      "pid": "51117",
+      "woo_name": "Tórax + Abdômen – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "saco-escrotal-cera-masc",
+      "name": "Saco Escrotal – Cera",
+      "pid": "51131",
+      "woo_name": "Saco Escrotal – Cera",
+      "units": 13,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-faixa-masc",
+      "name": "Esfoliação Faixa 01",
+      "pid": "50386",
+      "woo_name": "Esfoliação Faixa 01 – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-braco-masc",
+      "name": "Esfoliação de braço",
+      "pid": "50128",
+      "woo_name": "Esfoliação de braço – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-meia-perna-masc",
+      "name": "Esfoliação de meia perna",
+      "pid": "50694",
+      "woo_name": "Esfoliação de meia perna – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-abdomen-masc",
+      "name": "Esfoliação de abdômen",
+      "pid": "49903",
+      "woo_name": "Esfoliação de abdômen – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-axilas-masc",
+      "name": "Esfoliação de axilas",
+      "pid": "49989",
+      "woo_name": "Esfoliação de axilas – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-nadegas-masc",
+      "name": "Esfoliação de nádegas",
+      "pid": "50472",
+      "woo_name": "Esfoliação de nádegas – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-coxa-masc",
+      "name": "Esfoliação de coxa",
+      "pid": "50300",
+      "woo_name": "Esfoliação de coxa – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-costas-masc",
+      "name": "Esfoliação de costas",
+      "pid": "50214",
+      "woo_name": "Esfoliação de costas – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-perna-masc",
+      "name": "Esfoliação de perna inteira",
+      "pid": "50608",
+      "woo_name": "Esfoliação de perna inteira – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "esfoliacao-virilha-masc",
+      "name": "Esfoliação de virilha",
+      "pid": "50852",
+      "woo_name": "Esfoliação de virilha – Masculino",
+      "units": 35,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "axilas-laser-masc",
+      "name": "Axila Laser",
+      "pid": "8650",
+      "woo_name": "Axilas Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "peito-laser-masc",
+      "name": "Tórax Laser",
+      "pid": "50950",
+      "woo_name": "Tórax Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "abdomen-laser-masc",
+      "name": "Abdômen Laser",
+      "pid": "50961",
+      "woo_name": "Abdômen Laser – Masculino",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "torax-abdomen-laser-masc",
+      "name": "Tórax + Abdômen Laser",
+      "pid": "50972",
+      "woo_name": "Tórax + Abdômen Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "mamilo-laser-masc",
+      "name": "Mamilo Laser",
+      "pid": "50888",
+      "woo_name": "Mamilo Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-laser-masc",
+      "name": "Costas Laser",
+      "pid": "9523",
+      "woo_name": "Costas Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-laser-masc",
+      "name": "Braço Laser",
+      "pid": "9591",
+      "woo_name": "Braços Inteiros Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-laser-masc",
+      "name": "Antebraço Laser",
+      "pid": "9557",
+      "woo_name": "Antebraço Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxa-laser-masc",
+      "name": "Coxa Laser",
+      "pid": "50939",
+      "woo_name": "Coxa Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-laser-masc",
+      "name": "Nádegas Laser",
+      "pid": "9345",
+      "woo_name": "Nádegas Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-laser-masc",
+      "name": "Meia Nádega Laser",
+      "pid": "9310",
+      "woo_name": "Meia Nádega Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-laser-masc",
+      "name": "Meia Perna Laser",
+      "pid": "9897",
+      "woo_name": "Meia Perna Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-laser-masc",
+      "name": "Perna Inteira Laser",
+      "pid": "9931",
+      "woo_name": "Perna Inteira Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "pescoco-laser-masc",
+      "name": "Pescoço Laser",
+      "pid": "9208",
+      "woo_name": "Pescoço Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "intergluteos-laser-masc",
+      "name": "Interglúteos Laser",
+      "pid": "9693",
+      "woo_name": "Interglúteos Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-laser-masc",
+      "name": "Virilha Laser",
+      "pid": "50928",
+      "woo_name": "Virilha Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-total-laser-masc",
+      "name": "Virilha Total Laser",
+      "pid": "9727",
+      "woo_name": "Virilha Total Laser – Masculino",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "barba-laser-masc",
+      "name": "Barba Laser",
+      "pid": "50983",
+      "woo_name": "Barba Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "bigode-laser-masc",
+      "name": "Bigode Laser",
+      "pid": "50899",
+      "woo_name": "Bigode Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-laser-masc",
+      "name": "Nariz Laser",
+      "pid": "9276",
+      "woo_name": "Nariz Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "orelhas-laser-masc",
+      "name": "Orelhas Laser",
+      "pid": "9242",
+      "woo_name": "Orelhas Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-laser-masc",
+      "name": "Queixo Laser",
+      "pid": "10305",
+      "woo_name": "Queixo Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "rosto-inteiro-laser-masc",
+      "name": "Rosto Inteiro Laser (Barba + NZ + PSD P)",
+      "pid": "50994",
+      "woo_name": "Rosto Inteiro Laser (Barba + NZ + PSD P)",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-p-laser-masc",
+      "name": "PSD P Laser (até 10 cm)",
+      "pid": "9447",
+      "woo_name": "PSD P Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-m-laser-masc",
+      "name": "PSD M Laser (até 20 cm)",
+      "pid": "9413",
+      "woo_name": "PSD M Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-g-laser-masc",
+      "name": "PSD G Laser (a partir de 21 cm)",
+      "pid": "9379",
+      "woo_name": "PSD G Laser",
+      "units": 10,
+      "problems": [],
+      "status": "OK"
+    }
+  ]
+}

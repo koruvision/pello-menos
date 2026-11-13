@@ -1,0 +1,715 @@
+{
+  "products": 73,
+  "variations": 1917,
+  "changes": [
+    {
+      "key": "abdomen-cera",
+      "name": "Abdômen – Cera",
+      "from_pid": "24212",
+      "to_pid": "2285",
+      "to_name": "Abdômen - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "axila-cera",
+      "name": "Axila – Cera",
+      "from_pid": "24217",
+      "to_pid": "2319",
+      "to_name": "Axila - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "antebraco-cera",
+      "name": "Antebraço – Cera",
+      "from_pid": "24209",
+      "to_pid": "2250",
+      "to_name": "Antebraço - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "bracos-cera",
+      "name": "Braços – Cera",
+      "from_pid": "24260",
+      "to_pid": "5232",
+      "to_name": "Braços - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "costas-cera",
+      "name": "Costas – Cera",
+      "from_pid": "24221",
+      "to_pid": "3565",
+      "to_name": "Costas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "coxa-cera",
+      "name": "Coxa – Cera",
+      "from_pid": "24225",
+      "to_pid": "3601",
+      "to_name": "Coxa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "faixa-cera",
+      "name": "Faixa – Cera",
+      "from_pid": "24229",
+      "to_pid": "3674",
+      "to_name": "Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "nadegas-cera",
+      "name": "Nádegas Completas – Cera",
+      "from_pid": "24236",
+      "to_pid": "3908",
+      "to_name": "Nádegas Completas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "meia-nadega-cera",
+      "name": "Meia Nádega – Cera",
+      "from_pid": "24233",
+      "to_pid": "3843",
+      "to_name": "Meia Nádega - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "perna-cera",
+      "name": "Perna Inteira – Cera",
+      "from_pid": "24240",
+      "to_pid": "3973",
+      "to_name": "Perna Inteira - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "meia-perna-cera",
+      "name": "Meia Perna – Cera",
+      "from_pid": "24244",
+      "to_pid": "4013",
+      "to_name": "Meia Perna - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "seios-cera",
+      "name": "Seios – Cera",
+      "from_pid": "24256",
+      "to_pid": "4114",
+      "to_name": "Seios - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-comum-faixa-cera",
+      "name": "Virilha Comum + Faixa – Cera",
+      "from_pid": "24258",
+      "to_pid": "4347",
+      "to_name": "Virilha Comum + Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-cera",
+      "name": "Virilha Total – Cera",
+      "from_pid": "24248",
+      "to_pid": "4213",
+      "to_name": "Virilha Total - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-faixa",
+      "name": "Esfoliação Faixa 01",
+      "from_pid": "24230",
+      "to_pid": "3674",
+      "to_name": "Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-meio-braco",
+      "name": "Esfoliação de meio braço",
+      "from_pid": "24210",
+      "to_pid": "2250",
+      "to_name": "Antebraço - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-braco",
+      "name": "Esfoliação de braço",
+      "from_pid": "24261",
+      "to_pid": "5232",
+      "to_name": "Braços - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-meia-perna",
+      "name": "Esfoliação de meia perna",
+      "from_pid": "24245",
+      "to_pid": "4013",
+      "to_name": "Meia Perna - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-abdomen",
+      "name": "Esfoliação de abdômen",
+      "from_pid": "24213",
+      "to_pid": "2285",
+      "to_name": "Abdômen - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-axilas",
+      "name": "Esfoliação de axilas",
+      "from_pid": "24218",
+      "to_pid": "2319",
+      "to_name": "Axila - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-nadegas",
+      "name": "Esfoliação de nádegas",
+      "from_pid": "24237",
+      "to_pid": "3908",
+      "to_name": "Nádegas Completas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-meia-nadega",
+      "name": "Esfoliação de meia nádega",
+      "from_pid": "24234",
+      "to_pid": "3843",
+      "to_name": "Meia Nádega - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-coxa",
+      "name": "Esfoliação de coxa",
+      "from_pid": "24226",
+      "to_pid": "3601",
+      "to_name": "Coxa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-costas",
+      "name": "Esfoliação de costas",
+      "from_pid": "24222",
+      "to_pid": "3565",
+      "to_name": "Costas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-perna",
+      "name": "Esfoliação de perna inteira",
+      "from_pid": "24241",
+      "to_pid": "3973",
+      "to_name": "Perna Inteira - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-virilha",
+      "name": "Esfoliação de virilha",
+      "from_pid": "24249",
+      "to_pid": "4213",
+      "to_name": "Virilha Total - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-virilha-faixa",
+      "name": "Esfoliação de virilha + faixa",
+      "from_pid": "24259",
+      "to_pid": "4347",
+      "to_name": "Virilha Comum + Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-seios",
+      "name": "Esfoliação de seios",
+      "from_pid": "24257",
+      "to_pid": "4114",
+      "to_name": "Seios - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "buco-laser",
+      "name": "Buço Laser",
+      "from_pid": "24271",
+      "to_pid": "10271",
+      "to_name": "Buço Laser",
+      "units_relinked": 0,
+      "units_total": 17,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-laser",
+      "name": "Virilha Total Laser",
+      "from_pid": "9727",
+      "to_pid": "9727",
+      "to_name": "Virilha Total Laser",
+      "units_relinked": 17,
+      "units_total": 17,
+      "unmapped": []
+    },
+    {
+      "key": "abdomen-laser",
+      "name": "Abdômen Laser",
+      "from_pid": "24267",
+      "to_pid": "9625",
+      "to_name": "Abdômen Laser",
+      "units_relinked": 0,
+      "units_total": 17,
+      "unmapped": []
+    },
+    {
+      "key": "rosto-inteiro-laser",
+      "name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "from_pid": "24264",
+      "to_pid": "9173",
+      "to_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units_relinked": 0,
+      "units_total": 17,
+      "unmapped": []
+    },
+    {
+      "key": "peito-cera-masc",
+      "name": "Peito – Cera",
+      "from_pid": "24214",
+      "to_pid": "2285",
+      "to_name": "Abdômen - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "abdomen-cera-masc",
+      "name": "Abdômen – Cera",
+      "from_pid": "24215",
+      "to_pid": "2285",
+      "to_name": "Abdômen - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "axila-cera-masc",
+      "name": "Axila – Cera",
+      "from_pid": "24219",
+      "to_pid": "2319",
+      "to_name": "Axila - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "antebraco-cera-masc",
+      "name": "Antebraço – Cera",
+      "from_pid": "24211",
+      "to_pid": "2250",
+      "to_name": "Antebraço - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "bracos-cera-masc",
+      "name": "Braços – Cera",
+      "from_pid": "24262",
+      "to_pid": "5232",
+      "to_name": "Braços - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "costas-cera-masc",
+      "name": "Costas – Cera",
+      "from_pid": "24223",
+      "to_pid": "3565",
+      "to_name": "Costas - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "coxa-cera-masc",
+      "name": "Coxa – Cera",
+      "from_pid": "24227",
+      "to_pid": "3601",
+      "to_name": "Coxa - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "faixa-cera-masc",
+      "name": "Faixa – Cera",
+      "from_pid": "24231",
+      "to_pid": "3674",
+      "to_name": "Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "nadegas-cera-masc",
+      "name": "Nádegas – Cera",
+      "from_pid": "24238",
+      "to_pid": "3908",
+      "to_name": "Nádegas Completas - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "meia-nadega-cera-masc",
+      "name": "Meia nádega – Cera",
+      "from_pid": "24235",
+      "to_pid": "3843",
+      "to_name": "Meia Nádega - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "perna-cera-masc",
+      "name": "Perna Inteira – Cera",
+      "from_pid": "24242",
+      "to_pid": "3973",
+      "to_name": "Perna Inteira - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "meia-perna-cera-masc",
+      "name": "Meia Perna – Cera",
+      "from_pid": "24246",
+      "to_pid": "4013",
+      "to_name": "Meia Perna - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-cera-masc",
+      "name": "Virilha Total – Cera",
+      "from_pid": "24250",
+      "to_pid": "4213",
+      "to_name": "Virilha Total - Cera",
+      "units_relinked": 0,
+      "units_total": 13,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-faixa-masc",
+      "name": "Esfoliação Faixa 01",
+      "from_pid": "24232",
+      "to_pid": "3674",
+      "to_name": "Faixa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-braco-masc",
+      "name": "Esfoliação de braço",
+      "from_pid": "24263",
+      "to_pid": "5232",
+      "to_name": "Braços - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-meia-perna-masc",
+      "name": "Esfoliação de meia perna",
+      "from_pid": "24247",
+      "to_pid": "4013",
+      "to_name": "Meia Perna - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-abdomen-masc",
+      "name": "Esfoliação de abdômen",
+      "from_pid": "24216",
+      "to_pid": "2285",
+      "to_name": "Abdômen - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-axilas-masc",
+      "name": "Esfoliação de axilas",
+      "from_pid": "24220",
+      "to_pid": "2319",
+      "to_name": "Axila - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-nadegas-masc",
+      "name": "Esfoliação de nádegas",
+      "from_pid": "24239",
+      "to_pid": "3908",
+      "to_name": "Nádegas Completas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-coxa-masc",
+      "name": "Esfoliação de coxa",
+      "from_pid": "24228",
+      "to_pid": "3601",
+      "to_name": "Coxa - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-costas-masc",
+      "name": "Esfoliação de costas",
+      "from_pid": "24224",
+      "to_pid": "3565",
+      "to_name": "Costas - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-perna-masc",
+      "name": "Esfoliação de perna inteira",
+      "from_pid": "24243",
+      "to_pid": "3973",
+      "to_name": "Perna Inteira - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "esfoliacao-virilha-masc",
+      "name": "Esfoliação de virilha",
+      "from_pid": "24251",
+      "to_pid": "4213",
+      "to_name": "Virilha Total - Cera",
+      "units_relinked": 0,
+      "units_total": 35,
+      "unmapped": []
+    },
+    {
+      "key": "peito-laser-masc",
+      "name": "Tórax Laser",
+      "from_pid": "24268",
+      "to_pid": "9625",
+      "to_name": "Abdômen Laser",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "abdomen-laser-masc",
+      "name": "Abdômen Laser",
+      "from_pid": "24269",
+      "to_pid": "9625",
+      "to_name": "Abdômen Laser",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "torax-abdomen-laser-masc",
+      "name": "Tórax + Abdômen Laser",
+      "from_pid": "24270",
+      "to_pid": "9625",
+      "to_name": "Abdômen Laser",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-laser-masc",
+      "name": "Virilha Laser",
+      "from_pid": "9727",
+      "to_pid": "9727",
+      "to_name": "Virilha Total Laser",
+      "units_relinked": 10,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "virilha-total-laser-masc",
+      "name": "Virilha Total Laser",
+      "from_pid": "9727",
+      "to_pid": "9727",
+      "to_name": "Virilha Total Laser",
+      "units_relinked": 10,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "barba-laser-masc",
+      "name": "Barba Laser",
+      "from_pid": "24265",
+      "to_pid": "9173",
+      "to_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "bigode-laser-masc",
+      "name": "Bigode Laser",
+      "from_pid": "24272",
+      "to_pid": "10271",
+      "to_name": "Buço Laser",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    },
+    {
+      "key": "rosto-inteiro-laser-masc",
+      "name": "Rosto Inteiro Laser (Barba + NZ + PSD P)",
+      "from_pid": "24266",
+      "to_pid": "9173",
+      "to_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units_relinked": 0,
+      "units_total": 10,
+      "unmapped": []
+    }
+  ],
+  "problems": [
+    {
+      "key": "buco-linha",
+      "why": "unidades sem variacao no pai",
+      "pid": "16394",
+      "labels": [
+        "RJ - Tijuca - Afonso Pena",
+        "RJ - Centro - Rua Treze de Maio"
+      ]
+    },
+    {
+      "key": "queixo-linha",
+      "why": "unidades sem variacao no pai",
+      "pid": "17216",
+      "labels": [
+        "RJ - Tijuca - Afonso Pena",
+        "RJ - Centro - Rua Treze de Maio"
+      ]
+    },
+    {
+      "key": "faixa-linha",
+      "why": "unidades sem variacao no pai",
+      "pid": "17255",
+      "labels": [
+        "RJ - Tijuca - Afonso Pena",
+        "RJ - Centro - Rua Treze de Maio"
+      ]
+    },
+    {
+      "key": "barba-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24196"
+    },
+    {
+      "key": "barba-modeladora-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24197"
+    },
+    {
+      "key": "bigode-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24198"
+    },
+    {
+      "key": "orelha-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24199"
+    },
+    {
+      "key": "pescoco-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24200"
+    },
+    {
+      "key": "mamilos-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24201"
+    },
+    {
+      "key": "sobrancelha-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24202"
+    },
+    {
+      "key": "design-sobrancelha-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24203"
+    },
+    {
+      "key": "torax-abdomen-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24204"
+    },
+    {
+      "key": "saco-escrotal-cera-masc",
+      "why": "sem produto pai resolvivel",
+      "declared": "24205"
+    }
+  ]
+}

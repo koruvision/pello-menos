@@ -1,0 +1,21 @@
+---
+description: Proibição absoluta — não criar unidades Accesstage nem inventar tokens
+alwaysApply: true
+---
+
+# Accesstage / unidades da loja
+
+**PROIBIDO** criar, inventar ou “completar” unidade sozinho.
+
+- Não adicionar slug novo em `$api` / `$apikey` do tema (`payment_CF7`).
+- Não gerar, copiar de outro ambiente nem inventar `API` / `APIKey`.
+- Não cadastrar unidade nova no CF7 / catálogo / ERP como se tivesse token.
+- Nova unidade **só** depois que o humano informar a chave Accesstage (API + APIKey) e autorizar.
+
+Permitido (sem criar token):
+
+- Usar slug/`nilopolis` etc. **já existentes** no tema e no inventário.
+- Mapear label→slug no normalize **só** para unidades que já têm par de keys.
+- Injetar option no select CF7 (`easyunit`/`unit`) **apenas** se o slug já existir nas keys Accesstage da loja.
+
+Se faltar unidade no formulário mas o token já existe: corrigir o select/mapa. Se faltar token: **parar e pedir a chave** — não improvisar.

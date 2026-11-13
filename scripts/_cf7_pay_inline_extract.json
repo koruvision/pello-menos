@@ -1,0 +1,38 @@
+{
+  "interesting_scripts": [
+    {
+      "src": null,
+      "inline_len": 2657,
+      "inline_preview": "\n\tdocument.addEventListener('wpcf7mailsent', function(event){\n\t\tvar redirecturl = jQuery.cookie('redirectSuccess');\n\t\tlocation = redirecturl;\n\t}, false);\n\tjQuery('.wpcf7-form-control.wpcf7-submit').click(function(e){\n\t\tjQuery('input[type=\"submit\"]').css('pointer-events', 'none'); \n\t\tjQuery('input[type=\"submit\"]').css('display', 'none'); \n\t});\n\tdocument.addEventListener('wpcf7submit', function( event ) {\n\t\tjQuery('input[type=\"submit\"]').css('pointer-events', 'all'); \n\t\tjQuery('input[type=\"submit\"]').css('display', 'inline-block'); \n\t}, false);\t\n\tjQuery('input[name=\"cep\"]').focusout(function(){\t\n\t\tjQuery.ajax({\n\t\t\turl: 'https://viacep.com.br/ws/'+jQuery(this).val()+'/json/',\n\t\t\tdataType: 'json',\n\t\t\tsuccess: function(resposta){\n\t\t\t\tconsole.log(resposta);\n\t\t\t\tjQuery('input[name=\"estado\"]').val(resposta.uf);\n\t\t\t\tjQuery('input[name=\"cidade\"]').val(resposta.localidade);\n\t\t\t\tjQuery('input[name=\"bairro\"]').val(resposta.bairro);\n\t\t\t\tjQuery('input[name=\"endereco\"]').val(resposta.logradouro);\n\t\t\t\tjQuery('input[name=\"numero\"]').focus();\n\t\t\t}\n\t\t});\n\t});\t\t\n\tjQuery(document).ready(function($){\n\t\t$('input[name=\"your-phone\"]').mask('(00) 00000-0000');\n\t\t$('input[name=\"cep\"]').mask('00000-000');\n\t\t$('input[name=\"cart-number\"]').mask('0000 0000 0000 0000');\n\t\t$('input[name=\"expiration\"]').mask('00/0000');\n\t\t$('input[name=\"securityCode\"]').mask('000');\n\t\tvar cart_ids = [];\n\t\tvar cart_qtd = [];\n\t\tvar cart = '<table class=\"table table-striped\"><thead><th class=\"text-center\">Produto</th><th class=\"t",
+      "has_accesstage": false
+    },
+    {
+      "src": null,
+      "inline_len": 203,
+      "inline_preview": "\nvar wpcf7 = {\n    \"api\": {\n        \"root\": \"https:\\/\\/pellomenosoficialteste.companygenesis.com.br\\/wp-json\\/\",\n        \"namespace\": \"contact-form-7\\/v1\"\n    }\n};\n//# sourceURL=contact-form-7-js-before\n",
+      "has_accesstage": false
+    },
+    {
+      "src": null,
+      "inline_len": 162,
+      "inline_preview": "\nvar wpcf7cf_global_settings = {\"ajaxurl\":\"https://pellomenosoficialteste.companygenesis.com.br/wp-admin/admin-ajax.php\"};\n//# sourceURL=wpcf7cf-scripts-js-extra\n",
+      "has_accesstage": false
+    },
+    {
+      "src": "https://pellomenosoficialteste.companygenesis.com.br/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.8.3",
+      "inline_len": 0,
+      "inline_preview": "",
+      "has_accesstage": false
+    },
+    {
+      "src": null,
+      "inline_len": 889,
+      "inline_preview": "(function(){\nfunction pmBindRemoveSameOrigin(){\n  if(!window.jQuery) return;\n  var $=window.jQuery;\n  $('.removeitem').off('click');\n  $(document).off('click', '.removeitem');\n  $(document).on('click.pmSameOrigin', '.removeitem', function(e){\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    var id=$(this).data('id');\n    $.ajax({\n      type:'GET',\n      url:'/wp-admin/admin-ajax.php',\n      data:{action:'removeitemcartpl',productid:id},\n      beforeSend:function(){ $('#total').html('<br><div class=\"text-center\">Carregando...</div><br>'); },\n      success:function(){ window.location.href='/finalizar-pagamento/'; }\n    });\n  });\n}\nfunction pmBoot(){ pmBindRemoveSameOrigin(); setTimeout(pmBindRemoveSameOrigin,400); setTimeout(pmBindRemoveSameOrigin,1200); }\nif(document.readyState==='loading') document.addEventListener('DOMContentLoaded', pmBoot); else pmBoot();\n})();",
+      "has_accesstage": false
+    }
+  ],
+  "apiish_urls": [
+    "https://api.w.org/",
+    "https://api.whatsapp.com/send?phone=08002821233"
+  ]
+}

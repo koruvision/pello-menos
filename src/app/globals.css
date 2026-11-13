@@ -1,0 +1,738 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f1ec;
+  --foreground: #2a1a24;
+  --brand-primary: #700053;
+  --brand-primary-container: #4a1848;
+  --brand-on-primary-container: #f3c6ee;
+  --brand-secondary: #8a5a12;
+  --brand-secondary-container: #e8b86d;
+  --brand-on-secondary-container: #5c3d00;
+  --brand-surface-tint: #8e3f8b;
+  --brand-shadow-card: 0 18px 40px rgba(58, 10, 60, 0.08);
+}
+
+[data-audience="masculino"] {
+  --brand-primary: #1f2456;
+  --brand-primary-container: #15183a;
+  --brand-on-primary-container: #d4d8f0;
+  --brand-secondary: #b8860b;
+  --brand-secondary-container: #febb3a;
+  --brand-on-secondary-container: #3d2e00;
+  --brand-surface-tint: #3a4278;
+  --brand-shadow-card: 0 18px 40px rgba(31, 36, 86, 0.1);
+}
+
+@theme inline {
+  --color-background: #f7f1ec;
+  --color-foreground: #2a1a24;
+  --color-on-secondary-container: var(--brand-on-secondary-container);
+  --color-secondary-container: var(--brand-secondary-container);
+  --color-surface: #fbf7f3;
+  --color-on-primary: #ffffff;
+  --color-secondary: var(--brand-secondary);
+  --color-on-surface: #2a1a24;
+  --color-primary-container: var(--brand-primary-container);
+  --color-surface-container-low: #f3ece6;
+  --color-on-surface-variant: #6d5a64;
+  --color-on-tertiary-container: #a49c91;
+  --color-primary: var(--brand-primary);
+  --color-surface-tint: var(--brand-surface-tint);
+  --color-outline: #c9b8c2;
+  --color-surface-container-high: #ece3dc;
+  --color-on-background: #2a1a24;
+  --color-on-primary-container: var(--brand-on-primary-container);
+
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-display);
+
+  --text-headline-lg-mobile: 1.85rem;
+  --text-headline-lg-mobile--line-height: 2.2rem;
+  --text-headline-lg-mobile--font-weight: 500;
+  --text-headline-xl: 3.25rem;
+  --text-headline-xl--line-height: 3.5rem;
+  --text-headline-xl--letter-spacing: -0.03em;
+  --text-headline-xl--font-weight: 500;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.6rem;
+  --text-label-md: 0.75rem;
+  --text-label-md--line-height: 1rem;
+  --text-label-md--letter-spacing: 0.14em;
+  --text-label-md--font-weight: 600;
+  --text-headline-lg: 2.25rem;
+  --text-headline-lg--line-height: 2.6rem;
+  --text-headline-lg--letter-spacing: -0.02em;
+  --text-headline-lg--font-weight: 500;
+  --text-headline-md: 1.75rem;
+  --text-headline-md--line-height: 2.1rem;
+  --text-headline-md--font-weight: 500;
+  --text-label-sm: 0.7rem;
+  --text-label-sm--line-height: 1rem;
+  --text-label-sm--letter-spacing: 0.08em;
+  --text-label-sm--font-weight: 500;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+
+  --spacing-container-margin: 1.25rem;
+  --shadow-card: var(--brand-shadow-card);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-on-background);
+  min-height: 100dvh;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel-track {
+  container-type: inline-size;
+  --carousel-gap: 1rem;
+  --carousel-cols: 1;
+  display: flex;
+  gap: var(--carousel-gap);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-track--square {
+  --carousel-cols: 1;
+}
+
+@media (min-width: 640px) {
+  .carousel-track,
+  .carousel-track--square {
+    --carousel-cols: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-track:not(.carousel-track--square) {
+    --carousel-cols: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-track:not(.carousel-track--square) {
+    --carousel-cols: 4;
+  }
+
+  .carousel-track--square {
+    --carousel-cols: 3;
+  }
+}
+
+.carousel-card {
+  box-sizing: border-box;
+  flex: 0 0 calc((100cqi - (var(--carousel-cols) - 1) * var(--carousel-gap)) / var(--carousel-cols));
+  min-width: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.text-shadow {
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Pointer em toda interação clicável do e-commerce */
+a[href],
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+.btn-lux,
+input[type="submit"]:not(:disabled),
+input[type="button"]:not(:disabled),
+input[type="reset"]:not(:disabled),
+label[for],
+summary,
+select,
+[data-pm-add],
+[data-pm-related-add],
+[data-pm-upsell-add],
+[data-dec],
+[data-inc],
+[data-clear],
+[data-pm-coupon-apply],
+[data-pm-coupon-remove],
+[data-pm-more-toggle] {
+  cursor: pointer;
+}
+
+button:disabled,
+.btn-lux:disabled,
+a[aria-disabled="true"],
+[aria-disabled="true"],
+input:disabled {
+  cursor: not-allowed;
+}
+
+.btn-lux {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease,
+    filter 0.28s ease;
+}
+
+.btn-lux:hover {
+  filter: brightness(1.08);
+}
+
+.btn-lux:active {
+  filter: brightness(0.96);
+}
+
+.btn-lux-primary {
+  --shine-a: rgba(255, 244, 214, 0.32);
+  --shine-b: rgba(232, 184, 109, 0.9);
+  background-color: #700053;
+  background-image: linear-gradient(
+    120deg,
+    #3d0a38 0%,
+    #700053 26%,
+    #a12680 50%,
+    #700053 74%,
+    #4a1848 100%
+  );
+  background-size: 220% 220%;
+  animation: btn-gradient 9s ease infinite;
+  box-shadow: 0 10px 24px rgba(112, 0, 83, 0.32);
+}
+
+.btn-lux-gold {
+  --shine-a: rgba(255, 255, 255, 0.42);
+  --shine-b: rgba(255, 255, 255, 0.95);
+  background-color: #e8b86d;
+  background-image: linear-gradient(
+    120deg,
+    #8a5a12 0%,
+    #c9923a 22%,
+    #e8b86d 46%,
+    #fff4d4 60%,
+    #e8b86d 76%,
+    #c9923a 100%
+  );
+  background-size: 220% 220%;
+  animation: btn-gradient 8s ease infinite;
+  box-shadow: 0 10px 24px rgba(232, 184, 109, 0.38);
+}
+
+.btn-lux-ghost {
+  --shine-a: rgba(255, 255, 255, 0.22);
+  --shine-b: rgba(232, 184, 109, 0.75);
+  background-image: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(232, 184, 109, 0.16),
+    rgba(255, 255, 255, 0.08)
+  );
+  background-size: 200% 200%;
+  animation: btn-gradient 10s ease infinite;
+}
+
+.btn-lux::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 36%,
+    var(--shine-a, rgba(255, 255, 255, 0.35)) 47%,
+    var(--shine-b, rgba(255, 255, 255, 0.85)) 50%,
+    var(--shine-a, rgba(255, 255, 255, 0.35)) 53%,
+    transparent 64%
+  );
+  transform: translateX(-130%);
+  animation: btn-shine 6.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.btn-lux-gold::before {
+  animation-duration: 5.6s;
+}
+
+.btn-lux-ghost::before {
+  animation-duration: 7.2s;
+}
+
+/* Ícones do header: shine preso no círculo, com atraso aleatório via --shine-delay */
+.btn-lux-icon {
+  overflow: hidden;
+}
+
+.btn-lux-icon > * {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-lux-icon::before {
+  animation: btn-shine 9.6s ease-in-out infinite;
+  animation-delay: var(--shine-delay, 0s);
+}
+
+/* Toast "Fulano comprou": só desktop */
+[data-pm-purchase] {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  [data-pm-purchase] {
+    display: block;
+  }
+}
+
+/* Brilho diagonal no botão flutuante do WhatsApp */
+.pm-wa-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.pm-wa-shine > * {
+  position: relative;
+  z-index: 1;
+}
+
+.pm-wa-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    105deg,
+    transparent 36%,
+    rgba(255, 255, 255, 0.22) 47%,
+    rgba(255, 255, 255, 0.72) 50%,
+    rgba(255, 255, 255, 0.22) 53%,
+    transparent 64%
+  );
+  transform: translateX(-130%);
+  animation: btn-shine 7.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Menu mobile: painel animado sem display:none prematuro */
+.pm-menu-panel {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  transition:
+    max-height 0.34s ease,
+    opacity 0.28s ease,
+    visibility 0.28s ease;
+}
+
+.pm-menu-panel.is-open {
+  max-height: min(78vh, 720px);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+
+.pm-menu-panel [data-pm-menu-item] {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition:
+    opacity 0.28s ease,
+    transform 0.28s ease;
+}
+
+.pm-menu-panel.is-open [data-pm-menu-item] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(1) {
+  transition-delay: 40ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(2) {
+  transition-delay: 80ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(3) {
+  transition-delay: 120ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(4) {
+  transition-delay: 160ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(5) {
+  transition-delay: 200ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(6) {
+  transition-delay: 240ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(7) {
+  transition-delay: 280ms;
+}
+.pm-menu-panel.is-open [data-pm-menu-item]:nth-child(8) {
+  transition-delay: 320ms;
+}
+
+.pm-menu-overlay {
+  position: fixed;
+  inset: 0;
+  top: 0;
+  z-index: 70;
+  background: rgba(20, 4, 18, 0.42);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.22s ease, visibility 0.22s ease;
+}
+
+.pm-menu-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Cards da área Minha Conta */
+.pm-account-card {
+  border-radius: 1.5rem;
+  border: 1px solid rgba(232, 184, 109, 0.35);
+  background: linear-gradient(145deg, #5a0a4a 0%, #700053 45%, #3a0628 100%);
+  box-shadow: 0 18px 40px rgba(58, 10, 60, 0.28);
+  color: #fff;
+}
+
+.pm-account-card input:not([type="checkbox"]),
+.pm-account-card textarea {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+.pm-account-card input:not([type="checkbox"]):focus,
+.pm-account-card textarea:focus {
+  border-color: #e8b86d;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(232, 184, 109, 0.28);
+}
+
+.pm-account-card input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.pm-account-card a {
+  color: #e8b86d;
+}
+
+.pm-account-card a:hover {
+  color: #fff4d4;
+}
+
+[data-pm-cart-wrap] {
+  position: relative;
+  display: inline-flex;
+}
+
+[data-pm-cart-wrap] > [data-pm-badge] {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 3;
+}
+
+.site-footer {
+  background: linear-gradient(165deg, #5a0a4a 0%, #700053 42%, #3a0628 100%);
+}
+
+[data-audience="masculino"] .btn-lux-primary {
+  background-color: #1f2456;
+  background-image: linear-gradient(
+    120deg,
+    #12153a 0%,
+    #1f2456 26%,
+    #3a4278 50%,
+    #1f2456 74%,
+    #15183a 100%
+  );
+  box-shadow: 0 10px 24px rgba(31, 36, 86, 0.32);
+}
+
+[data-audience="masculino"] .btn-lux-gold {
+  background-color: #febb3a;
+  background-image: linear-gradient(
+    120deg,
+    #b8860b 0%,
+    #e0a428 22%,
+    #febb3a 46%,
+    #ffe9b0 60%,
+    #febb3a 76%,
+    #e0a428 100%
+  );
+  box-shadow: 0 10px 24px rgba(254, 187, 58, 0.38);
+}
+
+[data-audience="masculino"] .site-footer {
+  background: linear-gradient(165deg, #161a40 0%, #1f2456 42%, #0e1230 100%);
+}
+
+/*
+ * Pop-up promocional (CouponPopup.tsx + pm-home/promo-popup.js).
+ * Textura em CSS puro: base em degradê + padrão de pontos finos + grão (SVG feTurbulence
+ * em data-URI) numa camada ::before. Sem imagem externa; funciona no estático do WP.
+ */
+.pm-promo-side {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.pm-promo-side::before,
+.pm-promo-side::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.pm-promo-side > * {
+  position: relative;
+  z-index: 1;
+}
+
+.pm-promo-side--light {
+  background-color: #f6e9f1;
+  background-image:
+    radial-gradient(120% 90% at 100% 0%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 55%),
+    radial-gradient(90% 80% at 0% 100%, rgba(232, 184, 109, 0.28) 0%, rgba(232, 184, 109, 0) 60%),
+    linear-gradient(160deg, #fbf3f8 0%, #f6e9f1 48%, #f1dde9 100%);
+}
+
+.pm-promo-side--light::before {
+  background-image:
+    radial-gradient(rgba(179, 25, 111, 0.16) 1px, transparent 1.4px),
+    radial-gradient(rgba(232, 184, 109, 0.22) 1px, transparent 1.4px);
+  background-size:
+    18px 18px,
+    18px 18px;
+  background-position:
+    0 0,
+    9px 9px;
+  opacity: 0.55;
+  -webkit-mask-image: radial-gradient(110% 110% at 50% 50%, #000 40%, transparent 100%);
+  mask-image: radial-gradient(110% 110% at 50% 50%, #000 40%, transparent 100%);
+}
+
+.pm-promo-side--light::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.05 0 0 0 0 0.25 0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 160px 160px;
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+}
+
+.pm-promo-side--dark {
+  background-color: #0f0a0e;
+  background-image:
+    radial-gradient(110% 80% at 50% 0%, rgba(232, 184, 109, 0.28) 0%, rgba(232, 184, 109, 0) 58%),
+    radial-gradient(80% 60% at 100% 100%, rgba(179, 25, 111, 0.35) 0%, rgba(179, 25, 111, 0) 62%),
+    linear-gradient(160deg, #1a0f17 0%, #0f0a0e 50%, #080507 100%);
+}
+
+.pm-promo-side--dark::before {
+  background-image:
+    linear-gradient(135deg, rgba(232, 184, 109, 0.08) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(232, 184, 109, 0.06) 1px, transparent 1px);
+  background-size:
+    22px 22px,
+    22px 22px;
+  opacity: 0.75;
+  -webkit-mask-image: radial-gradient(120% 120% at 50% 50%, #000 30%, transparent 100%);
+  mask-image: radial-gradient(120% 120% at 50% 50%, #000 30%, transparent 100%);
+}
+
+.pm-promo-side--dark::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 160px 160px;
+  opacity: 0.12;
+  mix-blend-mode: screen;
+}
+
+/* Selo redondo com ícone no topo de cada lado */
+.pm-promo-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  margin: 0 auto 14px;
+}
+
+.pm-promo-seal--light {
+  background: linear-gradient(145deg, #ffffff 0%, #fbeaf4 100%);
+  color: #b3196f;
+  box-shadow:
+    0 10px 24px rgba(179, 25, 111, 0.18),
+    inset 0 0 0 1px rgba(179, 25, 111, 0.18);
+}
+
+.pm-promo-seal--dark {
+  background: linear-gradient(145deg, #2a1a24 0%, #15090f 100%);
+  color: #e8b86d;
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(232, 184, 109, 0.45);
+}
+
+@keyframes btn-gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes btn-shine {
+  0%,
+  8% {
+    transform: translateX(-130%);
+  }
+  22% {
+    transform: translateX(130%);
+  }
+  100% {
+    transform: translateX(130%);
+  }
+}
+
+@keyframes benefits-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.benefits-marquee {
+  animation: benefits-marquee 58s linear infinite;
+}
+
+.benefits-marquee:hover {
+  animation-play-state: paused;
+}
+
+.coupon-3d {
+  animation: coupon-float 4.8s ease-in-out infinite;
+}
+
+@keyframes coupon-float {
+  0%,
+  100% {
+    transform: translateY(0) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotateX(2deg) rotateY(-2deg);
+  }
+}
+
+.pm-clamp {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .pm-clamp {
+    -webkit-line-clamp: 4;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn-lux,
+  .btn-lux-primary,
+  .btn-lux-gold,
+  .btn-lux-ghost,
+  .btn-lux::before,
+  .pm-wa-shine::before,
+  .benefits-marquee,
+  .coupon-3d {
+    animation: none;
+  }
+
+  .pm-menu-panel,
+  .pm-menu-panel [data-pm-menu-item],
+  .pm-menu-overlay {
+    transition: none;
+  }
+
+  .pm-menu-panel [data-pm-menu-item] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Tema Shopwise: botão voltar ao topo */
+a.scrollup {
+  position: fixed;
+  right: 18px;
+  bottom: 22px;
+  z-index: 90;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  overflow: hidden;
+  text-decoration: none;
+  background: linear-gradient(145deg, #b3196f 0%, #91135a 55%, #700053 100%);
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(179, 25, 111, 0.38);
+}
+
+a.scrollup i {
+  display: none !important;
+}
+
+a.scrollup::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.45) 50%,
+    transparent 65%
+  );
+  transform: translateX(-130%);
+  animation: btn-shine 6.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+a.scrollup::after {
+  content: "";
+  position: relative;
+  z-index: 1;
+  width: 14px;
+  height: 14px;
+  background: center / contain no-repeat
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m18 15-6-6-6 6'/%3E%3C/svg%3E");
+}

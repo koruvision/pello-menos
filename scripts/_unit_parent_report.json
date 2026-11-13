@@ -1,0 +1,4461 @@
+{
+  "products_total": 73,
+  "variations_total": 1917,
+  "by_status": {
+    "PID_INEXISTENTE": 73,
+    "OK": 65,
+    "SEM_PID": 5,
+    "VARIACAO_INEXISTENTE": 3,
+    "PID_ERRADO": 3,
+    "PID_E_VARIACAO": 0
+  },
+  "rows": [
+    {
+      "key": "abdomen-cera",
+      "name": "Abdômen – Cera",
+      "declared": "24212",
+      "declared_name": null,
+      "resolved": "2285",
+      "resolved_name": "Abdômen - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "axila-cera",
+      "name": "Axila – Cera",
+      "declared": "24217",
+      "declared_name": null,
+      "resolved": "2319",
+      "resolved_name": "Axila - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "antebraco-cera",
+      "name": "Antebraço – Cera",
+      "declared": "24209",
+      "declared_name": null,
+      "resolved": "2250",
+      "resolved_name": "Antebraço - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "bracos-cera",
+      "name": "Braços – Cera",
+      "declared": "24260",
+      "declared_name": null,
+      "resolved": "5232",
+      "resolved_name": "Braços - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "buco-cera",
+      "name": "Buço – Cera",
+      "declared": "2076",
+      "declared_name": "Buço - Cera",
+      "resolved": "2076",
+      "resolved_name": "Buço - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-cera",
+      "name": "Costas – Cera",
+      "declared": "24221",
+      "declared_name": null,
+      "resolved": "3565",
+      "resolved_name": "Costas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "coxa-cera",
+      "name": "Coxa – Cera",
+      "declared": "24225",
+      "declared_name": null,
+      "resolved": "3601",
+      "resolved_name": "Coxa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "faixa-cera",
+      "name": "Faixa – Cera",
+      "declared": "24229",
+      "declared_name": null,
+      "resolved": "3674",
+      "resolved_name": "Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "intergluteos-cera",
+      "name": "Interglúteos – Cera",
+      "declared": "3741",
+      "declared_name": "Interglúteos - Cera",
+      "resolved": "3741",
+      "resolved_name": "Interglúteos - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-cera",
+      "name": "Nariz – Cera",
+      "declared": "3803",
+      "declared_name": "Nariz - Cera",
+      "resolved": "3803",
+      "resolved_name": "Nariz - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-cera",
+      "name": "Nádegas Completas – Cera",
+      "declared": "24236",
+      "declared_name": null,
+      "resolved": "3908",
+      "resolved_name": "Nádegas Completas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "meia-nadega-cera",
+      "name": "Meia Nádega – Cera",
+      "declared": "24233",
+      "declared_name": null,
+      "resolved": "3843",
+      "resolved_name": "Meia Nádega - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "perna-cera",
+      "name": "Perna Inteira – Cera",
+      "declared": "24240",
+      "declared_name": null,
+      "resolved": "3973",
+      "resolved_name": "Perna Inteira - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "meia-perna-cera",
+      "name": "Meia Perna – Cera",
+      "declared": "24244",
+      "declared_name": null,
+      "resolved": "4013",
+      "resolved_name": "Meia Perna - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "queixo-cera",
+      "name": "Queixo – Cera",
+      "declared": "4075",
+      "declared_name": "Queixo - Cera",
+      "resolved": "4075",
+      "resolved_name": "Queixo - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "seios-cera",
+      "name": "Seios – Cera",
+      "declared": "24256",
+      "declared_name": null,
+      "resolved": "4114",
+      "resolved_name": "Seios - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "virilha-comum-cera",
+      "name": "Virilha Comum – Cera",
+      "declared": "4282",
+      "declared_name": "Virilha Comum - Cera",
+      "resolved": "4282",
+      "resolved_name": "Virilha Comum - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-faixa-cera",
+      "name": "Virilha Comum + Faixa – Cera",
+      "declared": "24258",
+      "declared_name": null,
+      "resolved": "4347",
+      "resolved_name": "Virilha Comum + Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "virilha-cavada-cera",
+      "name": "Virilha Cavada – Cera",
+      "declared": "4382",
+      "declared_name": "Virilha Cavada - Cera",
+      "resolved": "4382",
+      "resolved_name": "Virilha Cavada - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-faixa-cera",
+      "name": "Virilha Cavada + Faixa – Cera",
+      "declared": "4453",
+      "declared_name": "Virilha Cavada + Faixa - Cera",
+      "resolved": "4453",
+      "resolved_name": "Virilha Cavada + Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-modelada-cera",
+      "name": "Virilha Modelada – Cera",
+      "declared": "4177",
+      "declared_name": "Virilha Modelada - Cera",
+      "resolved": "4177",
+      "resolved_name": "Virilha Modelada - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cera",
+      "name": "Virilha Total – Cera",
+      "declared": "24248",
+      "declared_name": null,
+      "resolved": "4213",
+      "resolved_name": "Virilha Total - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "labios-genitais-cera",
+      "name": "Lábios Genitais – Cera",
+      "declared": "4585",
+      "declared_name": "Lábios Genitais - Cera",
+      "resolved": "4585",
+      "resolved_name": "Lábios Genitais - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-cera",
+      "name": "Sobrancelha – Cera",
+      "declared": "4619",
+      "declared_name": "Sobrancelha - Cera",
+      "resolved": "4619",
+      "resolved_name": "Sobrancelha - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-realce-cera",
+      "name": "Sobrancelha + Realce – Cera",
+      "declared": "4653",
+      "declared_name": "Sobrancelha + Realce - Cera",
+      "resolved": "4653",
+      "resolved_name": "Sobrancelha + Realce - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-henna-simples",
+      "name": "Sobrancelha Simples + Henna",
+      "declared": "4857",
+      "declared_name": "Sobrancelha Simples + Henna",
+      "resolved": "4857",
+      "resolved_name": "Sobrancelha Simples + Henna",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "design-sobrancelha",
+      "name": "Design de Sobrancelha – Cera",
+      "declared": "4723",
+      "declared_name": "Design de Sobrancelha - Cera",
+      "resolved": "4723",
+      "resolved_name": "Design de Sobrancelha - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "design-sobrancelha-realce",
+      "name": "Design de Sobrancelha + Realce – Cera",
+      "declared": "4789",
+      "declared_name": "Design de Sobrancelha + Realce - Cera",
+      "resolved": "4789",
+      "resolved_name": "Design de Sobrancelha + Realce - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "sobrancelha-henna",
+      "name": "Design de Sobrancelha + Henna Feminino",
+      "declared": "4687",
+      "declared_name": "Design de Sobrancelha + Henna Feminino",
+      "resolved": "4687",
+      "resolved_name": "Design de Sobrancelha + Henna Feminino",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "realce",
+      "name": "Realce",
+      "declared": "4896",
+      "declared_name": "Realce",
+      "resolved": "4896",
+      "resolved_name": "Realce",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "henna",
+      "name": "Henna",
+      "declared": "4964",
+      "declared_name": "Henna",
+      "resolved": "4964",
+      "resolved_name": "Henna",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "tintura-pelos-pubianos",
+      "name": "Tintura de Pelos Pubianos",
+      "declared": "",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "SEM_PID"
+    },
+    {
+      "key": "buco-linha",
+      "name": "Buço – Linha",
+      "declared": "16394",
+      "declared_name": "Buço - Linha",
+      "resolved": "16394",
+      "resolved_name": "Buço - Linha",
+      "units": 35,
+      "missing": [
+        "48384",
+        "48385"
+      ],
+      "status": "VARIACAO_INEXISTENTE"
+    },
+    {
+      "key": "queixo-linha",
+      "name": "Queixo – Linha",
+      "declared": "17216",
+      "declared_name": "Queixo - Linha",
+      "resolved": "17216",
+      "resolved_name": "Queixo - Linha",
+      "units": 35,
+      "missing": [
+        "48386",
+        "48387"
+      ],
+      "status": "VARIACAO_INEXISTENTE"
+    },
+    {
+      "key": "faixa-linha",
+      "name": "Faixa – Linha",
+      "declared": "17255",
+      "declared_name": "Faixa - Linha",
+      "resolved": "17255",
+      "resolved_name": "Faixa - Linha",
+      "units": 35,
+      "missing": [
+        "48388",
+        "48389"
+      ],
+      "status": "VARIACAO_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-faixa",
+      "name": "Esfoliação Faixa 01",
+      "declared": "24230",
+      "declared_name": null,
+      "resolved": "3674",
+      "resolved_name": "Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-meio-braco",
+      "name": "Esfoliação de meio braço",
+      "declared": "24210",
+      "declared_name": null,
+      "resolved": "2250",
+      "resolved_name": "Antebraço - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-braco",
+      "name": "Esfoliação de braço",
+      "declared": "24261",
+      "declared_name": null,
+      "resolved": "5232",
+      "resolved_name": "Braços - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-meia-perna",
+      "name": "Esfoliação de meia perna",
+      "declared": "24245",
+      "declared_name": null,
+      "resolved": "4013",
+      "resolved_name": "Meia Perna - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-abdomen",
+      "name": "Esfoliação de abdômen",
+      "declared": "24213",
+      "declared_name": null,
+      "resolved": "2285",
+      "resolved_name": "Abdômen - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-axilas",
+      "name": "Esfoliação de axilas",
+      "declared": "24218",
+      "declared_name": null,
+      "resolved": "2319",
+      "resolved_name": "Axila - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-nadegas",
+      "name": "Esfoliação de nádegas",
+      "declared": "24237",
+      "declared_name": null,
+      "resolved": "3908",
+      "resolved_name": "Nádegas Completas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-meia-nadega",
+      "name": "Esfoliação de meia nádega",
+      "declared": "24234",
+      "declared_name": null,
+      "resolved": "3843",
+      "resolved_name": "Meia Nádega - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-coxa",
+      "name": "Esfoliação de coxa",
+      "declared": "24226",
+      "declared_name": null,
+      "resolved": "3601",
+      "resolved_name": "Coxa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-costas",
+      "name": "Esfoliação de costas",
+      "declared": "24222",
+      "declared_name": null,
+      "resolved": "3565",
+      "resolved_name": "Costas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-perna",
+      "name": "Esfoliação de perna inteira",
+      "declared": "24241",
+      "declared_name": null,
+      "resolved": "3973",
+      "resolved_name": "Perna Inteira - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-virilha",
+      "name": "Esfoliação de virilha",
+      "declared": "24249",
+      "declared_name": null,
+      "resolved": "4213",
+      "resolved_name": "Virilha Total - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-virilha-faixa",
+      "name": "Esfoliação de virilha + faixa",
+      "declared": "24259",
+      "declared_name": null,
+      "resolved": "4347",
+      "resolved_name": "Virilha Comum + Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-seios",
+      "name": "Esfoliação de seios",
+      "declared": "24257",
+      "declared_name": null,
+      "resolved": "4114",
+      "resolved_name": "Seios - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "axilas-laser",
+      "name": "Axilas Laser",
+      "declared": "8650",
+      "declared_name": "Axilas Laser",
+      "resolved": "8650",
+      "resolved_name": "Axilas Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "areola-laser",
+      "name": "Aréola Laser",
+      "declared": "9659",
+      "declared_name": "Aréola Laser",
+      "resolved": "9659",
+      "resolved_name": "Aréola Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "buco-laser",
+      "name": "Buço Laser",
+      "declared": "24271",
+      "declared_name": null,
+      "resolved": "10271",
+      "resolved_name": "Buço Laser",
+      "units": 17,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "virilha-laser",
+      "name": "Virilha Total Laser",
+      "declared": "9727",
+      "declared_name": "Virilha Total Laser",
+      "resolved": "9863",
+      "resolved_name": "Virilha Comum Laser",
+      "units": 17,
+      "missing": [],
+      "status": "PID_ERRADO"
+    },
+    {
+      "key": "virilha-comum-laser",
+      "name": "Virilha Comum Laser",
+      "declared": "9863",
+      "declared_name": "Virilha Comum Laser",
+      "resolved": "9863",
+      "resolved_name": "Virilha Comum Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-laser",
+      "name": "Virilha Cavada Laser",
+      "declared": "9795",
+      "declared_name": "Virilha Cavada Laser",
+      "resolved": "9795",
+      "resolved_name": "Virilha Cavada Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cavada-faixa-laser",
+      "name": "Virilha Cavada c/ Faixa Laser",
+      "declared": "9761",
+      "declared_name": "Virilha Cavada c/ Faixa Laser",
+      "resolved": "9761",
+      "resolved_name": "Virilha Cavada c/ Faixa Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-faixa-laser",
+      "name": "Virilha Comum + Faixa Laser",
+      "declared": "9829",
+      "declared_name": "Virilha c/ Faixa Laser",
+      "resolved": "9829",
+      "resolved_name": "Virilha c/ Faixa Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-laser",
+      "name": "Perna Inteira Laser",
+      "declared": "9931",
+      "declared_name": "Perna Inteira Laser",
+      "resolved": "9931",
+      "resolved_name": "Perna Inteira Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-laser",
+      "name": "Meia Perna Laser",
+      "declared": "9897",
+      "declared_name": "Meia Perna Laser",
+      "resolved": "9897",
+      "resolved_name": "Meia Perna Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxas-laser",
+      "name": "Coxas Inteiras Laser",
+      "declared": "9965",
+      "declared_name": "Coxas Laser",
+      "resolved": "9965",
+      "resolved_name": "Coxas Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-laser",
+      "name": "Braços Inteiros Laser",
+      "declared": "9591",
+      "declared_name": "Braços Inteiros Laser",
+      "resolved": "9591",
+      "resolved_name": "Braços Inteiros Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-laser",
+      "name": "Antebraço Laser",
+      "declared": "9557",
+      "declared_name": "Antebraço Laser",
+      "resolved": "9557",
+      "resolved_name": "Antebraço Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "abdomen-laser",
+      "name": "Abdômen Laser",
+      "declared": "24267",
+      "declared_name": null,
+      "resolved": "9625",
+      "resolved_name": "Abdômen Laser",
+      "units": 17,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "costas-laser",
+      "name": "Costas Laser",
+      "declared": "9523",
+      "declared_name": "Costas Laser",
+      "resolved": "9523",
+      "resolved_name": "Costas Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-laser",
+      "name": "Queixo Laser",
+      "declared": "10305",
+      "declared_name": "Queixo Laser",
+      "resolved": "10305",
+      "resolved_name": "Queixo Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "pescoco-laser",
+      "name": "Pescoço Laser",
+      "declared": "9208",
+      "declared_name": "Pescoço Laser",
+      "resolved": "9208",
+      "resolved_name": "Pescoço Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-laser",
+      "name": "Nariz Laser",
+      "declared": "9276",
+      "declared_name": "Nariz Laser",
+      "resolved": "9276",
+      "resolved_name": "Nariz Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "orelhas-laser",
+      "name": "Orelhas Laser",
+      "declared": "9242",
+      "declared_name": "Orelhas Laser",
+      "resolved": "9242",
+      "resolved_name": "Orelhas Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "rosto-inteiro-laser",
+      "name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "declared": "24264",
+      "declared_name": null,
+      "resolved": "9173",
+      "resolved_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units": 17,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "intergluteos-laser",
+      "name": "Interglúteos Laser",
+      "declared": "9693",
+      "declared_name": "Interglúteos Laser",
+      "resolved": "9693",
+      "resolved_name": "Interglúteos Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-laser",
+      "name": "Meia Nádega Laser",
+      "declared": "9310",
+      "declared_name": "Meia Nádega Laser",
+      "resolved": "9310",
+      "resolved_name": "Meia Nádega Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-laser",
+      "name": "Nádegas Laser",
+      "declared": "9345",
+      "declared_name": "Nádegas Laser",
+      "resolved": "9345",
+      "resolved_name": "Nádegas Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-p-laser",
+      "name": "PSD P Laser (até 10 cm)",
+      "declared": "9447",
+      "declared_name": "PSD P Laser",
+      "resolved": "9447",
+      "resolved_name": "PSD P Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-m-laser",
+      "name": "PSD M Laser (até 20 cm)",
+      "declared": "9413",
+      "declared_name": "PSD M Laser",
+      "resolved": "9413",
+      "resolved_name": "PSD M Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-g-laser",
+      "name": "PSD G Laser (a partir de 21 cm)",
+      "declared": "9379",
+      "declared_name": "PSD G Laser",
+      "resolved": "9379",
+      "resolved_name": "PSD G Laser",
+      "units": 17,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "body-splash-livre",
+      "name": "Body Splash - Livre",
+      "declared": "24206",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "body-splash-marcante",
+      "name": "Body Splash - Marcante",
+      "declared": "24207",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "body-splash-autentica",
+      "name": "Body Splash - Autêntica",
+      "declared": "24208",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "cartao-presente",
+      "name": "Gift Card R$ 79,99",
+      "declared": "",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "SEM_PID"
+    },
+    {
+      "key": "cartao-presente-160",
+      "name": "Gift Card R$ 160,00",
+      "declared": "",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "SEM_PID"
+    },
+    {
+      "key": "cartao-presente-215",
+      "name": "Gift Card R$ 215,00",
+      "declared": "",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "SEM_PID"
+    },
+    {
+      "key": "cartao-presente-290",
+      "name": "Gift Card R$ 290,00",
+      "declared": "",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "SEM_PID"
+    },
+    {
+      "key": "plano-silver",
+      "name": "Plano de Assinatura VIP – Silver",
+      "declared": "8176",
+      "declared_name": "Plano de Assinatura VIP - Silver",
+      "resolved": "8176",
+      "resolved_name": "Plano de Assinatura VIP - Silver",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "plano-gold",
+      "name": "Plano de Assinatura VIP – Gold",
+      "declared": "24195",
+      "declared_name": "Plano de Assinatura VIP - Gold",
+      "resolved": "24195",
+      "resolved_name": "Plano de Assinatura VIP - Gold",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "plano-clube-laser",
+      "name": "Clube do Laser",
+      "declared": "5285",
+      "declared_name": "Clube do Laser",
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "plano-prepago",
+      "name": "Pré-pago Pello Menos",
+      "declared": "11403",
+      "declared_name": "Pré-pago Pello Menos",
+      "resolved": "11403",
+      "resolved_name": "Pré-pago Pello Menos",
+      "units": 35,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "peito-cera-masc",
+      "name": "Peito – Cera",
+      "declared": "24214",
+      "declared_name": null,
+      "resolved": "2285",
+      "resolved_name": "Abdômen - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "abdomen-cera-masc",
+      "name": "Abdômen – Cera",
+      "declared": "24215",
+      "declared_name": null,
+      "resolved": "2285",
+      "resolved_name": "Abdômen - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "axila-cera-masc",
+      "name": "Axila – Cera",
+      "declared": "24219",
+      "declared_name": null,
+      "resolved": "2319",
+      "resolved_name": "Axila - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "antebraco-cera-masc",
+      "name": "Antebraço – Cera",
+      "declared": "24211",
+      "declared_name": null,
+      "resolved": "2250",
+      "resolved_name": "Antebraço - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "bracos-cera-masc",
+      "name": "Braços – Cera",
+      "declared": "24262",
+      "declared_name": null,
+      "resolved": "5232",
+      "resolved_name": "Braços - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "costas-cera-masc",
+      "name": "Costas – Cera",
+      "declared": "24223",
+      "declared_name": null,
+      "resolved": "3565",
+      "resolved_name": "Costas - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "coxa-cera-masc",
+      "name": "Coxa – Cera",
+      "declared": "24227",
+      "declared_name": null,
+      "resolved": "3601",
+      "resolved_name": "Coxa - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "faixa-cera-masc",
+      "name": "Faixa – Cera",
+      "declared": "24231",
+      "declared_name": null,
+      "resolved": "3674",
+      "resolved_name": "Faixa - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "intergluteos-cera-masc",
+      "name": "Interglúteos – Cera",
+      "declared": "3741",
+      "declared_name": "Interglúteos - Cera",
+      "resolved": "3741",
+      "resolved_name": "Interglúteos - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nariz-cera-masc",
+      "name": "Nariz – Cera",
+      "declared": "3803",
+      "declared_name": "Nariz - Cera",
+      "resolved": "3803",
+      "resolved_name": "Nariz - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-cera-masc",
+      "name": "Nádegas – Cera",
+      "declared": "24238",
+      "declared_name": null,
+      "resolved": "3908",
+      "resolved_name": "Nádegas Completas - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "meia-nadega-cera-masc",
+      "name": "Meia nádega – Cera",
+      "declared": "24235",
+      "declared_name": null,
+      "resolved": "3843",
+      "resolved_name": "Meia Nádega - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "perna-cera-masc",
+      "name": "Perna Inteira – Cera",
+      "declared": "24242",
+      "declared_name": null,
+      "resolved": "3973",
+      "resolved_name": "Perna Inteira - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "meia-perna-cera-masc",
+      "name": "Meia Perna – Cera",
+      "declared": "24246",
+      "declared_name": null,
+      "resolved": "4013",
+      "resolved_name": "Meia Perna - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "queixo-cera-masc",
+      "name": "Queixo – Cera",
+      "declared": "4075",
+      "declared_name": "Queixo - Cera",
+      "resolved": "4075",
+      "resolved_name": "Queixo - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-comum-cera-masc",
+      "name": "Virilha comum – Cera",
+      "declared": "4282",
+      "declared_name": "Virilha Comum - Cera",
+      "resolved": "4282",
+      "resolved_name": "Virilha Comum - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-cera-masc",
+      "name": "Virilha Total – Cera",
+      "declared": "24250",
+      "declared_name": null,
+      "resolved": "4213",
+      "resolved_name": "Virilha Total - Cera",
+      "units": 13,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "barba-cera-masc",
+      "name": "Barba – Cera",
+      "declared": "24196",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "barba-modeladora-cera-masc",
+      "name": "Barba Modeladora – Cera",
+      "declared": "24197",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "bigode-cera-masc",
+      "name": "Bigode – Cera",
+      "declared": "24198",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "orelha-cera-masc",
+      "name": "Orelha – Cera",
+      "declared": "24199",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "pescoco-cera-masc",
+      "name": "Pescoço – Cera",
+      "declared": "24200",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "mamilos-cera-masc",
+      "name": "Mamilos – Cera",
+      "declared": "24201",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "sobrancelha-cera-masc",
+      "name": "Sobrancelha – Cera",
+      "declared": "24202",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "design-sobrancelha-masc",
+      "name": "Design de Sobrancelha – Cera",
+      "declared": "24203",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "torax-abdomen-cera-masc",
+      "name": "Tórax + Abdômen – Cera",
+      "declared": "24204",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "saco-escrotal-cera-masc",
+      "name": "Saco Escrotal – Cera",
+      "declared": "24205",
+      "declared_name": null,
+      "resolved": "",
+      "resolved_name": null,
+      "units": 0,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-faixa-masc",
+      "name": "Esfoliação Faixa 01",
+      "declared": "24232",
+      "declared_name": null,
+      "resolved": "3674",
+      "resolved_name": "Faixa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-braco-masc",
+      "name": "Esfoliação de braço",
+      "declared": "24263",
+      "declared_name": null,
+      "resolved": "5232",
+      "resolved_name": "Braços - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-meia-perna-masc",
+      "name": "Esfoliação de meia perna",
+      "declared": "24247",
+      "declared_name": null,
+      "resolved": "4013",
+      "resolved_name": "Meia Perna - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-abdomen-masc",
+      "name": "Esfoliação de abdômen",
+      "declared": "24216",
+      "declared_name": null,
+      "resolved": "2285",
+      "resolved_name": "Abdômen - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-axilas-masc",
+      "name": "Esfoliação de axilas",
+      "declared": "24220",
+      "declared_name": null,
+      "resolved": "2319",
+      "resolved_name": "Axila - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-nadegas-masc",
+      "name": "Esfoliação de nádegas",
+      "declared": "24239",
+      "declared_name": null,
+      "resolved": "3908",
+      "resolved_name": "Nádegas Completas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-coxa-masc",
+      "name": "Esfoliação de coxa",
+      "declared": "24228",
+      "declared_name": null,
+      "resolved": "3601",
+      "resolved_name": "Coxa - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-costas-masc",
+      "name": "Esfoliação de costas",
+      "declared": "24224",
+      "declared_name": null,
+      "resolved": "3565",
+      "resolved_name": "Costas - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-perna-masc",
+      "name": "Esfoliação de perna inteira",
+      "declared": "24243",
+      "declared_name": null,
+      "resolved": "3973",
+      "resolved_name": "Perna Inteira - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "esfoliacao-virilha-masc",
+      "name": "Esfoliação de virilha",
+      "declared": "24251",
+      "declared_name": null,
+      "resolved": "4213",
+      "resolved_name": "Virilha Total - Cera",
+      "units": 35,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "axilas-laser-masc",
+      "name": "Axila Laser",
+      "declared": "8650",
+      "declared_name": "Axilas Laser",
+      "resolved": "8650",
+      "resolved_name": "Axilas Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "peito-laser-masc",
+      "name": "Tórax Laser",
+      "declared": "24268",
+      "declared_name": null,
+      "resolved": "9625",
+      "resolved_name": "Abdômen Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "abdomen-laser-masc",
+      "name": "Abdômen Laser",
+      "declared": "24269",
+      "declared_name": null,
+      "resolved": "9625",
+      "resolved_name": "Abdômen Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "torax-abdomen-laser-masc",
+      "name": "Tórax + Abdômen Laser",
+      "declared": "24270",
+      "declared_name": null,
+      "resolved": "9625",
+      "resolved_name": "Abdômen Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "mamilo-laser-masc",
+      "name": "Mamilo Laser",
+      "declared": "9659",
+      "declared_name": "Aréola Laser",
+      "resolved": "9659",
+      "resolved_name": "Aréola Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "costas-laser-masc",
+      "name": "Costas Laser",
+      "declared": "9523",
+      "declared_name": "Costas Laser",
+      "resolved": "9523",
+      "resolved_name": "Costas Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "bracos-laser-masc",
+      "name": "Braço Laser",
+      "declared": "9591",
+      "declared_name": "Braços Inteiros Laser",
+      "resolved": "9591",
+      "resolved_name": "Braços Inteiros Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "antebraco-laser-masc",
+      "name": "Antebraço Laser",
+      "declared": "9557",
+      "declared_name": "Antebraço Laser",
+      "resolved": "9557",
+      "resolved_name": "Antebraço Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "coxa-laser-masc",
+      "name": "Coxa Laser",
+      "declared": "9965",
+      "declared_name": "Coxas Laser",
+      "resolved": "9965",
+      "resolved_name": "Coxas Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "nadegas-laser-masc",
+      "name": "Nádegas Laser",
+      "declared": "9345",
+      "declared_name": "Nádegas Laser",
+      "resolved": "9345",
+      "resolved_name": "Nádegas Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-nadega-laser-masc",
+      "name": "Meia Nádega Laser",
+      "declared": "9310",
+      "declared_name": "Meia Nádega Laser",
+      "resolved": "9310",
+      "resolved_name": "Meia Nádega Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "meia-perna-laser-masc",
+      "name": "Meia Perna Laser",
+      "declared": "9897",
+      "declared_name": "Meia Perna Laser",
+      "resolved": "9897",
+      "resolved_name": "Meia Perna Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "perna-laser-masc",
+      "name": "Perna Inteira Laser",
+      "declared": "9931",
+      "declared_name": "Perna Inteira Laser",
+      "resolved": "9931",
+      "resolved_name": "Perna Inteira Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "pescoco-laser-masc",
+      "name": "Pescoço Laser",
+      "declared": "9208",
+      "declared_name": "Pescoço Laser",
+      "resolved": "9208",
+      "resolved_name": "Pescoço Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "intergluteos-laser-masc",
+      "name": "Interglúteos Laser",
+      "declared": "9693",
+      "declared_name": "Interglúteos Laser",
+      "resolved": "9693",
+      "resolved_name": "Interglúteos Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "virilha-laser-masc",
+      "name": "Virilha Laser",
+      "declared": "9727",
+      "declared_name": "Virilha Total Laser",
+      "resolved": "9863",
+      "resolved_name": "Virilha Comum Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_ERRADO"
+    },
+    {
+      "key": "virilha-total-laser-masc",
+      "name": "Virilha Total Laser",
+      "declared": "9727",
+      "declared_name": "Virilha Total Laser",
+      "resolved": "9863",
+      "resolved_name": "Virilha Comum Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_ERRADO"
+    },
+    {
+      "key": "barba-laser-masc",
+      "name": "Barba Laser",
+      "declared": "24265",
+      "declared_name": null,
+      "resolved": "9173",
+      "resolved_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "bigode-laser-masc",
+      "name": "Bigode Laser",
+      "declared": "24272",
+      "declared_name": null,
+      "resolved": "10271",
+      "resolved_name": "Buço Laser",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "nariz-laser-masc",
+      "name": "Nariz Laser",
+      "declared": "9276",
+      "declared_name": "Nariz Laser",
+      "resolved": "9276",
+      "resolved_name": "Nariz Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "orelhas-laser-masc",
+      "name": "Orelhas Laser",
+      "declared": "9242",
+      "declared_name": "Orelhas Laser",
+      "resolved": "9242",
+      "resolved_name": "Orelhas Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "queixo-laser-masc",
+      "name": "Queixo Laser",
+      "declared": "10305",
+      "declared_name": "Queixo Laser",
+      "resolved": "10305",
+      "resolved_name": "Queixo Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "rosto-inteiro-laser-masc",
+      "name": "Rosto Inteiro Laser (Barba + NZ + PSD P)",
+      "declared": "24266",
+      "declared_name": null,
+      "resolved": "9173",
+      "resolved_name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "units": 10,
+      "missing": [],
+      "status": "PID_INEXISTENTE"
+    },
+    {
+      "key": "psd-p-laser-masc",
+      "name": "PSD P Laser (até 10 cm)",
+      "declared": "9447",
+      "declared_name": "PSD P Laser",
+      "resolved": "9447",
+      "resolved_name": "PSD P Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-m-laser-masc",
+      "name": "PSD M Laser (até 20 cm)",
+      "declared": "9413",
+      "declared_name": "PSD M Laser",
+      "resolved": "9413",
+      "resolved_name": "PSD M Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    },
+    {
+      "key": "psd-g-laser-masc",
+      "name": "PSD G Laser (a partir de 21 cm)",
+      "declared": "9379",
+      "declared_name": "PSD G Laser",
+      "resolved": "9379",
+      "resolved_name": "PSD G Laser",
+      "units": 10,
+      "missing": [],
+      "status": "OK"
+    }
+  ],
+  "collisions": {
+    "40122": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "38298": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "23139": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "14718": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "12939": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "10886": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "10885": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "10884": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2318": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2317": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2316": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2315": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2313": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2312": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2311": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2310": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2309": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2306": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2305": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2304": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2302": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2301": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2300": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2299": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2297": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2296": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2295": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2294": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2292": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2291": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2290": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2289": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2288": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "peito-cera-masc",
+      "abdomen-cera-masc",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2287": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "2286": [
+      "abdomen-cera",
+      "esfoliacao-abdomen",
+      "esfoliacao-abdomen-masc"
+    ],
+    "40121": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "38297": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "23138": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "22029": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "14717": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12978": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12975": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12974": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12973": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12970": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12968": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12966": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12965": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12964": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12963": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12962": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12961": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12960": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12959": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12958": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12956": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12955": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12954": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12953": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12952": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12951": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12950": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12949": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12948": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12947": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12946": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12945": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12943": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "axila-cera-masc",
+      "esfoliacao-axilas-masc"
+    ],
+    "12942": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "12941": [
+      "axila-cera",
+      "esfoliacao-axilas",
+      "esfoliacao-axilas-masc"
+    ],
+    "40123": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "38299": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "23140": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "14719": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "12938": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "10902": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "10901": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "10900": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2283": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2282": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2281": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2280": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2278": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2277": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2276": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2275": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2274": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2271": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2270": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2269": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2267": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2266": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2265": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2264": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2262": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2261": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2260": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2259": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2257": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2256": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2255": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2254": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2253": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco",
+      "antebraco-cera-masc"
+    ],
+    "2252": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "2251": [
+      "antebraco-cera",
+      "esfoliacao-meio-braco"
+    ],
+    "40080": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "40065": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "40064": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "38273": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "23108": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15858": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15857": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15855": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15854": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15851": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15849": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15848": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15847": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15846": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15845": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15844": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15842": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15841": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15839": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15838": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15836": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15835": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15834": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15833": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15832": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15831": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15830": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15829": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15827": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15826": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15825": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15824": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15822": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "bracos-cera-masc",
+      "esfoliacao-braco-masc"
+    ],
+    "15821": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "15820": [
+      "bracos-cera",
+      "esfoliacao-braco",
+      "esfoliacao-braco-masc"
+    ],
+    "40120": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "38296": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "23137": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "22149": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "14716": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "13016": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13013": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13012": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "13011": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13008": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13006": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "13004": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "13003": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13002": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13001": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "13000": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12999": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12998": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12997": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12996": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12994": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12993": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12992": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12991": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12990": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12989": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12988": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12987": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12986": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12985": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12984": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12983": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12981": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "costas-cera-masc",
+      "esfoliacao-costas-masc"
+    ],
+    "12980": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "12979": [
+      "costas-cera",
+      "esfoliacao-costas",
+      "esfoliacao-costas-masc"
+    ],
+    "42884": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "38295": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "23141": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "22148": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "14715": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13054": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13051": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13050": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13049": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13046": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13044": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13042": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13041": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13040": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13039": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13038": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13037": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13036": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13035": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13034": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13032": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13031": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13030": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13029": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13028": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13027": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13026": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13025": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13024": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13023": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13022": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13021": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13019": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "coxa-cera-masc",
+      "esfoliacao-coxa-masc"
+    ],
+    "13018": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "13017": [
+      "coxa-cera",
+      "esfoliacao-coxa",
+      "esfoliacao-coxa-masc"
+    ],
+    "40119": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "38294": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "23136": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "22147": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "14714": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13092": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13089": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13088": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13087": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13084": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13082": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13080": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13079": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13078": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13077": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13076": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13075": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13074": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13073": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13072": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13070": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13069": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13068": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13067": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13066": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13065": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13064": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13063": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13062": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13061": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13060": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13059": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13057": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "faixa-cera-masc",
+      "esfoliacao-faixa-masc"
+    ],
+    "13056": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "13055": [
+      "faixa-cera",
+      "esfoliacao-faixa",
+      "esfoliacao-faixa-masc"
+    ],
+    "40115": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "38289": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "33977": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "33976": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "23131": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "15201": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13626": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13622": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13621": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13618": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13616": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13614": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13613": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13612": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13611": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13610": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13609": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13608": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13607": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13606": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13604": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13603": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13602": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13601": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13600": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13599": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13598": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13597": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13596": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13595": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13594": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13593": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13591": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "nadegas-cera-masc",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13590": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "13589": [
+      "nadegas-cera",
+      "esfoliacao-nadegas",
+      "esfoliacao-nadegas-masc"
+    ],
+    "40116": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "38290": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34252": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34251": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34250": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34249": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34248": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34245": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34244": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34243": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34242": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34241": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34240": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34239": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34238": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34237": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34236": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34234": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34233": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34232": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34231": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34230": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34229": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34228": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34227": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34226": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34225": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34224": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34223": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34222": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34221": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34220": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34218": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega",
+      "meia-nadega-cera-masc"
+    ],
+    "34217": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "34216": [
+      "meia-nadega-cera",
+      "esfoliacao-meia-nadega"
+    ],
+    "40114": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "38288": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "23130": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "22142": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "14709": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13588": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13585": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13584": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13583": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13580": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13578": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13576": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13575": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13574": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13573": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13572": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13571": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13570": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13569": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13568": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13566": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13565": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13564": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13563": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13562": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13561": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13560": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13559": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13558": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13557": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13556": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13555": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13553": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "perna-cera-masc",
+      "esfoliacao-perna-masc"
+    ],
+    "13552": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "13551": [
+      "perna-cera",
+      "esfoliacao-perna",
+      "esfoliacao-perna-masc"
+    ],
+    "40113": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "38287": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "23129": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "22141": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "14708": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13550": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13547": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13546": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13545": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13542": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13540": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13538": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13537": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13536": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13535": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13534": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13533": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13532": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13531": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13530": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13528": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13527": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13526": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13525": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13524": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13523": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13522": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13521": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13520": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13519": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13518": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13517": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13515": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "meia-perna-cera-masc",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13514": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "13513": [
+      "meia-perna-cera",
+      "esfoliacao-meia-perna",
+      "esfoliacao-meia-perna-masc"
+    ],
+    "40111": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "40110": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "23126": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "22139": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "14706": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13474": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13471": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13470": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13469": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13466": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13464": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13462": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13461": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13460": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13459": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13458": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13457": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13456": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13455": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13454": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13452": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13451": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13450": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13449": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13448": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13447": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13446": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13445": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13444": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13443": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13442": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13441": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13439": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13438": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "13437": [
+      "seios-cera",
+      "esfoliacao-seios"
+    ],
+    "40108": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "40107": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "38277": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "23121": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "22135": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "14703": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13322": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13318": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13317": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13314": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13312": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13310": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13309": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13308": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13307": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13306": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13305": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13304": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13303": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13302": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13300": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13299": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13298": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13297": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13296": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13295": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13294": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13293": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13292": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13291": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13290": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13289": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13287": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13286": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "13285": [
+      "virilha-comum-faixa-cera",
+      "esfoliacao-virilha-faixa"
+    ],
+    "38279": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25273": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25271": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25270": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25269": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25268": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25265": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25264": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25263": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25262": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25261": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25260": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25259": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25258": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25257": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25256": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25254": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25253": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25252": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25251": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25250": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25249": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25248": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25247": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25246": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25245": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25244": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25243": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25242": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25241": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25240": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25239": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25238": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "virilha-cera-masc",
+      "esfoliacao-virilha-masc"
+    ],
+    "25237": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "25236": [
+      "virilha-cera",
+      "esfoliacao-virilha",
+      "esfoliacao-virilha-masc"
+    ],
+    "37972": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "34741": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "34192": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "33460": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "33459": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "33458": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "13976": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "13973": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "13971": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "13969": [
+      "areola-laser",
+      "mamilo-laser-masc"
+    ],
+    "37890": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "34714": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "34182": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "33389": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "33388": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "33387": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "13711": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "13709": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "13706": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "13703": [
+      "buco-laser",
+      "bigode-laser-masc"
+    ],
+    "37898": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "37897": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "34723": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "34722": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "34186": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "33406": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "33405": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "33404": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "33403": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "31848": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "20616": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "13840": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "13839": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "13837": [
+      "virilha-laser",
+      "virilha-comum-laser"
+    ],
+    "13836": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "13834": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "13832": [
+      "virilha-laser",
+      "virilha-comum-laser",
+      "virilha-laser-masc",
+      "virilha-total-laser-masc"
+    ],
+    "37891": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "34716": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "34183": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "33393": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "33392": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "33391": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "13770": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "13767": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "13765": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "13763": [
+      "coxas-laser",
+      "coxa-laser-masc"
+    ],
+    "37970": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "34743": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "34193": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "33464": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "33463": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "33462": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "13986": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "13983": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "13981": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "13979": [
+      "abdomen-laser",
+      "peito-laser-masc",
+      "abdomen-laser-masc",
+      "torax-abdomen-laser-masc"
+    ],
+    "37945": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "34767": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "34206": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "33513": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "33512": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "33511": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "14192": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "14189": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "14187": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ],
+    "14185": [
+      "rosto-inteiro-laser",
+      "barba-laser-masc",
+      "rosto-inteiro-laser-masc"
+    ]
+  }
+}

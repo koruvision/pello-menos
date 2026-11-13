@@ -1,0 +1,37 @@
+{
+  "/": {
+    "total": 85,
+    "hosts": {
+      "loja.pellomenos.com.br": 85
+    },
+    "quebradas": []
+  },
+  "/masculino": {
+    "total": 76,
+    "hosts": {
+      "loja.pellomenos.com.br": 76
+    },
+    "quebradas": []
+  },
+  "/servicos/cera/": {
+    "total": 36,
+    "hosts": {
+      "loja.pellomenos.com.br": 36
+    },
+    "quebradas": []
+  },
+  "/servicos/laser/": {
+    "total": 30,
+    "hosts": {
+      "loja.pellomenos.com.br": 30
+    },
+    "quebradas": []
+  },
+  "/planos/": {
+    "total": 9,
+    "hosts": {
+      "loja.pellomenos.com.br": 9
+    },
+    "quebradas": []
+  }
+}

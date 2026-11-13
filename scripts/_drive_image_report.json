@@ -1,0 +1,1408 @@
+{
+  "replaced": [
+    {
+      "id": "abdomen-cera",
+      "from": "FEMININO/Feminino â Cera/abdomen-cera.png",
+      "webp": "public/images/products/abdomen-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 37512
+    },
+    {
+      "id": "antebraco-cera",
+      "from": "FEMININO/Feminino â Cera/antebraco-cera.png",
+      "webp": "public/images/products/antebraco-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62878
+    },
+    {
+      "id": "axila-cera",
+      "from": "FEMININO/Feminino â Cera/axila-cera.png",
+      "webp": "public/images/products/axila-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62510
+    },
+    {
+      "id": "bracos-cera",
+      "from": "FEMININO/Feminino â Cera/bracos-cera.png",
+      "webp": "public/images/products/bracos-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 63710
+    },
+    {
+      "id": "buco-cera",
+      "from": "FEMININO/Feminino â Cera/buco-cera.png",
+      "webp": "public/images/products/buco-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 64908
+    },
+    {
+      "id": "costas-cera",
+      "from": "FEMININO/Feminino â Cera/costas-cera.png",
+      "webp": "public/images/products/costas-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 43626
+    },
+    {
+      "id": "coxa-cera",
+      "from": "FEMININO/Feminino â Cera/coxa-cera.png",
+      "webp": "public/images/products/coxa-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 33104
+    },
+    {
+      "id": "design-sobrancelha-realce",
+      "from": "FEMININO/Feminino â Cera/Design de Sobrancelha + Realce.png",
+      "webp": "public/images/products/design-sobrancelha-realce.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62148
+    },
+    {
+      "id": "design-sobrancelha",
+      "from": "FEMININO/Feminino â Cera/design-sobrancelha.png",
+      "webp": "public/images/products/design-sobrancelha.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62148
+    },
+    {
+      "id": "faixa-cera",
+      "from": "FEMININO/Feminino â Cera/faixa-cera.png",
+      "webp": "public/images/products/faixa-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 43674
+    },
+    {
+      "id": "henna",
+      "from": "FEMININO/Feminino â Cera/henna.png",
+      "webp": "public/images/products/henna.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62664
+    },
+    {
+      "id": "intergluteos-cera",
+      "from": "FEMININO/Feminino â Cera/intergluteos-cera.png",
+      "webp": "public/images/products/intergluteos-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 33334
+    },
+    {
+      "id": "labios-genitais-cera",
+      "from": "FEMININO/Feminino â Cera/labios-genitais-cera.png",
+      "webp": "public/images/products/labios-genitais-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 42616
+    },
+    {
+      "id": "meia-nadega-cera",
+      "from": "FEMININO/Feminino â Cera/Meia NÃ¡dega.png",
+      "webp": "public/images/products/meia-nadega-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 34852
+    },
+    {
+      "id": "meia-perna-cera",
+      "from": "FEMININO/Feminino â Cera/meia-perna-cera.png",
+      "webp": "public/images/products/meia-perna-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 26730
+    },
+    {
+      "id": "nadegas-cera",
+      "from": "FEMININO/Feminino â Cera/nadegas-cera.png",
+      "webp": "public/images/products/nadegas-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 37788
+    },
+    {
+      "id": "nariz-cera",
+      "from": "FEMININO/Feminino â Cera/nariz-cera.png",
+      "webp": "public/images/products/nariz-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 66402
+    },
+    {
+      "id": "perna-cera",
+      "from": "FEMININO/Feminino â Cera/Perna Inteira.png",
+      "webp": "public/images/products/perna-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 27122
+    },
+    {
+      "id": "queixo-cera",
+      "from": "FEMININO/Feminino â Cera/queixo-cera.png",
+      "webp": "public/images/products/queixo-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 64466
+    },
+    {
+      "id": "realce",
+      "from": "FEMININO/Feminino â Cera/Realce.png",
+      "webp": "public/images/products/realce.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62664
+    },
+    {
+      "id": "seios-cera",
+      "from": "FEMININO/Feminino â Cera/seios-cera.png",
+      "webp": "public/images/products/seios-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 39938
+    },
+    {
+      "id": "sobrancelha-realce-cera",
+      "from": "FEMININO/Feminino â Cera/Sobrancelha + Realce.png",
+      "webp": "public/images/products/sobrancelha-realce-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62148
+    },
+    {
+      "id": "sobrancelha-henna-simples",
+      "from": "FEMININO/Feminino â Cera/sobrancelha-henna-simples.png",
+      "webp": "public/images/products/sobrancelha-henna-simples.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62664
+    },
+    {
+      "id": "sobrancelha-henna",
+      "from": "FEMININO/Feminino â Cera/sobrancelha-henna.png",
+      "webp": "public/images/products/sobrancelha-henna.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62664
+    },
+    {
+      "id": "sobrancelha-cera",
+      "from": "FEMININO/Feminino â Cera/Sobrancelha.png",
+      "webp": "public/images/products/sobrancelha-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62148
+    },
+    {
+      "id": "virilha-cavada-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-cavada-cera.png",
+      "webp": "public/images/products/virilha-cavada-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 47580
+    },
+    {
+      "id": "virilha-cavada-faixa-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-cavada-faixa-cera.png",
+      "webp": "public/images/products/virilha-cavada-faixa-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 48342
+    },
+    {
+      "id": "virilha-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-cera.png",
+      "webp": "public/images/products/virilha-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 48476
+    },
+    {
+      "id": "virilha-comum-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-comum-cera.png",
+      "webp": "public/images/products/virilha-comum-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 50110
+    },
+    {
+      "id": "virilha-comum-faixa-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-comum-faixa-cera.png",
+      "webp": "public/images/products/virilha-comum-faixa-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 51372
+    },
+    {
+      "id": "virilha-modelada-cera",
+      "from": "FEMININO/Feminino â Cera/virilha-modelada-cera.png",
+      "webp": "public/images/products/virilha-modelada-cera.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 49260
+    },
+    {
+      "id": "esfoliacao-abdomen",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-abdomen.png",
+      "webp": "public/images/products/esfoliacao-abdomen.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 40256
+    },
+    {
+      "id": "esfoliacao-axilas",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-axilas.png",
+      "webp": "public/images/products/esfoliacao-axilas.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 61102
+    },
+    {
+      "id": "esfoliacao-braco",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-braco.png",
+      "webp": "public/images/products/esfoliacao-braco.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 67334
+    },
+    {
+      "id": "esfoliacao-costas",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-costas.png",
+      "webp": "public/images/products/esfoliacao-costas.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 42538
+    },
+    {
+      "id": "esfoliacao-coxa",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-coxa.png",
+      "webp": "public/images/products/esfoliacao-coxa.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 31666
+    },
+    {
+      "id": "esfoliacao-faixa",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-faixa.png",
+      "webp": "public/images/products/esfoliacao-faixa.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 41532
+    },
+    {
+      "id": "esfoliacao-meia-nadega",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-meia-nadega.png",
+      "webp": "public/images/products/esfoliacao-meia-nadega.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 39740
+    },
+    {
+      "id": "esfoliacao-meio-braco",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-meio-braco.png",
+      "webp": "public/images/products/esfoliacao-meio-braco.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 58832
+    },
+    {
+      "id": "esfoliacao-nadegas",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-nadegas.png",
+      "webp": "public/images/products/esfoliacao-nadegas.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 37806
+    },
+    {
+      "id": "esfoliacao-perna",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-perna.png",
+      "webp": "public/images/products/esfoliacao-perna.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 25690
+    },
+    {
+      "id": "esfoliacao-seios",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-seios.png",
+      "webp": "public/images/products/esfoliacao-seios.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 38414
+    },
+    {
+      "id": "esfoliacao-virilha-faixa",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-virilha-faixa.png",
+      "webp": "public/images/products/esfoliacao-virilha-faixa.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 50886
+    },
+    {
+      "id": "esfoliacao-virilha",
+      "from": "FEMININO/Feminino â EsfoliaÃ§Ã£o/esfoliacao-virilha.png",
+      "webp": "public/images/products/esfoliacao-virilha.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46638
+    },
+    {
+      "id": "abdomen-laser",
+      "from": "FEMININO/Feminino â Laser/abdomen-laser.png",
+      "webp": "public/images/products/abdomen-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 38930
+    },
+    {
+      "id": "antebraco-laser",
+      "from": "FEMININO/Feminino â Laser/antebraco-laser.png",
+      "webp": "public/images/products/antebraco-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 57826
+    },
+    {
+      "id": "areola-laser",
+      "from": "FEMININO/Feminino â Laser/areola-laser.png",
+      "webp": "public/images/products/areola-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 39570
+    },
+    {
+      "id": "axilas-laser",
+      "from": "FEMININO/Feminino â Laser/axilas-laser.png",
+      "webp": "public/images/products/axilas-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 58508
+    },
+    {
+      "id": "bracos-laser",
+      "from": "FEMININO/Feminino â Laser/bracos-laser.png",
+      "webp": "public/images/products/bracos-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 63404
+    },
+    {
+      "id": "buco-laser",
+      "from": "FEMININO/Feminino â Laser/buco-laser.png",
+      "webp": "public/images/products/buco-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 66176
+    },
+    {
+      "id": "costas-laser",
+      "from": "FEMININO/Feminino â Laser/costas-laser.png",
+      "webp": "public/images/products/costas-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 42974
+    },
+    {
+      "id": "coxas-laser",
+      "from": "FEMININO/Feminino â Laser/coxas-laser.png",
+      "webp": "public/images/products/coxas-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 31684
+    },
+    {
+      "id": "intergluteos-laser",
+      "from": "FEMININO/Feminino â Laser/intergluteos-laser.png",
+      "webp": "public/images/products/intergluteos-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 34786
+    },
+    {
+      "id": "meia-nadega-laser",
+      "from": "FEMININO/Feminino â Laser/meia-nadega-laser.png",
+      "webp": "public/images/products/meia-nadega-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 36456
+    },
+    {
+      "id": "meia-perna-laser",
+      "from": "FEMININO/Feminino â Laser/meia-perna-laser.png",
+      "webp": "public/images/products/meia-perna-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 27294
+    },
+    {
+      "id": "nadegas-laser",
+      "from": "FEMININO/Feminino â Laser/nadegas-laser.png",
+      "webp": "public/images/products/nadegas-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 36928
+    },
+    {
+      "id": "nariz-laser",
+      "from": "FEMININO/Feminino â Laser/nariz-laser.png",
+      "webp": "public/images/products/nariz-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 66704
+    },
+    {
+      "id": "orelhas-laser",
+      "from": "FEMININO/Feminino â Laser/orelhas-laser.png",
+      "webp": "public/images/products/orelhas-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 69010
+    },
+    {
+      "id": "perna-laser",
+      "from": "FEMININO/Feminino â Laser/perna-laser.png",
+      "webp": "public/images/products/perna-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 28106
+    },
+    {
+      "id": "pescoco-laser",
+      "from": "FEMININO/Feminino â Laser/pescoco-laser.png",
+      "webp": "public/images/products/pescoco-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 68548
+    },
+    {
+      "id": "psd-g-laser",
+      "from": "FEMININO/Feminino â Laser/psd-g-laser.png",
+      "webp": "public/images/products/psd-g-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 42132
+    },
+    {
+      "id": "psd-m-laser",
+      "from": "FEMININO/Feminino â Laser/psd-m-laser.png",
+      "webp": "public/images/products/psd-m-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 45256
+    },
+    {
+      "id": "psd-p-laser",
+      "from": "FEMININO/Feminino â Laser/psd-p-laser.png",
+      "webp": "public/images/products/psd-p-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 44390
+    },
+    {
+      "id": "queixo-laser",
+      "from": "FEMININO/Feminino â Laser/queixo-laser.png",
+      "webp": "public/images/products/queixo-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 67806
+    },
+    {
+      "id": "rosto-inteiro-laser",
+      "from": "FEMININO/Feminino â Laser/rosto-inteiro-laser.png",
+      "webp": "public/images/products/rosto-inteiro-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 70110
+    },
+    {
+      "id": "virilha-cavada-faixa-laser",
+      "from": "FEMININO/Feminino â Laser/virilha-cavada-faixa-laser.png",
+      "webp": "public/images/products/virilha-cavada-faixa-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46692
+    },
+    {
+      "id": "virilha-cavada-laser",
+      "from": "FEMININO/Feminino â Laser/virilha-cavada-laser.png",
+      "webp": "public/images/products/virilha-cavada-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46062
+    },
+    {
+      "id": "virilha-comum-laser",
+      "from": "FEMININO/Feminino â Laser/virilha-comum-laser.png",
+      "webp": "public/images/products/virilha-comum-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 50202
+    },
+    {
+      "id": "virilha-faixa-laser",
+      "from": "FEMININO/Feminino â Laser/virilha-faixa-laser.png",
+      "webp": "public/images/products/virilha-faixa-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 49460
+    },
+    {
+      "id": "virilha-laser",
+      "from": "FEMININO/Feminino â Laser/virilha-laser.png",
+      "webp": "public/images/products/virilha-laser.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 47084
+    },
+    {
+      "id": "buco-linha",
+      "from": "FEMININO/Feminino â Linha/buco-linha.png",
+      "webp": "public/images/products/buco-linha.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 65476
+    },
+    {
+      "id": "faixa-linha",
+      "from": "FEMININO/Feminino â Linha/faixa-linha.png",
+      "webp": "public/images/products/faixa-linha.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 41264
+    },
+    {
+      "id": "queixo-linha",
+      "from": "FEMININO/Feminino â Linha/queixo-linha.png",
+      "webp": "public/images/products/queixo-linha.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 68870
+    },
+    {
+      "id": "abdomen-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/abdomen-cera-masc.png",
+      "webp": "public/images/products/male/abdomen-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46602
+    },
+    {
+      "id": "antebraco-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/antebraco-cera-masc.png",
+      "webp": "public/images/products/male/antebraco-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 96008
+    },
+    {
+      "id": "axila-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/axila-cera-masc.png",
+      "webp": "public/images/products/male/axila-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 87308
+    },
+    {
+      "id": "barba-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/barba-cera-masc.png",
+      "webp": "public/images/products/male/barba-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 66964
+    },
+    {
+      "id": "barba-modeladora-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/barba-modeladora-cera-masc.png",
+      "webp": "public/images/products/male/barba-modeladora-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 68612
+    },
+    {
+      "id": "bigode-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/bigode-cera-masc.png",
+      "webp": "public/images/products/male/bigode-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 70672
+    },
+    {
+      "id": "bracos-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/bracos-cera-masc..png",
+      "webp": "public/images/products/male/bracos-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 107612
+    },
+    {
+      "id": "costas-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/costas-cera-masc.png",
+      "webp": "public/images/products/male/costas-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 45428
+    },
+    {
+      "id": "coxa-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/coxa-cera-masc.png",
+      "webp": "public/images/products/male/coxa-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 45954
+    },
+    {
+      "id": "design-sobrancelha-masc",
+      "from": "MASCULINO/Masculino â Cera/design-sobrancelha-masc.png",
+      "webp": "public/images/products/male/design-sobrancelha-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 73614
+    },
+    {
+      "id": "faixa-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/faixa-cera-masc.png",
+      "webp": "public/images/products/male/faixa-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 64084
+    },
+    {
+      "id": "intergluteos-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/intergluteos-cera-masc.png",
+      "webp": "public/images/products/male/intergluteos-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 49054
+    },
+    {
+      "id": "mamilos-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/mamilos-cera-masc.png",
+      "webp": "public/images/products/male/mamilos-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46856
+    },
+    {
+      "id": "meia-nadega-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/meia-nadega-cera-masc.png",
+      "webp": "public/images/products/male/meia-nadega-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 52034
+    },
+    {
+      "id": "meia-perna-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/meia-perna-cera-masc.png",
+      "webp": "public/images/products/male/meia-perna-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 32782
+    },
+    {
+      "id": "nadegas-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/nadegas-cera-masc.png",
+      "webp": "public/images/products/male/nadegas-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 53788
+    },
+    {
+      "id": "nariz-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/nariz-cera-masc.png",
+      "webp": "public/images/products/male/nariz-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 71192
+    },
+    {
+      "id": "orelha-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/orelha-cera-masc.png",
+      "webp": "public/images/products/male/orelha-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 75384
+    },
+    {
+      "id": "peito-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/peito-cera-masc.png",
+      "webp": "public/images/products/male/peito-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 49762
+    },
+    {
+      "id": "perna-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/perna-cera-masc..png",
+      "webp": "public/images/products/male/perna-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 39016
+    },
+    {
+      "id": "pescoco-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/pescoco-cera-masc.png",
+      "webp": "public/images/products/male/pescoco-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 69874
+    },
+    {
+      "id": "queixo-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/queixo-cera-masc.png",
+      "webp": "public/images/products/male/queixo-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 66760
+    },
+    {
+      "id": "saco-escrotal-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/saco-escrotal-cera-masc..png",
+      "webp": "public/images/products/male/saco-escrotal-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 60060
+    },
+    {
+      "id": "torax-abdomen-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/torax-abdomen-cera-masc.png",
+      "webp": "public/images/products/male/torax-abdomen-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 50314
+    },
+    {
+      "id": "virilha-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/virilha-cera-masc.png",
+      "webp": "public/images/products/male/virilha-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 60854
+    },
+    {
+      "id": "virilha-comum-cera-masc",
+      "from": "MASCULINO/Masculino â Cera/virilha-comum-cera-masc.png",
+      "webp": "public/images/products/male/virilha-comum-cera-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 62510
+    },
+    {
+      "id": "esfoliacao-abdomen-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-abdomen-masc.png",
+      "webp": "public/images/products/male/esfoliacao-abdomen-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 44024
+    },
+    {
+      "id": "esfoliacao-axilas-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-axilas-masc.png",
+      "webp": "public/images/products/male/esfoliacao-axilas-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 107472
+    },
+    {
+      "id": "esfoliacao-braco-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-braco-masc.png",
+      "webp": "public/images/products/male/esfoliacao-braco-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 118520
+    },
+    {
+      "id": "esfoliacao-costas-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-costas-masc.png",
+      "webp": "public/images/products/male/esfoliacao-costas-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 36426
+    },
+    {
+      "id": "esfoliacao-coxa-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-coxa-masc.png",
+      "webp": "public/images/products/male/esfoliacao-coxa-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 41284
+    },
+    {
+      "id": "esfoliacao-faixa-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-faixa-masc.png",
+      "webp": "public/images/products/male/esfoliacao-faixa-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 57558
+    },
+    {
+      "id": "esfoliacao-meia-perna-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-meia-perna-masc.png",
+      "webp": "public/images/products/male/esfoliacao-meia-perna-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 27604
+    },
+    {
+      "id": "esfoliacao-nadegas-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-nadegas-masc.png",
+      "webp": "public/images/products/male/esfoliacao-nadegas-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 54176
+    },
+    {
+      "id": "esfoliacao-perna-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-perna-masc.png",
+      "webp": "public/images/products/male/esfoliacao-perna-masc.webp",
+      "px": [
+        1080,
+        1342
+      ],
+      "bytes": 29520
+    },
+    {
+      "id": "esfoliacao-virilha-masc",
+      "from": "MASCULINO/Masculino â EsfoliaÃ§Ã£o/esfoliacao-virilha-masc.png",
+      "webp": "public/images/products/male/esfoliacao-virilha-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 63200
+    },
+    {
+      "id": "abdomen-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/abdomen-laser-masc.png",
+      "webp": "public/images/products/male/abdomen-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 49044
+    },
+    {
+      "id": "antebraco-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/antebraco-laser-masc.png",
+      "webp": "public/images/products/male/antebraco-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 115142
+    },
+    {
+      "id": "axilas-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/axilas-laser-masc.png",
+      "webp": "public/images/products/male/axilas-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 94624
+    },
+    {
+      "id": "barba-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/barba-laser-masc.png",
+      "webp": "public/images/products/male/barba-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 71132
+    },
+    {
+      "id": "bigode-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/bigode-laser-masc.png",
+      "webp": "public/images/products/male/bigode-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 72894
+    },
+    {
+      "id": "bracos-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/bracos-laser-masc.png",
+      "webp": "public/images/products/male/bracos-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 123488
+    },
+    {
+      "id": "costas-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/costas-laser-masc.png",
+      "webp": "public/images/products/male/costas-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 43162
+    },
+    {
+      "id": "coxa-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/coxa-laser-masc.png",
+      "webp": "public/images/products/male/coxa-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46978
+    },
+    {
+      "id": "intergluteos-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/intergluteos-laser-masc.png",
+      "webp": "public/images/products/male/intergluteos-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 48746
+    },
+    {
+      "id": "mamilo-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/mamilo-laser-masc.png",
+      "webp": "public/images/products/male/mamilo-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 46254
+    },
+    {
+      "id": "meia-nadega-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/meia-nadega-laser-masc.png",
+      "webp": "public/images/products/male/meia-nadega-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 54820
+    },
+    {
+      "id": "meia-perna-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/meia-perna-laser-masc.png",
+      "webp": "public/images/products/male/meia-perna-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 32034
+    },
+    {
+      "id": "nadegas-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/nadegas-laser-masc.png",
+      "webp": "public/images/products/male/nadegas-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 56860
+    },
+    {
+      "id": "nariz-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/nariz-laser-masc..png",
+      "webp": "public/images/products/male/nariz-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 76990
+    },
+    {
+      "id": "orelhas-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/orelhas-laser-masc.png",
+      "webp": "public/images/products/male/orelhas-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 71040
+    },
+    {
+      "id": "peito-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/peito-laser-masc..png",
+      "webp": "public/images/products/male/peito-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 50878
+    },
+    {
+      "id": "perna-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/perna-laser-masc..png",
+      "webp": "public/images/products/male/perna-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 37848
+    },
+    {
+      "id": "pescoco-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/pescoco-laser-masc.png",
+      "webp": "public/images/products/male/pescoco-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 73832
+    },
+    {
+      "id": "psd-g-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/psd-g-laser-masc.png",
+      "webp": "public/images/products/male/psd-g-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 59852
+    },
+    {
+      "id": "psd-m-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/psd-m-laser-masc.png",
+      "webp": "public/images/products/male/psd-m-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 61210
+    },
+    {
+      "id": "psd-p-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/psd-p-laser-masc.png",
+      "webp": "public/images/products/male/psd-p-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 64862
+    },
+    {
+      "id": "queixo-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/queixo-laser-masc.png",
+      "webp": "public/images/products/male/queixo-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 73270
+    },
+    {
+      "id": "rosto-inteiro-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/Rosto Inteiro Laser.png",
+      "webp": "public/images/products/male/rosto-inteiro-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 72552
+    },
+    {
+      "id": "torax-abdomen-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/torax-abdomen-laser-masc.png",
+      "webp": "public/images/products/male/torax-abdomen-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 51488
+    },
+    {
+      "id": "virilha-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/virilha-laser-masc.png",
+      "webp": "public/images/products/male/virilha-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 64126
+    },
+    {
+      "id": "virilha-total-laser-masc",
+      "from": "MASCULINO/Masculino â Laser/virilha-total-laser-masc.png",
+      "webp": "public/images/products/male/virilha-total-laser-masc.webp",
+      "px": [
+        1080,
+        1341
+      ],
+      "bytes": 63704
+    }
+  ],
+  "missing_official": [
+    "axilas",
+    "axilas-m",
+    "barba",
+    "body-splash-autentica",
+    "body-splash-livre",
+    "body-splash-marcante",
+    "bracos",
+    "cera",
+    "cera-m",
+    "corpo",
+    "corpo-m",
+    "costas",
+    "esfoliacao",
+    "esfoliacao-m",
+    "esfoliacao-meia-perna",
+    "laser",
+    "laser-10",
+    "laser-m",
+    "linha",
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m5",
+    "m6",
+    "olhar",
+    "peito",
+    "pernas",
+    "plano-clube-laser",
+    "plano-gold",
+    "plano-prepago",
+    "plano-silver",
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "r5",
+    "r6",
+    "rosto",
+    "semana",
+    "sobrancelha-cera-masc",
+    "tintura-pelos-pubianos",
+    "torax",
+    "verao",
+    "virilha"
+  ],
+  "skipped_gift_cards": [
+    "cartao-presente",
+    "cartao-presente-160",
+    "cartao-presente-215",
+    "cartao-presente-290"
+  ],
+  "drive_files_without_product": []
+}

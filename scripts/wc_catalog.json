@@ -1,0 +1,517 @@
+{
+  "products": [
+    {
+      "id": "buco-cera",
+      "wcName": "Buço - Cera",
+      "originalCents": 2690,
+      "description": "A depilação do buço com cera remove os pelos da parte em cima da boca e da parte entre o queixo e a boca. Saiba mais aqui!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_10depilacaocera_1000x1000px-e1692816257105.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "antebraco-cera",
+      "wcName": "Antebraço - Cera",
+      "originalCents": 4990,
+      "description": "A depilação a cera do antebraço feminino vai remover os pelos do antebraço, que pode ser tanto a parte superior ou inferior do membro.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_25depilacaocera_1000x1000px-e1693935831750.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "abdomen-cera",
+      "wcName": "Abdômen - Cera",
+      "originalCents": 5801,
+      "description": "A depilação a cera do abdômen feminino vai remover os pelos da parede abdominal abaixo dos seios até a linha do baixo ventre.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/ABD-1depilacaocera-1000x1000px-300x300-1.jpeg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "axila-cera",
+      "wcName": "Axila - Cera",
+      "originalCents": 3300,
+      "description": "Garanta axilas suaves e livre de pelos com a depilação a cera. Resultados duradouros para sua maior confiança.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_9depilacaocera_1000x1000px-e1692816124501.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "costas-cera",
+      "wcName": "Costas - Cera",
+      "originalCents": 5501,
+      "description": "Desfrute de costas lisas e sem pelos com nossa depilação a cera. Resultados suaves e duradouros para uma pele sedosa. Agende já!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_15depilacaocera_1000x1000px-1-e1693935688596.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "coxa-cera",
+      "wcName": "Coxa - Cera",
+      "originalCents": 4990,
+      "description": "Transforme suas coxas com nossa depilação a cera. Pele macia, livre de pelos e resultados prolongados. Agende sua sessão agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_32depilacaocera_1000x1000px-e1693935639439.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "faixa-cera",
+      "wcName": "Faixa - Cera",
+      "originalCents": 2600,
+      "description": "Experimente nossa depilação a cera para faixa. Remova os pelos de forma eficaz e rápida, com resultados duradouros e conforto garantido.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_26depilacaocera_1000x1000px-e1692735293394.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "intergluteos-cera",
+      "wcName": "Interglúteos - Cera",
+      "originalCents": 3250,
+      "description": "Depilação com cera para interglúteos: conforto e higiene garantidos. Serviço seguro e eficiente. Agende sua sessão agora mesmo!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_14depilacaocera_1000x1000px-e1693935539945.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "nariz-cera",
+      "wcName": "Nariz - Cera",
+      "originalCents": 2890,
+      "description": "Depilação com cera para nariz: elimine pelos visíveis com praticidade e segurança. Rápido, eficiente e confortável. Agende já!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_12depilacaocera_1000x1000px-e1692729924124.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "meia-nadega-cera",
+      "wcName": "Meia Nádega - Cera",
+      "originalCents": 2499,
+      "description": "Depilação a cera para meia nádega: resultado impecável e duradouro. Remova os pelos com conforto e facilidade. Agende sua sessão!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_21depilacaocera_1000x1000px-e1693935468788.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "nadegas-cera",
+      "wcName": "Nádegas Completas - Cera",
+      "originalCents": 4990,
+      "description": "Depilação completa de nádegas com cera. Rápida, eficiente e ideal para quem busca conforto e bem-estar. Agende sua sessão!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_16depilacaocera_1000x1000px-e1693935419372.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "perna-cera",
+      "wcName": "Perna Inteira - Cera",
+      "originalCents": 8590,
+      "description": "Desfrute de uma pele lisinha por mais tempo com nosso serviço de depilação a cera para perna inteira. Conforto e cuidado que sua pele merece.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_3depilacaocera_1000x1000px-e1692816312521.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "meia-perna-cera",
+      "wcName": "Meia Perna - Cera",
+      "originalCents": 4990,
+      "description": "A depilação com cera meia perna feminino vai remover os pelos da região do joelho até o calcanhar sem qualquer custo adicional.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_4depilacaocera_1000x1000px-e1692735714590.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "queixo-cera",
+      "wcName": "Queixo - Cera",
+      "originalCents": 2690,
+      "description": "Elimine os pelos indesejados do queixo com nossa depilação a cera. Resultados eficazes e duradouros para uma pele suave e bem cuidada.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_23depilacaocera_1000x1000px-e1692735926630.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "seios-cera",
+      "wcName": "Seios - Cera",
+      "originalCents": 2790,
+      "description": "Descubra a cera de depilação delicada para seios, ideal para peles sensíveis. Garanta resultados suaves e duradouros.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_2depilacaocera_1000x1000px-e1692736038245.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-modelada-cera",
+      "wcName": "Virilha Modelada - Cera",
+      "originalCents": 8390,
+      "description": "A depilação a cera da virilha feminina modelada vai remover os pelos dos lábios internos e externos e os pelos envoltos do molde escolhido pela cliente no púbis. Não inclui ânus e cóccix.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_7depilacaocera_1000x1000px-e1692736762959.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-cera",
+      "wcName": "Virilha Total - Cera",
+      "originalCents": 8501,
+      "description": "Remove por completo todos os pelos da virilha, lábios externos e internos , incluindo anus , cóccix e faixa do baixo ventre.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_6depilacaocera_1000x1000px-e1692816183875.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-comum-cera",
+      "wcName": "Virilha Comum - Cera",
+      "originalCents": 3850,
+      "description": "Opte pela simplicidade com nossa depilação a cera para virilha comum. Suavidade e limpeza para sua pele.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-34depilacaocera-1000x1000px-e1693930498300.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-comum-faixa-cera",
+      "wcName": "Virilha Comum + Faixa - Cera",
+      "originalCents": 5150,
+      "description": "Depilação a cera eficaz para a virilha comum. Conforto e higiene em um serviço de qualidade.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-11depilacaocera-1000x1000px-e1692736523609.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-cavada-cera",
+      "wcName": "Virilha Cavada - Cera",
+      "originalCents": 7101,
+      "description": "Depilação a Cera Virilha Cavada remove os pelos da virilha, lábios internos e externos, porém deixa uma pequena faixa de pelo no púbis. Essa depilação inclui ânus e cóccix.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Virilha_Cavada_Cera-e1710529872566.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "virilha-cavada-faixa-cera",
+      "wcName": "Virilha Cavada + Faixa - Cera",
+      "originalCents": 8401,
+      "description": "Depilação a Cera Virilha Cavada + Faixa - Valor e Duração: Explore a depilação a cera para uma virilha cavada mais definida. Estética e conforto em harmonia",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Virilha_Cavada_FX_Cera-e1710529763668.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "labios-genitais-cera",
+      "wcName": "Lábios Genitais - Cera",
+      "originalCents": 3850,
+      "description": "Experimente a depilação a cera para lábios genitais com total conforto e segurança. Resultados suaves e duradouros para a sua confiança.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-24depilacaocera-1000x1000px-e1692736690295.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "sobrancelha-cera",
+      "wcName": "Sobrancelha - Cera",
+      "originalCents": 4799,
+      "description": "Obtenha sobrancelhas perfeitas com nossa cera exclusiva para sobrancelhas. Perfeita para um olhar marcante!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-18depilacaocera-1000x1000px-e1692729694550.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "sobrancelha-realce-cera",
+      "wcName": "Sobrancelha + Realce - Cera",
+      "originalCents": 7590,
+      "description": "Realce suas sobrancelhas com nossa cera especializada, projetada para definição e beleza duradouras. Adquira já!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-18depilacaocera-1000x1000px-e1692729694550.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "sobrancelha-henna",
+      "wcName": "Design de Sobrancelha + Henna Feminino",
+      "originalCents": 8650,
+      "description": "Realce suas sobrancelhas com henna e cera. Definição impecável, longa duração e visual natural. Agende sua sessão agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-18depilacaocera-1000x1000px-e1692729694550.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "design-sobrancelha",
+      "wcName": "Design de Sobrancelha - Cera",
+      "originalCents": 5850,
+      "description": "A técnica de design de sobrancelha com cera consiste em ressaltar a beleza dos olhos e do rosto, dando-lhes o equilíbrio e a simetria adequada.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-17depilacaocera-1000x1000px-e1692729779923.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "design-sobrancelha-realce",
+      "wcName": "Design de Sobrancelha + Realce - Cera",
+      "originalCents": 7850,
+      "description": "Obtenha o design perfeito para suas sobrancelhas com nossa depilação a cera. Realce sua expressão de maneira natural e duradoura.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-17depilacaocera-1000x1000px-e1692729779923.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "sobrancelha-henna-simples",
+      "wcName": "Sobrancelha Simples + Henna",
+      "originalCents": 8390,
+      "description": "Transforme suas sobrancelhas com a henna e cera da Pello Menos. Definição precisa e resultados duradouros para um olhar marcante.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-17depilacaocera-1000x1000px-e1692729779923.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "realce",
+      "wcName": "Realce",
+      "originalCents": 3200,
+      "description": "Realce sua beleza com nossos tratamentos exclusivos. Descubra como nossos serviços de depilação e design de sobrancelhas podem transformar seu visual.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-18depilacaocera-1000x1000px-e1692729694550.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "henna",
+      "wcName": "Henna",
+      "originalCents": 4100,
+      "description": "Realce suas sobrancelhas com nossa henna especial. Definição perfeita, longa duração e resultados naturais. Adquira já e transforme seu olhar!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-18depilacaocera-1000x1000px-e1692729694550.jpg",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "bracos-cera",
+      "wcName": "Braços - Cera",
+      "originalCents": 6990,
+      "description": "Obtenha pele suave e livre de pelos com a depilação a cera para braços. Conforto, eficácia e resultados duradouros. Agende sua sessão hoje mesmo!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_8depilacaocera_1000x1000px-e1693936168722.webp",
+      "category": "Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "plano-clube-laser",
+      "wcName": "Clube do Laser",
+      "originalCents": 24990,
+      "description": "Clube do Laser - Depilação a Laser Feminino ",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/04/laser-club-logo.png",
+      "category": "Clube do Laser"
+    },
+    {
+      "id": "plano-silver",
+      "wcName": "Plano de Assinatura VIP - Silver",
+      "originalCents": 10990,
+      "description": "Conheça o contrato do Clube do Laser do Pello Menos. Serviços exclusivos e vantagens especiais para membros do clube.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/04/vip.jpg",
+      "category": "Assinante Vip"
+    },
+    {
+      "id": "axilas-laser",
+      "wcName": "Axilas Laser",
+      "originalCents": 89990,
+      "description": "Descubra a revolucionária depilação a laser para axilas. Resultados eficazes e duradouros. Conquiste axilas suaves e sem pelos. Adquira agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_9depilacaocera_1000x1000px-e1692816124501.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "rosto-inteiro-laser",
+      "wcName": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "originalCents": 144500,
+      "description": "Na depilação a laser no rosto inteiro são eliminados os pelos na região do buço, queixo, nariz e PSD P (parte do corpo sem definição).",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-33depilacaocera-1000x1000px-e1692730998905.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "pescoco-laser",
+      "wcName": "Pescoço Laser",
+      "originalCents": 70300,
+      "description": "Depilação a laser para pescoço: toque suave e duradouro. Elimine os pelos com conforto e segurança. Agende sua sessão já!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-28depilacaocera-1000x1000px-e1692737181999.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "orelhas-laser",
+      "wcName": "Orelhas Laser",
+      "originalCents": 43990,
+      "description": "Transforme suas orelhas com o Laser Pello Menos! Resultados incríveis, sem dor e com tecnologia avançada. Veja depoimentos e decida agora mesmo!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-27depilacaocera-1000x1000px-e1692737136232.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "nariz-laser",
+      "wcName": "Nariz Laser",
+      "originalCents": 34000,
+      "description": "Depilação a laser para nariz: toque suave e eficaz. Remova os pelos de forma segura e duradoura. Agende sua sessão agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-12depilacaocera-1000x1000px.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "meia-nadega-laser",
+      "wcName": "Meia Nádega Laser",
+      "originalCents": 70300,
+      "description": "Na depilação meia nádega a laser são eliminados os pelos de forma opcional de uma faixa no sentido horizontal ou vertical de acordo com os pelos da cliente.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-21depilacaocera-1000x1000px-e1692735624927.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "nadegas-laser",
+      "wcName": "Nádegas Laser",
+      "originalCents": 123090,
+      "description": "A depilação das nádegas completas a laser vai eliminar os pelos em toda a extensão das nádegas e da faixa acima do cóccix.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-16depilacaocera-1000x1000px-1-e1692735533451.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "psd-g-laser",
+      "wcName": "PSD G Laser",
+      "originalCents": 76900,
+      "description": "Na depilação a laser PSD G considera-se todas as regiões do corpo (a partir de 21 cm) que não possuem definição clara.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-26depilacaocera-1000x1000px-1-e1692737069281.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "psd-m-laser",
+      "wcName": "PSD M Laser",
+      "originalCents": 49500,
+      "description": "Remova pelos indesejados com o Depilação a Laser! Resultados rápidos e eficazes. Compre agora e diga adeus aos pelos!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-29depilacaocera-1000x1000px-1-e1692737016755.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "psd-p-laser",
+      "wcName": "PSD P Laser",
+      "originalCents": 43000,
+      "description": "Área íntima sempre bem cuidada com a depilação a laser PSD Pequena. Resultados eficazes e duradouros para uma pele impecável",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-30depilacaocera-1000x1000px-e1692736956553.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "costas-laser",
+      "wcName": "Costas Laser",
+      "originalCents": 149500,
+      "description": "Depilação a laser para costas: resultados eficazes e duradouros. Livre-se dos pelos com conforto e segurança. Agende sua sessão hoje!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-15depilacaocera-1000x1000px-1-e1692731430183.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "antebraco-laser",
+      "wcName": "Antebraço Laser",
+      "originalCents": 108000,
+      "description": "Depilação a laser para antebraços: pele macia e livre de pelos por mais tempo. Conforto e eficácia no cuidado com você.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-25depilacaocera-1000x1000px-e1692730172819.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "bracos-laser",
+      "wcName": "Braços Inteiros Laser",
+      "originalCents": 144000,
+      "description": "Garanta braços lisos e sem pelos com a depilação a laser Pello Menos. Resultados eficazes e duradouros para sua pele. Agende agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-8depilacaocera-1000x1000px-1-e1692734899341.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "abdomen-laser",
+      "wcName": "Abdômen Laser",
+      "originalCents": 102000,
+      "description": "Na depilação a laser do abdômen feminino são eliminados os pelos da parede abdominal abaixo dos seios até a linha do baixo ventre.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1depilacaocera-1000x1000px-1-e1693942477274.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "areola-laser",
+      "wcName": "Aréola Laser",
+      "originalCents": 38090,
+      "description": "A depilação a laser da aréola feminina vai eliminar os pelos ao redor dos mamilos.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-31depilacaocera-1000x1000px-e1692730359203.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "intergluteos-laser",
+      "wcName": "Interglúteos Laser",
+      "originalCents": 47000,
+      "description": "Na depilação a laser de interglúteos feminino são eliminados os pelos da lateral anal e cóccix.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Prancheta-1-cópia-14depilacaocera-1000x1000px-1-e1692735387795.jpg",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "virilha-laser",
+      "wcName": "Virilha Total Laser",
+      "originalCents": 209000,
+      "description": "Na depilação a laser total na virilha são eliminados os pelos das seguintes regiões: virilha, lábios externos e internos, ânus, cóccix e faixa do baixo ventre.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_6depilacaocera_1000x1000px-e1692816183875.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "virilha-cavada-faixa-laser",
+      "wcName": "Virilha Cavada c/ Faixa Laser",
+      "originalCents": 203500,
+      "description": "Realize sua depilação a laser para virilha cavada com faixa no Pello Menos. Qualidade, segurança e resultados duradouros.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Virilha_Cavada_FX_Laser-e1710529677509.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "virilha-cavada-laser",
+      "wcName": "Virilha Cavada Laser",
+      "originalCents": 179000,
+      "description": "Experimente a depilação a laser para virilha cavada no Pello Menos. Tecnologia avançada para máxima eficiência e conforto.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/Virilha_Cavada_Laser-e1710529319478.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "virilha-faixa-laser",
+      "wcName": "Virilha c/ Faixa Laser",
+      "originalCents": 156000,
+      "description": "Transforme sua experiência de depilação com o laser para virilha com faixa no Pello Menos. Conforto e eficácia em cada sessão.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_11depilacaocera_1000x1000px-e1693942364781.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "virilha-comum-laser",
+      "wcName": "Virilha Comum Laser",
+      "originalCents": 132000,
+      "description": "Garanta sua sessão de depilação a laser para virilha no Pello Menos. Resultados incríveis com conforto e segurança garantidos.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/04129pia-34depilacaocera-1000x1000px-e1692736299157.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "meia-perna-laser",
+      "wcName": "Meia Perna Laser",
+      "originalCents": 203000,
+      "description": "A depilação a laser meia perna feminino vai eliminar os pelos da região do joelho até o calcanhar, podendo fazer a faixa do pé e dos dedos sem qualquer custo adicional.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_4depilacaocera_1000x1000px-e1692735714590.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "perna-laser",
+      "wcName": "Perna Inteira Laser",
+      "originalCents": 423500,
+      "description": "Transforme suas pernas com a depilação a laser. Suavidade duradoura e eficácia comprovada. Conheça nosso tratamento para pernas inteiras. Compre já!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/204129pia_3depilacaocera_1000x1000px-e1692816312521.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "coxas-laser",
+      "wcName": "Coxas Laser",
+      "originalCents": 219990,
+      "description": "Na depilação a laser da coxa feminino são eliminados os pelos da linha do joelho até as proximidades da dobra superior da perna.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/03/04129pia_32depilacaocera_1000x1000px-e1692731548642.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "buco-laser",
+      "wcName": "Buço Laser",
+      "originalCents": 42590,
+      "description": "Na depilação a laser do buço são eliminados os pelos da parte em cima da boca e da parte entre o queixo e a boca. Saiba Mais.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_10depilacaocera_1000x1000px-e1692816257105.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "queixo-laser",
+      "wcName": "Queixo Laser",
+      "originalCents": 73300,
+      "description": "Acabe com os pelos indesejados no queixo com nossa depilação a laser. Pele macia e resultados de longa duração. Experimente!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_23depilacaocera_1000x1000px-e1692735926630.webp",
+      "category": "Tratamentos Avulsos Laser"
+    },
+    {
+      "id": "plano-prepago",
+      "wcName": "Pré-pago Pello Menos",
+      "originalCents": 34470,
+      "description": "Maximize sua experiência de depilação com nossos pacotes pré-pagos. Conveniência e economia em cada sessão.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2022/05/1000212667.png",
+      "category": "Promoções, Serviços de Depilação a Cera Feminino"
+    },
+    {
+      "id": "buco-linha",
+      "wcName": "Buço - Linha",
+      "originalCents": 2092,
+      "description": "Elimine os pelos indesejados do buço com nossa depilação a linha. Resultados suaves e duradouros para uma pele impecável. Agende agora!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_10depilacaocera_1000x1000px-e1692816257105.webp",
+      "category": "Serviços de depilação a Linha"
+    },
+    {
+      "id": "queixo-linha",
+      "wcName": "Queixo - Linha",
+      "originalCents": 2790,
+      "description": "Depilação a linha para o queixo: resultados suaves e duradouros. Remova os pelos com conforto e precisão. Agende sua sessão na Pello Menos!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_23depilacaocera_1000x1000px-e1692735926630.webp",
+      "category": "Serviços de depilação a Linha"
+    },
+    {
+      "id": "faixa-linha",
+      "wcName": "Faixa - Linha",
+      "originalCents": 2550,
+      "description": "Depilação a linha para faixa: remoção precisa e eficaz dos pelos. Resultados suaves e duradouros para uma pele impecável. Agende sua sessão!",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/12/04129pia_26depilacaocera_1000x1000px-e1692735293394.webp",
+      "category": "Serviços de depilação a Linha"
+    },
+    {
+      "id": "plano-gold",
+      "wcName": "Plano de Assinatura VIP - Gold",
+      "originalCents": 11490,
+      "description": "Assine o plano VIP Gold da Pello Menos e tenha acesso exclusivo aos melhores tratamentos de depilação a laser. Benefícios exclusivos para você.",
+      "imageUrl": "https://loja.pellomenos.com.br/wp-content/uploads/2021/04/vip.jpg",
+      "category": "Assinante Vip"
+    }
+  ],
+  "unmatched": []
+}

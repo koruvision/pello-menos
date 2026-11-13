@@ -1,0 +1,108 @@
+{
+  "year": 2026,
+  "timezone": "America/Sao_Paulo",
+  "esquentaStart": "2026-11-03T00:00:00-03:00",
+  "esquentaEnd": "2026-11-21T23:59:59-03:00",
+  "blackWeekStart": "2026-11-23T00:00:00-03:00",
+  "blackWeekEnd": "2026-11-30T23:59:59-03:00",
+  "laser": {
+    "esquenta": {
+      "any": 0.6,
+      "multi": 0.65
+    },
+    "black_week": {
+      "any": 0.7,
+      "multi": 0.75
+    }
+  },
+  "ceraEsf": {
+    "esquenta": {
+      "any": 0.15,
+      "multi": 0.2
+    },
+    "black_week_esfoliacao": 0.15,
+    "black_week_cera": {
+      "P": 0.4,
+      "M": 0.3,
+      "G": 0.25
+    }
+  },
+  "multiThreshold": 3,
+  "excludeIdPrefixes": [
+    "body-splash",
+    "cartao-presente",
+    "plano-",
+    "produto-1-real"
+  ],
+  "excludeMethods": [
+    "produto",
+    "presente",
+    "plano",
+    "linha"
+  ],
+  "ceraTierP": [
+    "axila-cera",
+    "axila-cera-masc",
+    "buco-cera",
+    "queixo-cera",
+    "queixo-cera-masc",
+    "nariz-cera",
+    "nariz-cera-masc",
+    "seios-cera",
+    "mamilos-cera-masc",
+    "intergluteos-cera",
+    "intergluteos-cera-masc"
+  ],
+  "ceraTierM": [
+    "meia-perna-cera",
+    "meia-perna-cera-masc",
+    "coxa-cera",
+    "coxa-cera-masc",
+    "antebraco-cera",
+    "antebraco-cera-masc",
+    "faixa-cera",
+    "faixa-cera-masc",
+    "meia-nadega-cera",
+    "meia-nadega-cera-masc",
+    "sobrancelha-cera",
+    "sobrancelha-cera-masc",
+    "design-sobrancelha",
+    "design-sobrancelha-masc",
+    "sobrancelha-realce-cera",
+    "design-sobrancelha-realce",
+    "sobrancelha-henna-simples",
+    "sobrancelha-henna",
+    "labios-genitais-cera",
+    "realce",
+    "henna",
+    "tintura-pelos-pubianos"
+  ],
+  "ceraTierG": [
+    "abdomen-cera",
+    "abdomen-cera-masc",
+    "bracos-cera",
+    "bracos-cera-masc",
+    "costas-cera",
+    "costas-cera-masc",
+    "nadegas-cera",
+    "nadegas-cera-masc",
+    "perna-cera",
+    "perna-cera-masc",
+    "virilha-comum-cera",
+    "virilha-comum-cera-masc",
+    "virilha-comum-faixa-cera",
+    "virilha-cavada-cera",
+    "virilha-cavada-faixa-cera",
+    "virilha-modelada-cera",
+    "virilha-cera",
+    "virilha-cera-masc",
+    "peito-cera-masc",
+    "torax-abdomen-cera-masc",
+    "barba-cera-masc",
+    "barba-modeladora-cera-masc",
+    "bigode-cera-masc",
+    "orelha-cera-masc",
+    "pescoco-cera-masc",
+    "saco-escrotal-cera-masc"
+  ]
+}

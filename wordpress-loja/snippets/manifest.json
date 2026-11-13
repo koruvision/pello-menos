@@ -1,0 +1,14 @@
+{
+  "_comment": "Snippets canonicos do projeto. O sync publica o codigo destes arquivos no ambiente de teste, com o estado 'active' indicado. Fonte: loja.pellomenos.com.br.",
+  "snippets": [
+    { "loja_id": 5,  "name": "FAQ Schema Depilação a laser",      "file": "faq-schema-laser.php",            "active": true },
+    { "loja_id": 7,  "name": "pm-email-styles",                    "file": "pm-email-styles.php",             "active": true },
+    { "loja_id": 8,  "name": "pm-wcar (carrinho abandonado)",      "file": "pm-wcar.php",                     "active": true },
+    { "loja_id": 9,  "name": "pm-home (front do projeto)",         "file": "pm-home-front.php",               "active": true },
+    { "loja_id": 10, "name": "pm-black-nov-pricing",               "file": "pm-black-nov-pricing.php",        "active": true },
+    { "loja_id": 11, "name": "pm-accesstage-order-total-sync",     "file": "pm-accesstage-order-total-sync.php", "active": true },
+    { "loja_id": 12, "name": "Checkout sem reCAPTCHA",             "file": "checkout-sem-recaptcha.php",      "active": false },
+    { "loja_id": 13, "name": "pm-accesstage-normalize-test",       "file": "pm-accesstage-normalize-test.php", "active": true },
+    { "loja_id": 14, "name": "pm-order-paid-completed",            "file": "pm-order-paid-completed.php",     "active": true }
+  ]
+}

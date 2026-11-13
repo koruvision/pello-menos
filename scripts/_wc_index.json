@@ -1,0 +1,517 @@
+{
+  "by_id": {
+    "49527": {
+      "name": "Produto R$ 1,99",
+      "type": "simple",
+      "price": "1.99",
+      "status": "publish"
+    },
+    "49392": {
+      "name": "PM Teste Esquenta Cera C",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "49391": {
+      "name": "PM Teste Esquenta Cera B",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "49390": {
+      "name": "PM Teste Esquenta Cera A",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "49389": {
+      "name": "PM Teste Esquenta Laser C",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "49388": {
+      "name": "PM Teste Esquenta Laser B",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "49387": {
+      "name": "PM Teste Esquenta Laser A",
+      "type": "simple",
+      "price": "5.00",
+      "status": "publish"
+    },
+    "41078": {
+      "name": "teste compra",
+      "type": "variable",
+      "price": "0.10",
+      "status": "draft"
+    },
+    "24195": {
+      "name": "Plano de Assinatura VIP - Gold",
+      "type": "variable",
+      "price": "114.90",
+      "status": "publish"
+    },
+    "17255": {
+      "name": "Faixa - Linha",
+      "type": "variable",
+      "price": "25.50",
+      "status": "publish"
+    },
+    "17216": {
+      "name": "Queixo - Linha",
+      "type": "variable",
+      "price": "27.90",
+      "status": "publish"
+    },
+    "16394": {
+      "name": "Buço - Linha",
+      "type": "variable",
+      "price": "20.92",
+      "status": "publish"
+    },
+    "11993": {
+      "name": "Laser (teste)",
+      "type": "variable",
+      "price": "0.10",
+      "status": "private"
+    },
+    "11403": {
+      "name": "Pré-pago Pello Menos",
+      "type": "variable",
+      "price": "344.70",
+      "status": "publish"
+    },
+    "10305": {
+      "name": "Queixo Laser",
+      "type": "variable",
+      "price": "733.00",
+      "status": "publish"
+    },
+    "10271": {
+      "name": "Buço Laser",
+      "type": "variable",
+      "price": "425.90",
+      "status": "publish"
+    },
+    "9965": {
+      "name": "Coxas Laser",
+      "type": "variable",
+      "price": "2199.90",
+      "status": "publish"
+    },
+    "9931": {
+      "name": "Perna Inteira Laser",
+      "type": "variable",
+      "price": "4235.00",
+      "status": "publish"
+    },
+    "9897": {
+      "name": "Meia Perna Laser",
+      "type": "variable",
+      "price": "2030.00",
+      "status": "publish"
+    },
+    "9863": {
+      "name": "Virilha Comum Laser",
+      "type": "variable",
+      "price": "1320.00",
+      "status": "publish"
+    },
+    "9829": {
+      "name": "Virilha c/ Faixa Laser",
+      "type": "variable",
+      "price": "1560.00",
+      "status": "publish"
+    },
+    "9795": {
+      "name": "Virilha Cavada Laser",
+      "type": "variable",
+      "price": "1790.00",
+      "status": "publish"
+    },
+    "9761": {
+      "name": "Virilha Cavada c/ Faixa Laser",
+      "type": "variable",
+      "price": "2035.00",
+      "status": "publish"
+    },
+    "9727": {
+      "name": "Virilha Total Laser",
+      "type": "variable",
+      "price": "2090.00",
+      "status": "publish"
+    },
+    "9693": {
+      "name": "Interglúteos Laser",
+      "type": "variable",
+      "price": "470.00",
+      "status": "publish"
+    },
+    "9659": {
+      "name": "Aréola Laser",
+      "type": "variable",
+      "price": "380.90",
+      "status": "publish"
+    },
+    "9625": {
+      "name": "Abdômen Laser",
+      "type": "variable",
+      "price": "1020.00",
+      "status": "publish"
+    },
+    "9591": {
+      "name": "Braços Inteiros Laser",
+      "type": "variable",
+      "price": "1440.00",
+      "status": "publish"
+    },
+    "9557": {
+      "name": "Antebraço Laser",
+      "type": "variable",
+      "price": "1080.00",
+      "status": "publish"
+    },
+    "9523": {
+      "name": "Costas Laser",
+      "type": "variable",
+      "price": "1495.00",
+      "status": "publish"
+    },
+    "9447": {
+      "name": "PSD P Laser",
+      "type": "variable",
+      "price": "430.00",
+      "status": "publish"
+    },
+    "9413": {
+      "name": "PSD M Laser",
+      "type": "variable",
+      "price": "495.00",
+      "status": "publish"
+    },
+    "9379": {
+      "name": "PSD G Laser",
+      "type": "variable",
+      "price": "769.00",
+      "status": "publish"
+    },
+    "9345": {
+      "name": "Nádegas Laser",
+      "type": "variable",
+      "price": "1230.90",
+      "status": "publish"
+    },
+    "9310": {
+      "name": "Meia Nádega Laser",
+      "type": "variable",
+      "price": "703.00",
+      "status": "publish"
+    },
+    "9276": {
+      "name": "Nariz Laser",
+      "type": "variable",
+      "price": "340.00",
+      "status": "publish"
+    },
+    "9242": {
+      "name": "Orelhas Laser",
+      "type": "variable",
+      "price": "439.90",
+      "status": "publish"
+    },
+    "9208": {
+      "name": "Pescoço Laser",
+      "type": "variable",
+      "price": "703.00",
+      "status": "publish"
+    },
+    "9173": {
+      "name": "Rosto Inteiro Laser (BU+QU+NZ+PSD P)",
+      "type": "variable",
+      "price": "1445.00",
+      "status": "publish"
+    },
+    "8650": {
+      "name": "Axilas Laser",
+      "type": "variable",
+      "price": "359.96",
+      "status": "publish"
+    },
+    "8176": {
+      "name": "Plano de Assinatura VIP - Silver",
+      "type": "variable",
+      "price": "109.90",
+      "status": "publish"
+    },
+    "5285": {
+      "name": "Clube do Laser",
+      "type": "simple",
+      "price": "249.90",
+      "status": "publish"
+    },
+    "5232": {
+      "name": "Braços - Cera",
+      "type": "variable",
+      "price": "62.91",
+      "status": "publish"
+    },
+    "4964": {
+      "name": "Henna",
+      "type": "variable",
+      "price": "36.90",
+      "status": "publish"
+    },
+    "4896": {
+      "name": "Realce",
+      "type": "variable",
+      "price": "28.80",
+      "status": "publish"
+    },
+    "4857": {
+      "name": "Sobrancelha Simples + Henna",
+      "type": "variable",
+      "price": "75.51",
+      "status": "publish"
+    },
+    "4789": {
+      "name": "Design de Sobrancelha + Realce - Cera",
+      "type": "variable",
+      "price": "70.65",
+      "status": "publish"
+    },
+    "4723": {
+      "name": "Design de Sobrancelha - Cera",
+      "type": "variable",
+      "price": "52.65",
+      "status": "publish"
+    },
+    "4687": {
+      "name": "Design de Sobrancelha + Henna Feminino",
+      "type": "variable",
+      "price": "77.85",
+      "status": "publish"
+    },
+    "4653": {
+      "name": "Sobrancelha + Realce - Cera",
+      "type": "variable",
+      "price": "68.31",
+      "status": "publish"
+    },
+    "4619": {
+      "name": "Sobrancelha - Cera",
+      "type": "variable",
+      "price": "43.19",
+      "status": "publish"
+    },
+    "4585": {
+      "name": "Lábios Genitais - Cera",
+      "type": "variable",
+      "price": "34.65",
+      "status": "publish"
+    },
+    "4453": {
+      "name": "Virilha Cavada + Faixa - Cera",
+      "type": "variable",
+      "price": "75.60",
+      "status": "publish"
+    },
+    "4382": {
+      "name": "Virilha Cavada - Cera",
+      "type": "variable",
+      "price": "63.90",
+      "status": "publish"
+    },
+    "4347": {
+      "name": "Virilha Comum + Faixa - Cera",
+      "type": "variable",
+      "price": "46.35",
+      "status": "publish"
+    },
+    "4282": {
+      "name": "Virilha Comum - Cera",
+      "type": "variable",
+      "price": "34.65",
+      "status": "publish"
+    },
+    "4213": {
+      "name": "Virilha Total - Cera",
+      "type": "variable",
+      "price": "76.50",
+      "status": "publish"
+    },
+    "4177": {
+      "name": "Virilha Modelada - Cera",
+      "type": "variable",
+      "price": "75.51",
+      "status": "publish"
+    },
+    "4114": {
+      "name": "Seios - Cera",
+      "type": "variable",
+      "price": "25.11",
+      "status": "publish"
+    },
+    "4075": {
+      "name": "Queixo - Cera",
+      "type": "variable",
+      "price": "24.21",
+      "status": "publish"
+    },
+    "4013": {
+      "name": "Meia Perna - Cera",
+      "type": "variable",
+      "price": "44.91",
+      "status": "publish"
+    },
+    "3973": {
+      "name": "Perna Inteira - Cera",
+      "type": "variable",
+      "price": "77.31",
+      "status": "publish"
+    },
+    "3908": {
+      "name": "Nádegas Completas - Cera",
+      "type": "variable",
+      "price": "44.91",
+      "status": "publish"
+    },
+    "3843": {
+      "name": "Meia Nádega - Cera",
+      "type": "variable",
+      "price": "22.49",
+      "status": "publish"
+    },
+    "3803": {
+      "name": "Nariz - Cera",
+      "type": "variable",
+      "price": "26.01",
+      "status": "publish"
+    },
+    "3741": {
+      "name": "Interglúteos - Cera",
+      "type": "variable",
+      "price": "29.25",
+      "status": "publish"
+    },
+    "3674": {
+      "name": "Faixa - Cera",
+      "type": "variable",
+      "price": "23.40",
+      "status": "publish"
+    },
+    "3601": {
+      "name": "Coxa - Cera",
+      "type": "variable",
+      "price": "44.91",
+      "status": "publish"
+    },
+    "3565": {
+      "name": "Costas - Cera",
+      "type": "variable",
+      "price": "49.50",
+      "status": "publish"
+    },
+    "2319": {
+      "name": "Axila - Cera",
+      "type": "variable",
+      "price": "29.70",
+      "status": "publish"
+    },
+    "2285": {
+      "name": "Abdômen - Cera",
+      "type": "variable",
+      "price": "52.20",
+      "status": "publish"
+    },
+    "2250": {
+      "name": "Antebraço - Cera",
+      "type": "variable",
+      "price": "44.91",
+      "status": "publish"
+    },
+    "2076": {
+      "name": "Buço - Cera",
+      "type": "variable",
+      "price": "24.21",
+      "status": "publish"
+    }
+  },
+  "by_name": {
+    "produto r$ 1,99": 49527,
+    "pm teste esquenta cera c": 49392,
+    "pm teste esquenta cera b": 49391,
+    "pm teste esquenta cera a": 49390,
+    "pm teste esquenta laser c": 49389,
+    "pm teste esquenta laser b": 49388,
+    "pm teste esquenta laser a": 49387,
+    "teste compra": 41078,
+    "plano de assinatura vip - gold": 24195,
+    "faixa - linha": 17255,
+    "queixo - linha": 17216,
+    "buço - linha": 16394,
+    "laser (teste)": 11993,
+    "pré-pago pello menos": 11403,
+    "queixo laser": 10305,
+    "buço laser": 10271,
+    "coxas laser": 9965,
+    "perna inteira laser": 9931,
+    "meia perna laser": 9897,
+    "virilha comum laser": 9863,
+    "virilha c/ faixa laser": 9829,
+    "virilha cavada laser": 9795,
+    "virilha cavada c/ faixa laser": 9761,
+    "virilha total laser": 9727,
+    "interglúteos laser": 9693,
+    "aréola laser": 9659,
+    "abdômen laser": 9625,
+    "braços inteiros laser": 9591,
+    "antebraço laser": 9557,
+    "costas laser": 9523,
+    "psd p laser": 9447,
+    "psd m laser": 9413,
+    "psd g laser": 9379,
+    "nádegas laser": 9345,
+    "meia nádega laser": 9310,
+    "nariz laser": 9276,
+    "orelhas laser": 9242,
+    "pescoço laser": 9208,
+    "rosto inteiro laser (bu+qu+nz+psd p)": 9173,
+    "axilas laser": 8650,
+    "plano de assinatura vip - silver": 8176,
+    "clube do laser": 5285,
+    "braços - cera": 5232,
+    "henna": 4964,
+    "realce": 4896,
+    "sobrancelha simples + henna": 4857,
+    "design de sobrancelha + realce - cera": 4789,
+    "design de sobrancelha - cera": 4723,
+    "design de sobrancelha + henna feminino": 4687,
+    "sobrancelha + realce - cera": 4653,
+    "sobrancelha - cera": 4619,
+    "lábios genitais - cera": 4585,
+    "virilha cavada + faixa - cera": 4453,
+    "virilha cavada - cera": 4382,
+    "virilha comum + faixa - cera": 4347,
+    "virilha comum - cera": 4282,
+    "virilha total - cera": 4213,
+    "virilha modelada - cera": 4177,
+    "seios - cera": 4114,
+    "queixo - cera": 4075,
+    "meia perna - cera": 4013,
+    "perna inteira - cera": 3973,
+    "nádegas completas - cera": 3908,
+    "meia nádega - cera": 3843,
+    "nariz - cera": 3803,
+    "interglúteos - cera": 3741,
+    "faixa - cera": 3674,
+    "coxa - cera": 3601,
+    "costas - cera": 3565,
+    "axila - cera": 2319,
+    "abdômen - cera": 2285,
+    "antebraço - cera": 2250,
+    "buço - cera": 2076
+  }
+}

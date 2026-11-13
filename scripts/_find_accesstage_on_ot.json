@@ -1,0 +1,286 @@
+{
+  "url": "https://pellomenosoficialteste.companygenesis.com.br",
+  "plugins": [
+    {
+      "plugin": "advanced-dynamic-pricing-for-woocommerce-pro/advanced-dynamic-pricing-for-woocommerce-pro",
+      "name": "Advanced Dynamic Pricing for WooCommerce (Pro)",
+      "status": "inactive",
+      "interesting": true
+    },
+    {
+      "plugin": "woo-cart-abandonment-recovery/woo-cart-abandonment-recovery",
+      "name": "Cart Abandonment Recovery for WooCommerce",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "cf7-conditional-fields/conditional-fields",
+      "name": "Conditional Fields for Contact Form 7",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "contact-form-7/wp-contact-form-7",
+      "name": "Contact Form 7",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "cpf-e-cnpj-para-contact-form-7-old/index",
+      "name": "CPF e CNPJ para Contact Form 7",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "google-listings-and-ads/google-listings-and-ads",
+      "name": "Google for WooCommerce",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "hostinger-preview-domain-pv36lTGKh52b6bk6/hostinger-preview-domain",
+      "name": "Hostinger Preview Domain",
+      "status": "inactive",
+      "interesting": true
+    },
+    {
+      "plugin": "kadence-woocommerce-email-designer/kadence-woocommerce-email-designer",
+      "name": "Kadence WooCommerce Email Designer",
+      "status": "inactive",
+      "interesting": true
+    },
+    {
+      "plugin": "order-import-export-for-woocommerce/order-import-export-for-woocommerce",
+      "name": "Order Export &amp; Order Import for WooCommerce",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "wpcf7-recaptcha/wpcf7-recaptcha",
+      "name": "ReCaptcha v2 for Contact Form 7",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "ti-woocommerce-wishlist/ti-woocommerce-wishlist",
+      "name": "TI WooCommerce Wishlist",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "woo-variation-swatches/woo-variation-swatches",
+      "name": "Variation Swatches for WooCommerce",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "woocommerce/woocommerce",
+      "name": "WooCommerce",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "wpvivid-backuprestore/wpvivid-backuprestore",
+      "name": "WPvivid Backup Plugin",
+      "status": "active",
+      "interesting": true
+    },
+    {
+      "plugin": "yith-woocommerce-compare/init",
+      "name": "YITH WooCommerce Compare",
+      "status": "active",
+      "interesting": true
+    }
+  ],
+  "themes": [
+    {
+      "stylesheet": "shopwise-child",
+      "status": "active",
+      "name": {
+        "raw": "Shopwise Child",
+        "rendered": "Shopwise Child"
+      }
+    },
+    {
+      "stylesheet": "shopwise",
+      "status": "inactive",
+      "name": {
+        "raw": "Shopwise",
+        "rendered": "Shopwise"
+      }
+    },
+    {
+      "stylesheet": "twentynineteen",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Nineteen",
+        "rendered": "Twenty Nineteen"
+      }
+    },
+    {
+      "stylesheet": "twentytwenty",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty",
+        "rendered": "Twenty Twenty"
+      }
+    },
+    {
+      "stylesheet": "twentytwentyfive",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty-Five",
+        "rendered": "Twenty Twenty-Five"
+      }
+    },
+    {
+      "stylesheet": "twentytwentyfour",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty-Four",
+        "rendered": "Twenty Twenty-Four"
+      }
+    },
+    {
+      "stylesheet": "twentytwentyone",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty-One",
+        "rendered": "Twenty Twenty-One"
+      }
+    },
+    {
+      "stylesheet": "twentytwentythree",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty-Three",
+        "rendered": "Twenty Twenty-Three"
+      }
+    },
+    {
+      "stylesheet": "twentytwentytwo",
+      "status": "inactive",
+      "name": {
+        "raw": "Twenty Twenty-Two",
+        "rendered": "Twenty Twenty-Two"
+      }
+    }
+  ],
+  "checkout_js_hits": [
+    {
+      "url": "https://pellomenosoficialteste.companygenesis.com.br/wp-content/uploads/pm-home/checkout-loading.js?v=load3",
+      "hits": [
+        "accesstage"
+      ],
+      "bytes": 9517
+    },
+    {
+      "url": "https://pellomenosoficialteste.companygenesis.com.br/wp-content/uploads/pm-home/checkout-shell-c24.js?v=c37",
+      "hits": [
+        "accesstage",
+        "removeitemcartpl",
+        "redirectsuccess"
+      ],
+      "bytes": 73247
+    }
+  ],
+  "probes": [
+    {
+      "path": "/wp-content/mu-plugins/",
+      "status": 403,
+      "ctype": "text/html",
+      "bytes": 787
+    },
+    {
+      "path": "/wp-content/plugins/",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 0
+    },
+    {
+      "path": "/wp-content/plugins/accesstage/",
+      "status": 404,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 80052
+    },
+    {
+      "path": "/wp-content/plugins/accesstage-payment/",
+      "status": 404,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 80052
+    },
+    {
+      "path": "/wp-content/plugins/woocommerce-accesstage/",
+      "status": 404,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 80052
+    },
+    {
+      "path": "/wp-content/mu-plugins/accesstage.php",
+      "status": 404,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 80052
+    },
+    {
+      "path": "/wp-content/mu-plugins/accesstage/",
+      "status": 404,
+      "ctype": "text/html; charset=UTF-8",
+      "bytes": 80052
+    },
+    {
+      "path": "/wp-json/",
+      "status": 200,
+      "ctype": "application/json; charset=UTF-8",
+      "bytes": 1482990
+    }
+  ],
+  "checkout_script_count": 62,
+  "checkout_html_keyword_hits": [
+    "cart-number",
+    "securitycode",
+    "removeitemcartpl",
+    "redirectsuccess"
+  ],
+  "wp_json_payish_routes": [
+    "/contact-form-7/v1",
+    "/contact-form-7/v1/contact-forms",
+    "/contact-form-7/v1/contact-forms/(?P<id>\\d+)",
+    "/contact-form-7/v1/contact-forms/(?P<id>\\d+)/feedback",
+    "/contact-form-7/v1/contact-forms/(?P<id>\\d+)/feedback/schema",
+    "/contact-form-7/v1/contact-forms/(?P<id>\\d+)/refill",
+    "/wc-admin/launch-your-store/woopayments/test-orders",
+    "/wc-admin/launch-your-store/woopayments/test-orders/count",
+    "/wc-admin/payment-gateway-suggestions",
+    "/wc-admin/payment-gateway-suggestions/dismiss",
+    "/wc-admin/plugins/connect-wcpay",
+    "/wc-admin/settings/payments/country",
+    "/wc-admin/settings/payments/providers",
+    "/wc-admin/settings/payments/providers/order",
+    "/wc-admin/settings/payments/suggestion/(?P<id>[\\w\\d\\-]+)/attach",
+    "/wc-admin/settings/payments/suggestion/(?P<id>[\\w\\d\\-]+)/hide",
+    "/wc-admin/settings/payments/suggestion/(?P<suggestion_id>[\\w\\d\\-]+)/incentive/(?P<incentive_id>[\\w\\d\\-]+)/dismiss",
+    "/wc-admin/settings/payments/woopayments/onboarding",
+    "/wc-admin/settings/payments/woopayments/onboarding/preload",
+    "/wc-admin/settings/payments/woopayments/onboarding/reset",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/(?P<step>[a-zA-Z0-9_-]+)/check",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/(?P<step>[a-zA-Z0-9_-]+)/clean",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/(?P<step>[a-zA-Z0-9_-]+)/finish",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/(?P<step>[a-zA-Z0-9_-]+)/save",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/(?P<step>[a-zA-Z0-9_-]+)/start",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/business_verification/kyc_session",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/business_verification/kyc_session/finish",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/business_verification/test_account/disable",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/test_account/init",
+    "/wc-admin/settings/payments/woopayments/onboarding/step/test_account/reset",
+    "/wc-admin/settings/payments/woopayments/onboarding/test_account/disable",
+    "/wc-admin/settings/payments/woopayments/woopay-eligibility",
+    "/wc/v2/payment_gateways",
+    "/wc/v2/payment_gateways/(?P<id>[\\w-]+)",
+    "/wc/v3/payment_gateways",
+    "/wc/v3/payment_gateways/(?P<id>[\\w-]+)",
+    "/wc/v3/paypal-buttons/cancel-payment",
+    "/wc/v3/paypal-buttons/create-order",
+    "/wc/v3/paypal-standard/update-shipping",
+    "/wc/v3/paypal-webhooks"
+  ]
+}

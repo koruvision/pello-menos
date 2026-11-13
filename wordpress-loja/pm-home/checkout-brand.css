@@ -1,0 +1,1976 @@
+/* Checkout UI — clean white canvas, airy layout. Does not rename CF7 fields. */
+:root {
+  --pm-ck-bg: #f7f1ec;
+  --pm-ck-surface: #ffffff;
+  --pm-ck-surface-soft: #faf6f2;
+  --pm-ck-line: rgba(42, 26, 36, 0.1);
+  --pm-ck-on: #2a1a24;
+  --pm-ck-muted: #6f5f68;
+  --pm-ck-primary: #700053;
+  --pm-ck-primary-soft: rgba(112, 0, 83, 0.08);
+  --pm-ck-gold: #c9923a;
+  --pm-ck-radius: 1.15rem;
+  --pm-ck-font: "Manrope", "Segoe UI", sans-serif;
+}
+
+/* Kill Shopwise geometric / cream backgrounds */
+html.pm-checkout-brand,
+body.pm-checkout-brand {
+  font-family: var(--pm-ck-font);
+  color: var(--pm-ck-on);
+  background: #f7f1ec !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+}
+
+body.pm-checkout-brand .main_content,
+body.pm-checkout-brand .main_content > .section,
+body.pm-checkout-brand .section,
+body.pm-checkout-brand .container,
+body.pm-checkout-brand .container-fluid,
+body.pm-checkout-brand #content,
+body.pm-checkout-brand .content-area,
+body.pm-checkout-brand .site-content,
+body.pm-checkout-brand .entry-content,
+body.pm-checkout-brand .page_section,
+body.pm-checkout-brand .bg_default,
+body.pm-checkout-brand .bg_light,
+body.pm-checkout-brand .breadcrumb_section,
+body.pm-checkout-brand .page-title-light,
+body.pm-checkout-brand .page-title,
+body.pm-checkout-brand #page,
+body.pm-checkout-brand #wrapper,
+body.pm-checkout-brand .wrapper {
+  background: #f7f1ec !important;
+  background-color: #f7f1ec !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+body.pm-checkout-brand .main_content::before,
+body.pm-checkout-brand .main_content::after,
+body.pm-checkout-brand .section::before,
+body.pm-checkout-brand .section::after,
+body.pm-checkout-brand .container::before,
+body.pm-checkout-brand .container::after,
+body.pm-checkout-brand #content::before,
+body.pm-checkout-brand #content::after,
+body.pm-checkout-brand .bg_default::before,
+body.pm-checkout-brand .bg_default::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  background-image: none !important;
+}
+
+body.pm-checkout-brand .main_content {
+  padding-bottom: 4rem;
+  min-height: auto;
+}
+
+/* Evita rolagem horizontal no miolo — NÃO no body/html (corta header fixo + marquee) */
+body.pm-checkout-brand .main_content,
+body.pm-checkout-brand .container,
+body.pm-checkout-brand .pm-checkout-span,
+body.pm-checkout-brand .pm-checkout-span-wrap,
+.pm-checkout-layout,
+.pm-checkout-form-col,
+.pm-checkout-cart,
+body.pm-checkout-brand .wpcf7,
+body.pm-checkout-brand .wpcf7-form,
+body.pm-checkout-brand #pills-tabContent,
+body.pm-checkout-brand .tab-pane {
+  max-width: 100%;
+  overflow-x: clip;
+  box-sizing: border-box;
+}
+
+/* Tema Shopwise: remove padding/imagem pesada do page-finish */
+body.pm-checkout-brand .page-finish,
+body.pm-checkout-brand .main_content.page-finish,
+body.pm-checkout-brand section.page-finish,
+body.pm-checkout-brand .page_finish {
+  padding: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+  background: #f7f1ec !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+}
+
+/* Legacy cart table replaced by panel */
+.pm-checkout-brand #total,
+#total.pm-checkout-legacy-hidden {
+  display: none !important;
+}
+
+/* Sem título de página acima das abas */
+body.pm-checkout-brand h2.pm-checkout-page-heading,
+body.pm-checkout-brand .pm-checkout-page-heading {
+  display: none !important;
+}
+
+/* Título dentro do card (igual Dados de Pagamento) */
+.pm-checkout-step-title,
+body.pm-checkout-brand #pills-pagamento > h3,
+body.pm-checkout-brand #pills-dados > .pm-checkout-step-title {
+  margin: 0 0 1.15rem !important;
+  padding: 0 !important;
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  line-height: 1.25 !important;
+  color: var(--pm-ck-on) !important;
+  text-align: center !important;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .pm-checkout-step-title {
+  margin-bottom: 0.85rem !important;
+  font-size: 1.25rem !important;
+}
+
+/* Break out of theme col-lg-8 so the form is not thin */
+body.pm-checkout-brand .pm-checkout-span,
+body.pm-checkout-brand .pm-checkout-span.col-lg-8,
+body.pm-checkout-brand .pm-checkout-span.col-md-8,
+body.pm-checkout-brand .row > .pm-checkout-span {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+body.pm-checkout-brand .pm-checkout-span-wrap {
+  max-width: 1320px !important;
+  width: 100% !important;
+}
+
+body.pm-checkout-brand .pm-checkout-span.white,
+body.pm-checkout-brand .white.pm-checkout-span,
+body.pm-checkout-brand .white {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Step 1 (Dados): one wide form card. Step Pagamento: two cards (pedido + form). */
+.pm-checkout-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+  align-items: start;
+  width: min(1100px, calc(100% - 2rem));
+  margin: 1rem auto 4rem;
+  box-sizing: border-box;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .pm-checkout-cart {
+  display: none !important;
+}
+
+.pm-checkout-layout.is-pay-step {
+  grid-template-columns: minmax(300px, 420px) minmax(0, 1fr);
+  gap: 2rem 2.5rem;
+  width: min(1280px, calc(100% - 2rem));
+}
+
+.pm-checkout-cart {
+  position: sticky;
+  top: 176px;
+  background: var(--pm-ck-surface);
+  border: 1px solid var(--pm-ck-line);
+  border-radius: var(--pm-ck-radius);
+  padding: 1.85rem 1.75rem 2rem;
+  box-shadow: 0 1px 0 rgba(42, 26, 36, 0.04);
+}
+
+.pm-checkout-cart__title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--pm-ck-on);
+  letter-spacing: -0.02em;
+}
+
+.pm-checkout-cart__sub {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: var(--pm-ck-muted);
+  line-height: 1.45;
+}
+
+.pm-checkout-cart__list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pm-checkout-line {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 1.15rem;
+  padding: 0 0 1.25rem;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--pm-ck-line);
+  border-radius: 0;
+}
+
+.pm-checkout-line:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pm-checkout-line__img {
+  width: 72px;
+  height: 80px;
+  border-radius: 0.85rem;
+  object-fit: cover;
+  background: var(--pm-ck-surface-soft);
+  border: 1px solid var(--pm-ck-line);
+}
+
+.pm-checkout-line__name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--pm-ck-on);
+}
+
+.pm-checkout-line__meta {
+  margin: 0.3rem 0 0;
+  font-size: 0.75rem;
+  color: var(--pm-ck-muted);
+}
+
+.pm-checkout-line__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  margin-top: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.pm-checkout-qty {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--pm-ck-line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.pm-checkout-qty button {
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0;
+  background: transparent;
+  color: var(--pm-ck-primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pm-checkout-qty button:hover:not(:disabled) {
+  background: var(--pm-ck-primary-soft);
+}
+
+.pm-checkout-qty button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.pm-checkout-qty span {
+  min-width: 1.85rem;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.pm-checkout-line__price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--pm-ck-on);
+}
+
+.pm-checkout-line__list {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--pm-ck-muted);
+  text-decoration: line-through;
+  margin-right: 0.35rem;
+}
+
+.pm-checkout-line__remove {
+  border: 0;
+  background: none;
+  color: var(--pm-ck-muted);
+  font-size: 0.8125rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  padding: 0.35rem 0 0;
+  margin-top: 0.4rem;
+}
+
+.pm-checkout-line__remove:hover {
+  color: var(--pm-ck-primary);
+}
+
+.pm-checkout-cart__totals {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--pm-ck-line);
+  display: grid;
+  gap: 0.65rem;
+  font-size: 0.9375rem;
+}
+
+.pm-checkout-cart__totals div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: var(--pm-ck-muted);
+}
+
+.pm-checkout-cart__totals .is-total {
+  margin-top: 0.4rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--pm-ck-line);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--pm-ck-on);
+}
+
+.pm-checkout-cart.is-busy button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.pm-checkout-empty {
+  margin-top: 1.4rem;
+  padding: 2rem 1.35rem;
+  text-align: center;
+  border-radius: var(--pm-ck-radius);
+  background: var(--pm-ck-surface-soft);
+  border: 1px solid var(--pm-ck-line);
+}
+
+.pm-checkout-empty p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--pm-ck-muted);
+  line-height: 1.5;
+}
+
+.pm-checkout-empty a {
+  display: inline-flex;
+  margin: 1.15rem 0.4rem 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0 1.35rem;
+  border-radius: 999px;
+  background: var(--pm-ck-primary);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.pm-checkout-empty a[href="/"] {
+  background: transparent;
+  color: var(--pm-ck-primary);
+  border: 1px solid rgba(112, 0, 83, 0.28);
+}
+
+.pm-checkout-cart__status {
+  margin: 1rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--pm-ck-muted);
+  min-height: 1.2em;
+  line-height: 1.45;
+}
+
+.pm-checkout-pickup-note {
+  margin: 0.65rem 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: var(--pm-ck-muted);
+}
+
+.pm-checkout-pickup-note strong {
+  font-weight: 700;
+  color: var(--pm-ck-on);
+}
+
+.pm-checkout-pickup-note--pay {
+  margin: 0.75rem 0 0.35rem;
+  max-width: 36rem;
+}
+
+.pm-checkout-cart__status.is-error {
+  color: var(--pm-ck-primary);
+}
+
+.pm-checkout-cart.is-busy {
+  opacity: 0.9;
+}
+
+.pm-checkout-form-col {
+  min-width: 0;
+  background: var(--pm-ck-surface);
+  border: 1px solid var(--pm-ck-line);
+  border-radius: var(--pm-ck-radius);
+  padding: 2rem 2.25rem 2.35rem;
+  box-shadow: 0 1px 0 rgba(42, 26, 36, 0.04);
+}
+
+.pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col {
+  padding: 1.35rem 1.75rem 1.5rem;
+}
+
+/* 1ª etapa mais compacta (menos altura) */
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form p,
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form .form-group,
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form .row > [class*="col-"] {
+  margin-bottom: 0.55rem !important;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form .row {
+  margin-bottom: 0 !important;
+  row-gap: 0.15rem;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="text"],
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="email"],
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="tel"],
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="number"],
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form select {
+  min-height: 2.65rem !important;
+  padding-top: 0.55rem !important;
+  padding-bottom: 0.55rem !important;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .wpcf7-form label {
+  margin-bottom: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.pm-checkout-layout:not(.is-pay-step) .nav-pills {
+  margin-bottom: 0.85rem !important;
+}
+
+/* Consentimento logo acima do botao — checkbox + texto na mesma linha */
+.pm-checkout-consent {
+  margin: 1rem 0 0.85rem !important;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-radius: 0.85rem;
+  background: var(--pm-ck-surface-soft);
+  border: 1px solid var(--pm-ck-line);
+}
+
+.pm-checkout-consent .wpcf7-acceptance,
+.pm-checkout-consent .wpcf7-list-item,
+.pm-checkout-consent .wpcf7-list-item label {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 0.65rem;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.pm-checkout-consent input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0.15rem 0 0 !important;
+  float: none !important;
+}
+
+.pm-checkout-consent .wpcf7-list-item-label {
+  display: inline !important;
+  margin: 0 !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.45;
+  color: var(--pm-ck-on);
+  font-weight: 500 !important;
+  text-align: left;
+}
+
+/* Label acima do select de parcelas */
+.pm-checkout-installments-label {
+  display: block;
+  margin: 0 0 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--pm-ck-on);
+  text-align: left;
+}
+
+/* Parcelas sempre legíveis na etapa pagamento */
+.pm-checkout-layout.is-pay-step select[name="installments"],
+.pm-checkout-layout.is-pay-step select[name="allinstallments"],
+.pm-checkout-layout.is-pay-step select[name="cerainstallments"] {
+  min-height: 3.15rem !important;
+  font-weight: 600;
+}
+
+/* CF7 skin — names/ids untouched */
+.pm-checkout-brand .wpcf7-form input[type="text"],
+.pm-checkout-brand .wpcf7-form input[type="email"],
+.pm-checkout-brand .wpcf7-form input[type="tel"],
+.pm-checkout-brand .wpcf7-form input[type="number"],
+.pm-checkout-brand .wpcf7-form input[type="password"],
+.pm-checkout-brand .wpcf7-form select,
+.pm-checkout-brand .wpcf7-form textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 3.25rem;
+  border-radius: 0.9rem !important;
+  border: 1px solid var(--pm-ck-line) !important;
+  padding: 0.85rem 1.1rem !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  color: var(--pm-ck-on) !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+.pm-checkout-brand .wpcf7-form input:focus,
+.pm-checkout-brand .wpcf7-form select:focus,
+.pm-checkout-brand .wpcf7-form textarea:focus {
+  border-color: rgba(112, 0, 83, 0.45) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px var(--pm-ck-primary-soft) !important;
+}
+
+.pm-checkout-brand .wpcf7-form label,
+.pm-checkout-brand .wpcf7-form .wpcf7-list-item-label {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--pm-ck-on);
+}
+
+.pm-checkout-brand .wpcf7-form p,
+.pm-checkout-brand .wpcf7-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.pm-checkout-brand .wpcf7-form .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0.35rem;
+  column-gap: 0 !important;
+  row-gap: 0.35rem;
+}
+
+.pm-checkout-brand .wpcf7-form .row > [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-bottom: 1.1rem;
+}
+
+/* Vazio = só borda vermelha; tip de "obrigatório" some via JS */
+.pm-checkout-brand .wpcf7-not-valid,
+.pm-checkout-brand .wpcf7-form input.wpcf7-not-valid,
+.pm-checkout-brand .wpcf7-form select.wpcf7-not-valid,
+.pm-checkout-brand .wpcf7-form textarea.wpcf7-not-valid {
+  border-color: #c62828 !important;
+  box-shadow: 0 0 0 3px rgba(198, 40, 40, 0.14) !important;
+}
+
+.pm-checkout-brand .wpcf7-not-valid-tip {
+  display: none;
+  font-size: 0.8125rem;
+  color: #b71c1c;
+  margin-top: 0.4rem;
+  line-height: 1.35;
+}
+
+.pm-checkout-brand .wpcf7-not-valid-tip.pm-ck-tip-show {
+  display: block !important;
+}
+
+/* Campo inválido sem tip genérico: destaque do wrap para a cliente achar o erro */
+.pm-checkout-brand .pm-ck-field-invalid {
+  outline: 2px solid rgba(198, 40, 40, 0.35);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+/*
+  .wpcf7-response-output = banner genérico do CF7
+  (erro de validação / enviado / falha de e-mail / spam).
+  Em .invalid o feedback visual é a borda vermelha dos campos —
+  o texto genérico "um ou mais campos…" é ruído → oculto.
+  Mantém visível em sucesso/falha real de envio.
+*/
+/* CF7 response: sem faixa azul / check; texto de mensagem continua visivel */
+body.pm-checkout-brand .wpcf7-response-output,
+body.pm-checkout-brand .wpcf7-form .wpcf7-response-output {
+  display: block !important;
+  position: relative !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  margin: 0.65rem 0 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  color: var(--pm-ck-on) !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
+}
+
+body.pm-checkout-brand .wpcf7-response-output::before,
+body.pm-checkout-brand .wpcf7-response-output::after,
+body.pm-checkout-brand .wpcf7-form.sent .wpcf7-response-output::before,
+body.pm-checkout-brand .wpcf7-form.failed .wpcf7-response-output::before,
+body.pm-checkout-brand .wpcf7-form.invalid .wpcf7-response-output::before {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  border: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+body.pm-checkout-brand .wpcf7-form.invalid .wpcf7-response-output {
+  color: #b71c1c !important;
+}
+
+body.pm-checkout-brand .wpcf7-form.sent .wpcf7-response-output {
+  color: #1b5e20 !important;
+}
+
+body.pm-checkout-brand .wpcf7-form.failed .wpcf7-response-output,
+body.pm-checkout-brand .wpcf7-form.aborted .wpcf7-response-output,
+body.pm-checkout-brand .wpcf7-form.spam .wpcf7-response-output {
+  color: #b71c1c !important;
+}
+
+
+
+.pm-checkout-brand .wpcf7-form input.wpcf7-submit,
+.pm-checkout-brand .wpcf7-form .wpcf7-submit,
+.pm-checkout-brand .pm-checkout-submit {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  width: 100%;
+  max-width: 100%;
+  min-height: 3.65rem !important;
+  margin-top: 0.45rem;
+  border: 1px solid rgba(255, 236, 200, 0.35) !important;
+  border-radius: 999px !important;
+  padding: 1rem 1.9rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase !important;
+  --pm-ck-shine-a: rgba(255, 255, 255, 0.45);
+  --pm-ck-shine-b: rgba(255, 236, 190, 0.95);
+  color: #fff !important;
+  background-color: #7a0060 !important;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.22) 0%,
+      rgba(255, 255, 255, 0) 42%
+    ),
+    linear-gradient(
+      118deg,
+      #2e0628 0%,
+      #5c0048 14%,
+      #8f006e 32%,
+      #c43a9a 48%,
+      #f0b56a 56%,
+      #d456b0 64%,
+      #9b0078 80%,
+      #4a0a42 100%
+    ) !important;
+  background-size: 100% 100%, 280% 280% !important;
+  background-position: 0 0, 0% 50% !important;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.28) inset,
+    0 -1px 0 rgba(40, 0, 32, 0.25) inset,
+    0 14px 32px rgba(112, 0, 83, 0.42),
+    0 0 0 0 rgba(232, 184, 109, 0.35) !important;
+  cursor: pointer;
+  overflow: hidden;
+  transform: translateZ(0);
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s ease,
+    filter 0.28s ease,
+    border-color 0.28s ease;
+  animation: btn-gradient 4.8s ease infinite, btn-glow 3.2s ease-in-out infinite;
+}
+
+.pm-checkout-brand .pm-checkout-submit::before {
+  content: "";
+  position: absolute;
+  inset: -20% -40%;
+  background: linear-gradient(
+    105deg,
+    transparent 38%,
+    rgba(255, 255, 255, 0.12) 45%,
+    rgba(255, 244, 214, 0.75) 50%,
+    rgba(255, 210, 140, 0.55) 52%,
+    rgba(255, 255, 255, 0.12) 57%,
+    transparent 66%
+  );
+  transform: translateX(-120%) skewX(-18deg);
+  animation: btn-shine 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.pm-checkout-brand .pm-checkout-submit::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0) 38%,
+    rgba(0, 0, 0, 0.08) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.pm-checkout-brand .wpcf7-form input.wpcf7-submit:hover,
+.pm-checkout-brand .wpcf7-form .wpcf7-submit:hover,
+.pm-checkout-brand .pm-checkout-submit:hover {
+  filter: brightness(1.06) saturate(1.08);
+  border-color: rgba(255, 236, 200, 0.55) !important;
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 -1px 0 rgba(40, 0, 32, 0.2) inset,
+    0 18px 40px rgba(112, 0, 83, 0.5),
+    0 0 28px rgba(226, 90, 184, 0.28) !important;
+}
+
+.pm-checkout-brand .pm-checkout-submit:hover .pm-checkout-submit__icon {
+  transform: translateX(3px);
+}
+
+.pm-checkout-brand .pm-checkout-submit:active {
+  transform: translateY(0);
+  filter: brightness(0.98);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.2) inset,
+    0 8px 20px rgba(112, 0, 83, 0.38) !important;
+}
+
+.pm-checkout-submit__label {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 2px rgba(40, 0, 32, 0.35);
+}
+
+.pm-checkout-submit__icon {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  filter: drop-shadow(0 1px 1px rgba(40, 0, 32, 0.35));
+}
+
+@keyframes btn-gradient {
+  0%,
+  100% {
+    background-position: 0 0, 0% 50%;
+  }
+  50% {
+    background-position: 0 0, 100% 50%;
+  }
+}
+
+@keyframes btn-shine {
+  0%,
+  12% {
+    transform: translateX(-120%) skewX(-18deg);
+    opacity: 0;
+  }
+  18% {
+    opacity: 1;
+  }
+  42% {
+    transform: translateX(120%) skewX(-18deg);
+    opacity: 0.9;
+  }
+  48%,
+  100% {
+    transform: translateX(120%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes btn-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.28) inset,
+      0 -1px 0 rgba(40, 0, 32, 0.25) inset,
+      0 14px 32px rgba(112, 0, 83, 0.42),
+      0 0 0 0 rgba(232, 184, 109, 0);
+  }
+  50% {
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.32) inset,
+      0 -1px 0 rgba(40, 0, 32, 0.22) inset,
+      0 16px 36px rgba(112, 0, 83, 0.48),
+      0 0 22px 2px rgba(232, 184, 109, 0.22);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pm-checkout-brand .pm-checkout-submit,
+  .pm-checkout-brand .pm-checkout-submit::before,
+  .pm-checkout-brand .nav-pills .nav-link,
+  .pm-checkout-brand .nav-pills .nav-link::before,
+  .pm-checkout-brand .btnNext,
+  .pm-checkout-brand .btnNext::before {
+    animation: none !important;
+  }
+
+  .pm-checkout-brand .pm-checkout-submit:hover {
+    transform: none;
+  }
+}
+
+
+.pm-checkout-brand .nav-pills .nav-link,
+.pm-checkout-brand .pm-checkout-buy-now {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.pm-ck-tab-icon {
+  flex: 0 0 auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.pm-checkout-brand .nav-pills .nav-link > span,
+.pm-checkout-brand .pm-checkout-buy-now > span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Abas = mesmo lux da home: ativo roxo (Ver produto), inativo dourado (checkout) */
+.pm-checkout-brand .nav-pills,
+.pm-checkout-brand .nav.nav-pills,
+.pm-checkout-brand ul#pills-tab {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch;
+  gap: 0.75rem;
+  margin-bottom: 1.35rem !important;
+}
+
+.pm-checkout-brand .nav-pills .nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.pm-checkout-brand .nav-pills .nav-link {
+  width: 100%;
+  text-align: center;
+}
+
+.pm-checkout-brand .nav-pills .nav-link,
+.pm-checkout-brand .btnNext,
+.pm-checkout-brand a.btnNext,
+.pm-checkout-brand .btn.btn-primary.btnNext {
+  position: relative !important;
+  z-index: 0;
+  overflow: hidden !important;
+  isolation: isolate;
+  border-radius: 999px !important;
+  font-size: 0.8125rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase !important;
+  padding: 0.75rem 1.35rem !important;
+  border: 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 220% 220% !important;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease,
+    filter 0.28s ease;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.pm-checkout-brand .nav-pills .nav-link::before,
+.pm-checkout-brand .btnNext::before,
+.pm-checkout-brand a.btnNext::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(
+    105deg,
+    transparent 36%,
+    var(--pm-ck-shine-a, rgba(255, 255, 255, 0.35)) 47%,
+    var(--pm-ck-shine-b, rgba(255, 255, 255, 0.85)) 50%,
+    var(--pm-ck-shine-a, rgba(255, 255, 255, 0.35)) 53%,
+    transparent 64%
+  ) !important;
+  transform: translateX(-130%);
+  animation: btn-shine 6.4s ease-in-out infinite;
+  pointer-events: none !important;
+  background-image: linear-gradient(
+    105deg,
+    transparent 36%,
+    var(--pm-ck-shine-a, rgba(255, 255, 255, 0.35)) 47%,
+    var(--pm-ck-shine-b, rgba(255, 255, 255, 0.85)) 50%,
+    var(--pm-ck-shine-a, rgba(255, 255, 255, 0.35)) 53%,
+    transparent 64%
+  ) !important;
+  background-position: initial !important;
+}
+
+/* Ativo = Ver produto (roxo vivo) */
+.pm-checkout-brand .nav-pills .nav-link.active,
+.pm-checkout-brand .nav-pills .nav-link.active:hover,
+.pm-checkout-brand .nav-pills .nav-link.active:focus {
+  --pm-ck-shine-a: rgba(255, 244, 214, 0.32);
+  --pm-ck-shine-b: rgba(232, 184, 109, 0.9);
+  color: #fff !important;
+  background-color: #700053 !important;
+  background-image: linear-gradient(
+    120deg,
+    #3d0a38 0%,
+    #700053 26%,
+    #a12680 50%,
+    #700053 74%,
+    #4a1848 100%
+  ) !important;
+  animation: btn-gradient 9s ease infinite !important;
+  box-shadow: 0 10px 24px rgba(112, 0, 83, 0.32) !important;
+}
+
+/* Inativo = dourado do botão ir ao checkout */
+.pm-checkout-brand .nav-pills .nav-link:not(.active),
+.pm-checkout-brand .nav-pills .nav-link:not(.active):hover,
+.pm-checkout-brand .nav-pills .nav-link:not(.active):focus {
+  --pm-ck-shine-a: rgba(255, 255, 255, 0.42);
+  --pm-ck-shine-b: rgba(255, 255, 255, 0.95);
+  color: #3d2e00 !important;
+  background-color: #e8b86d !important;
+  background-image: linear-gradient(
+    120deg,
+    #8a5a12 0%,
+    #c9923a 22%,
+    #e8b86d 46%,
+    #fff4d4 60%,
+    #e8b86d 76%,
+    #c9923a 100%
+  ) !important;
+  animation: btn-gradient 8s ease infinite !important;
+  box-shadow: 0 10px 24px rgba(232, 184, 109, 0.38) !important;
+}
+
+.pm-checkout-brand .nav-pills .nav-link:not(.active)::before {
+  animation-duration: 5.6s;
+}
+
+.pm-checkout-brand .nav-pills .nav-link:hover {
+  filter: brightness(1.08);
+}
+
+/* Próximo Passo = dourado lux (mata background:url da seta do tema) */
+.pm-checkout-brand .btnNext,
+.pm-checkout-brand a.btnNext,
+.pm-checkout-brand .btn.btn-primary.btnNext,
+.pm-checkout-brand a.btn.btn-primary.btnNext,
+.pm-checkout-brand .wpcf7-form .btnNext,
+.pm-checkout-brand .wpcf7-form a.btn.btn-primary {
+  --pm-ck-shine-a: rgba(255, 255, 255, 0.42);
+  --pm-ck-shine-b: rgba(255, 255, 255, 0.95);
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3.15rem;
+  width: auto;
+  max-width: 100%;
+  margin: 0.75rem 0 0 !important;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem !important;
+  color: #3d2e00 !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    120deg,
+    #8a5a12 0%,
+    #c9923a 22%,
+    #e8b86d 46%,
+    #fff4d4 60%,
+    #e8b86d 76%,
+    #c9923a 100%
+  ) !important;
+  background-image: linear-gradient(
+    120deg,
+    #8a5a12 0%,
+    #c9923a 22%,
+    #e8b86d 46%,
+    #fff4d4 60%,
+    #e8b86d 76%,
+    #c9923a 100%
+  ) !important;
+  background-size: 220% 220% !important;
+  background-repeat: no-repeat !important;
+  background-position: 0% 50% !important;
+  animation: btn-gradient 8s ease infinite !important;
+  box-shadow: 0 10px 24px rgba(232, 184, 109, 0.38) !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+
+.pm-checkout-brand .btnNext:hover,
+.pm-checkout-brand a.btnNext:hover,
+.pm-checkout-brand .btn.btn-primary.btnNext:hover {
+  filter: brightness(1.08);
+  color: #3d2e00 !important;
+  background-image: linear-gradient(
+    120deg,
+    #8a5a12 0%,
+    #c9923a 22%,
+    #e8b86d 46%,
+    #fff4d4 60%,
+    #e8b86d 76%,
+    #c9923a 100%
+  ) !important;
+}
+
+.pm-checkout-brand .btnNext::before,
+.pm-checkout-brand a.btnNext::before,
+.pm-checkout-brand .btn.btn-primary.btnNext::before {
+  animation-duration: 5.6s;
+}
+
+/* Tablet — empilha: pagamento em cima, pedido embaixo */
+@media (max-width: 1024px) {
+  .pm-checkout-layout,
+  .pm-checkout-layout.is-pay-step {
+    width: min(100%, calc(100% - 1.5rem));
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .pm-checkout-layout.is-pay-step .pm-checkout-form-col {
+    order: 1;
+  }
+
+  .pm-checkout-layout.is-pay-step .pm-checkout-cart {
+    position: relative;
+    top: auto;
+    order: 2;
+  }
+
+  .pm-checkout-form-col,
+  .pm-checkout-cart {
+    padding: 1.5rem 1.35rem 1.75rem;
+  }
+
+  .pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col {
+    padding: 1.65rem 1.5rem 1.85rem;
+  }
+}
+
+/* Mobile — one column; on pay step, pedido first then form; both fully visible */
+@media (max-width: 768px) {
+  .pm-checkout-layout,
+  .pm-checkout-layout.is-pay-step {
+    grid-template-columns: 1fr;
+    width: calc(100% - 1.25rem);
+    gap: 1.25rem;
+    margin: 0.5rem auto 5rem;
+  }
+
+  /* Pagamento mobile/tablet: formulário em cima, produtos embaixo */
+  .pm-checkout-layout.is-pay-step .pm-checkout-cart {
+    position: relative;
+    top: auto;
+    order: 2;
+  }
+
+  .pm-checkout-layout.is-pay-step .pm-checkout-form-col {
+    order: 1;
+  }
+
+  .pm-checkout-form-col,
+  .pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col {
+    padding: 1.35rem 1.1rem 1.6rem;
+  }
+
+  .pm-checkout-empty a {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .pm-checkout-brand .wpcf7-form .row > [class*="col-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .pm-checkout-brand .nav-pills,
+  .pm-checkout-brand .nav.nav-pills,
+  .pm-checkout-brand ul#pills-tab {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .pm-checkout-brand .nav-pills .nav-link {
+    width: 100%;
+    text-align: center;
+    padding-left: 0.65rem !important;
+    padding-right: 0.65rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .pm-checkout-brand .wpcf7-form input[type="text"],
+  .pm-checkout-brand .wpcf7-form input[type="email"],
+  .pm-checkout-brand .wpcf7-form input[type="tel"],
+  .pm-checkout-brand .wpcf7-form select {
+    min-height: 3.35rem;
+    font-size: 1.05rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .pm-checkout-layout,
+  .pm-checkout-layout.is-pay-step {
+    width: calc(100% - 0.75rem);
+  }
+
+  .pm-checkout-line {
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 0.85rem;
+  }
+}
+
+/* Pagamento: inputs em coluna abaixo de 600px */
+@media (max-width: 600px) {
+  body.pm-checkout-brand #pills-pagamento .row {
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    gap: 0;
+  }
+
+  body.pm-checkout-brand #pills-pagamento .row > [class*="col"],
+  body.pm-checkout-brand #pills-pagamento .row > .col,
+  body.pm-checkout-brand #pills-pagamento .row > .col-6,
+  body.pm-checkout-brand #pills-pagamento .row > .col-md-6,
+  body.pm-checkout-brand #pills-pagamento .row > .col-sm-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  body.pm-checkout-brand #pills-dados .row {
+    flex-direction: column !important;
+  }
+
+  body.pm-checkout-brand #pills-dados .row > [class*="col"] {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* Dados de Pagamento: padding lateral das colunas 5px */
+body.pm-checkout-brand #pills-pagamento .row > [class*="col"],
+body.pm-checkout-brand #pills-pagamento .row > .col {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+/* —— Overlay processamento (leve; só transform/opacity) —— */
+html.pm-ck-loading-lock,
+html.pm-ck-loading-lock body {
+  overflow: hidden !important;
+}
+
+@keyframes pm-ck-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pm-ck-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  opacity: 0;
+  pointer-events: auto;
+  font-family: var(--pm-ck-font, "Manrope", "Segoe UI", sans-serif);
+  text-align: center;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+.pm-ck-loading.is-open {
+  opacity: 1;
+}
+
+.pm-ck-loading__veil {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 38%, rgba(255, 187, 58, 0.16), transparent 62%),
+    linear-gradient(165deg, #5a0a4a 0%, #700053 42%, #3a0628 100%);
+  opacity: 1;
+}
+
+.pm-ck-loading__panel {
+  position: relative;
+  z-index: 1;
+  width: min(22rem, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0.35rem 0.15rem 0.15rem;
+}
+
+.pm-ck-loading__cart-wrap {
+  position: relative;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin: 0 auto 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm-ck-loading__spinner {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  border: 3px solid rgba(255, 255, 255, 0.18);
+  border-top-color: #ffbb3a;
+  border-right-color: rgba(255, 187, 58, 0.55);
+  animation: pm-ck-spin 0.85s linear infinite;
+  box-sizing: border-box;
+}
+
+.pm-ck-loading__cart {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.35rem;
+  height: 3.35rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+
+.pm-ck-loading__status {
+  margin: 0 auto 1.15rem;
+  width: 100%;
+  max-width: 18rem;
+  color: #fff !important;
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-style: normal !important;
+  letter-spacing: 0;
+  line-height: 1.4;
+  min-height: 2.8em;
+  text-align: center;
+  transform: none !important;
+  rotate: none;
+}
+
+.pm-ck-loading__steps {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  width: 100%;
+  max-width: 14rem;
+  position: relative;
+  z-index: 1;
+}
+
+.pm-ck-loading__steps li {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.pm-ck-loading__steps li::after {
+  display: none;
+}
+
+.pm-ck-loading__steps li span {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+  border: 1.5px solid rgba(255, 187, 58, 0.35);
+  flex-shrink: 0;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  box-sizing: border-box;
+}
+
+.pm-ck-loading__steps li.is-done span,
+.pm-ck-loading__steps li.is-active span {
+  background: #ffbb3a;
+  border-color: #ffbb3a;
+}
+
+.pm-ck-loading__steps li.is-active span {
+  transform: scale(1.25);
+  box-shadow: 0 0 0 4px rgba(255, 187, 58, 0.22);
+}
+
+.pm-ck-loading__progress {
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+  /* Centraliza a barra no eixo das bolinhas (centro do span 10px). */
+  margin: -6.5px auto 1.25rem;
+  width: calc(100% - 10px);
+  max-width: calc(14rem - 10px);
+  position: relative;
+  z-index: 0;
+}
+
+.pm-ck-loading__progress > i {
+  display: block;
+  height: 100%;
+  width: 8%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #e25ab8, #ffbb3a 55%, #ffe0a0);
+  transition: width 0.45s ease;
+  box-shadow: 0 0 12px rgba(255, 187, 58, 0.35);
+}
+
+.pm-ck-loading__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.55rem;
+  width: 100%;
+}
+
+.pm-ck-loading__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.85rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(6px);
+  will-change: transform, opacity;
+}
+
+.pm-ck-loading__card-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #ffbb3a;
+  flex-shrink: 0;
+}
+
+.pm-ck-loading__card-name {
+  flex: 1;
+  min-width: 0;
+  color: #fff !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal !important;
+  letter-spacing: 0;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  transform: none !important;
+}
+
+.pm-ck-loading__card-qty {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  flex-shrink: 0;
+  font-style: normal !important;
+}
+
+.pm-ck-loading__check {
+  position: absolute;
+  left: 50%;
+  top: 1.5rem;
+  transform: translateX(-50%);
+  color: #ffbb3a;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pm-ck-loading.is-confirmed .pm-ck-loading__cart-wrap {
+  opacity: 0;
+}
+
+.pm-ck-loading.is-confirmed .pm-ck-loading__spinner {
+  animation: none;
+}
+
+.pm-ck-loading.is-confirmed .pm-ck-loading__check {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pm-ck-loading,
+  .pm-ck-loading__steps li span,
+  .pm-ck-loading__progress > i {
+    transition: none !important;
+  }
+
+  .pm-ck-loading__spinner {
+    animation: none;
+    border-top-color: #ffbb3a;
+  }
+}
+
+
+/* ==========================================================================
+   Barra fixa de pagamento no mobile — mesma ideia do carrinho.
+   Apenas CSS: reaproveita o botao .pm-checkout-submit e o bloco de totais que
+   o shell ja renderiza. Nenhuma funcao/script do checkout e alterado.
+   ========================================================================== */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand {
+    --pm-ck-bar-h: 68px;
+  }
+
+  /* Rodape institucional + menu inferior (Inicio/Servicos/Carrinho).
+     Ambos vivem dentro de #pm-shell-footer. */
+  body.pm-checkout-brand #pm-shell-footer {
+    display: none !important;
+  }
+
+  /* Sobra espaco para a barra nao cobrir o fim do formulario */
+  body.pm-checkout-brand #pm-checkout-layout {
+    margin-bottom: calc(var(--pm-ck-bar-h, 0px) + 1.25rem) !important;
+  }
+
+  body.pm-checkout-brand .scrollup {
+    display: none !important;
+  }
+
+  /* O paragrafo que envolve o botao nao deixa buraco no fluxo */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form p:has(> .pm-checkout-submit) {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+  }
+
+  /* "Finalizar Pagamento" vira a acao fixa da direita */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-submit {
+    position: fixed;
+    left: min(46%, 11.5rem);
+    right: 0;
+    bottom: 0;
+    z-index: 70;
+    width: auto !important;
+    max-width: none !important;
+    height: calc(var(--pm-ck-bar-h) + env(safe-area-inset-bottom, 0px));
+    margin: 0 !important;
+    padding: 0 0.9rem env(safe-area-inset-bottom, 0px) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.04em !important;
+    white-space: nowrap;
+  }
+
+  /* Sem o icone o rotulo cabe em uma linha nos celulares estreitos */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-submit .pm-checkout-submit__icon {
+    display: none !important;
+  }
+
+  /* Total vira o lado esquerdo da barra (rosa institucional) */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: min(46%, 11.5rem);
+    height: calc(var(--pm-ck-bar-h) + env(safe-area-inset-bottom, 0px));
+    z-index: 70;
+    margin: 0 !important;
+    padding: 0 0 env(safe-area-inset-bottom, 0px) max(16px, env(safe-area-inset-left, 0px)) !important;
+    border: 0 !important;
+    border-radius: 0;
+    background: linear-gradient(175deg, #fbe0ef 0%, #f5cade 100%);
+    box-shadow: 0 -10px 26px rgba(112, 0, 83, 0.14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  /* No celular a barra mostra so o total; subtotal e desconto seguem visiveis
+     nos proprios itens do pedido, acima do formulario. */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals > div:not(.is-total) {
+    display: none !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals > .is-total {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    color: #5c0046;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals > .is-total span:first-child {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #8a2b63;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals > .is-total span:last-child {
+    font-family: "Manrope", "Segoe UI", system-ui, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: #5c0046;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Celulares estreitos: rotulo do botao em uma linha so */
+  @media (max-width: 360px) {
+    body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart__totals {
+      width: min(44%, 10.5rem);
+    }
+
+    body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-submit {
+      left: min(44%, 10.5rem);
+      font-size: 0.66rem !important;
+      letter-spacing: 0.02em !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+  }
+
+  /* Respiro embaixo do card do pedido, ja que os totais sairam do fluxo */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-cart {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   Header enxuto + card preenchendo a tela.
+   O header do checkout (#pm-shell-header) e um shadow root montado por
+   checkout-shell; a compactacao dele vive no home.css (:host ...).
+   Aqui so ajustamos o espaco reservado e a altura do card.
+   ========================================================================== */
+body.pm-checkout-brand {
+  --pm-ck-head-h: 115px;
+  /* Altura entre o topo da pagina e o card (header + folgas do tema) */
+  --pm-ck-card-top: 211px;
+}
+
+/* Reserva apenas a altura real do header compacto (o tema usava 176px) */
+body.pm-checkout-brand .main_content {
+  margin-top: var(--pm-ck-head-h) !important;
+}
+
+body.pm-checkout-brand #pm-checkout-layout {
+  margin-top: 0.55rem !important;
+}
+@media (min-width: 768px) {
+  body.pm-checkout-brand {
+    --pm-ck-head-h: 124px;
+    --pm-ck-card-top: 220px;
+  }
+}
+
+
+/* Passo Dados: distribui os campos na altura disponivel em vez de deixar um
+   vazio unico antes do botao. Em telas curtas o conteudo rola normalmente. */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados > .row,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados > .form-group {
+    flex: 0 0 auto;
+  }
+
+}
+
+/* Cadeia flex do passo Dados: o painel cresce junto com o card, para o
+   espaco extra virar intervalo entre campos (e nao um vazio antes do botao).
+   Só no passo Dados, só no mobile/tablet; nada de campo ou logica muda. */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .tab-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .tab-content,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados {
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+}
+
+/* Telas altas: o espaco extra vai para os intervalos entre os campos */
+@media (max-width: 1023px) and (min-height: 780px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados {
+    justify-content: space-between;
+  }
+}
+
+/* Passo Dados no mobile: campos mais baixos e espacamento curto, para caber
+   quase tudo sem rolar. So densidade visual — nenhum campo/logica muda. */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-step-title {
+    margin-bottom: 0.5rem !important;
+    font-size: 1.05rem;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form p,
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form .form-group {
+    margin-bottom: 0.35rem !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="text"],
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="email"],
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="tel"],
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form input[type="number"],
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form select {
+    height: 2.7rem !important;
+    min-height: 2.7rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-size: 1rem !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form label {
+    margin-bottom: 0 !important;
+    font-size: 0.72rem !important;
+    line-height: 1.15 !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .nav-pills {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+/* Passo Dados: o card ocupa a altura util restante, sem vazio embaixo */
+/* So no celular: no tablet o card acompanha o conteudo */
+@media (max-width: 600px) {
+  body.pm-checkout-brand #pm-checkout-layout:not(.is-pay-step) {
+    align-items: stretch;
+    min-height: calc(100dvh - var(--pm-ck-card-top) - 0.5rem);
+    margin-bottom: 0.35rem !important;
+  }
+
+  body.pm-checkout-brand #pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col {
+    min-height: calc(100dvh - var(--pm-ck-card-top) - 0.5rem);
+  }
+}
+
+/* Passo Dados: "Comprar Agora" flutua como botao arredondado no rodape.
+   Mesmo elemento, mesmo handler — so aparencia e posicao. */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand {
+    --pm-ck-bar-h: 72px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .wpcf7-form p:has(> .pm-checkout-buy-now) {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now {
+    position: fixed !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: calc(10px + env(safe-area-inset-bottom, 0px)) !important;
+    transform: translateX(-50%) !important;
+    z-index: 70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: min(30rem, calc(100% - 2rem)) !important;
+    max-width: min(30rem, calc(100% - 2rem)) !important;
+    height: 56px;
+    min-height: 56px;
+    margin: 0 !important;
+    padding: 0 1.15rem !important;
+    border-radius: 999px !important;
+    overflow: hidden;
+    isolation: isolate;
+    contain: paint;
+    box-shadow:
+      0 12px 28px rgba(201, 146, 58, 0.42),
+      0 2px 0 rgba(255, 255, 255, 0.35) inset;
+    font-size: 0.8rem !important;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+
+  /* Brilho branco diagonal: duas passadas por ciclo, com velocidades
+     diferentes e pausas — nada de flash continuo. */
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    bottom: -30%;
+    left: 0;
+    width: 42%;
+    pointer-events: none;
+    background: linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.55) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: translateX(-220%) skewX(-16deg);
+    animation: pm-buy-sheen 11s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  /* A barra e fixa: o card reserva a altura dela no fim, para o ultimo
+     campo nunca ficar escondido atras do botao. */
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-form-col {
+    padding-bottom: calc(var(--pm-ck-bar-h, 72px) + 0.9rem + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  body.pm-checkout-brand #pm-checkout-layout:not(.is-pay-step) {
+    margin-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@keyframes pm-buy-sheen {
+  0%, 6% {
+    transform: translateX(-220%) skewX(-16deg);
+  }
+  18%, 46% {
+    transform: translateX(320%) skewX(-16deg);
+  }
+  56% {
+    transform: translateX(-220%) skewX(-16deg);
+  }
+  86%, 100% {
+    transform: translateX(320%) skewX(-16deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now::before {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* ==========================================================================
+   Densidade e colunas (mobile/tablet) — só CSS de layout.
+   Campos curtos ficam lado a lado; o resto continua empilhado.
+   ========================================================================== */
+@media (max-width: 1023px) {
+  /* Menos area morta entre header e card (o tema deixa 30px de padding) */
+  body.pm-checkout-brand .pm-checkout-span {
+    padding-top: 0.35rem !important;
+  }
+
+  /* Passo Pagamento: mesma altura de campo do passo Dados */
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form input[type="text"],
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form input[type="email"],
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form input[type="tel"],
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form input[type="number"],
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form select {
+    height: 2.7rem !important;
+    min-height: 2.7rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-size: 1rem !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form .form-group,
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form p {
+    margin-bottom: 0.35rem !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .wpcf7-form label {
+    margin-bottom: 0 !important;
+    font-size: 0.72rem !important;
+    line-height: 1.15 !important;
+  }
+}
+
+/* Pares curtos na mesma linha no passo Dados (celular).
+   Os campos longos (nome, unidade) continuam ocupando a linha inteira. */
+@media (max-width: 600px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    column-gap: 8px !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row > [class*="col"] {
+    flex: 0 0 calc(50% - 4px) !important;
+    max-width: calc(50% - 4px) !important;
+    width: calc(50% - 4px) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row > .col:has([data-name="cidade"]) {
+    flex-basis: calc(60% - 8px) !important;
+    max-width: calc(60% - 8px) !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row > .col:has([data-name="estado"]),
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row > .col:has([data-name="numero"]) {
+    flex-basis: 40% !important;
+    max-width: 40% !important;
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) #pills-dados .row > .col:has([data-name="complemento"]) {
+    flex-basis: calc(60% - 8px) !important;
+    max-width: calc(60% - 8px) !important;
+  }
+}
+
+/* Passo Pagamento: o "Comprar Agora" do passo Dados nao aparece */
+@media (max-width: 1023px) {
+  body.pm-checkout-brand .pm-checkout-layout.is-pay-step .pm-checkout-buy-now {
+    display: none !important;
+  }
+}
+
+/* Tablet (601–1023px): o botao fica no fim do card, arredondado como no
+   celular, para nao abrir um vazio entre o ultimo campo e o rodape. */
+@media (min-width: 601px) and (max-width: 1023px) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: min(24rem, 100%) !important;
+    max-width: min(24rem, 100%) !important;
+    height: 56px;
+    min-height: 56px;
+    margin: 1rem auto 0.25rem !important;
+    padding: 0 1.15rem !important;
+    border-radius: 999px !important;
+    overflow: hidden;
+    isolation: isolate;
+    contain: paint;
+    box-shadow: 0 12px 28px rgba(201, 146, 58, 0.42);
+  }
+
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    bottom: -30%;
+    left: 0;
+    width: 42%;
+    pointer-events: none;
+    background: linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.55) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: translateX(-220%) skewX(-16deg);
+    animation: pm-buy-sheen 11s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.pm-checkout-brand .pm-checkout-layout:not(.is-pay-step) .pm-checkout-buy-now::before {
+    animation: none;
+    opacity: 0;
+  }
+}

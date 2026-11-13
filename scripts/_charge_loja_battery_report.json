@@ -1,0 +1,39 @@
+{
+  "ts": "2026-11-05T19:40:00-03:00",
+  "card": {
+    "holder": "RA D A M LTDA",
+    "number_prefix": "2238",
+    "exp": "11/34",
+    "probe_ok": true
+  },
+  "encoding": {
+    "ok": true
+  },
+  "charges": {
+    "ok": true,
+    "passed": 6,
+    "total": 6,
+    "method": "Accesstage no servidor da loja + pedido Woo (REST pm-home/v1/test-order). CF7 UI ainda retorna Rede 124 em alguns submits; mesma chave/cartão OK via API.",
+    "order_ids": [49555, 49556, 49557, 49558, 49559, 49560],
+    "details": [
+      {"order_id": 49555, "total": "2.00", "case": "api_laser_2"},
+      {"order_id": 49556, "total": "1.90", "case": "api_laser_190"},
+      {"order_id": 49557, "total": "1.00", "case": "api_normal_100"},
+      {"order_id": 49558, "total": "1.89", "case": "api_normal_189"},
+      {"order_id": 49559, "total": "2.00", "case": "api_laser_200b"},
+      {"order_id": 49560, "total": "1.99", "case": "api_normal_199_retry"}
+    ]
+  },
+  "fixes_shipped": [
+    "Snippet #13 pm-accesstage-normalize-test: mapeia unit label→slug Accesstage + parcelas Nx→int (pipes CF7 quebrados no HTML)",
+    "Cupons ensaio PMTESTE1/PMTESTE2 criados e voltaram a draft",
+    "Produto 49527 em R$1,99 excluído da Black Nov"
+  ],
+  "restore": {
+    "maintenance_active": true,
+    "recaptcha_snippet_inactive": true,
+    "recaptcha_plugin_active": true,
+    "normalize_snippet_active": true,
+    "coupons_draft": [49539, 49540, 49523]
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "plano": [
+    {
+      "slug": "abdomen-cera-masc",
+      "pagina": "products/abdomen-cera-masc.html",
+      "nome": "Abdômen – Cera",
+      "pid_antes": "2285",
+      "pid_depois": "49888",
+      "variacoes": 13,
+      "preco_pagina_cents": 4922
+    },
+    {
+      "slug": "abdomen-laser-masc",
+      "pagina": "products/abdomen-laser-masc.html",
+      "nome": "Abdômen Laser",
+      "pid_antes": "9625",
+      "pid_depois": "50961",
+      "variacoes": 10,
+      "preco_pagina_cents": 43600
+    },
+    {
+      "slug": "antebraco-cera-masc",
+      "pagina": "products/antebraco-cera-masc.html",
+      "nome": "Antebraço – Cera",
+      "pid_antes": "2250",
+      "pid_depois": "50064",
+      "variacoes": 13,
+      "preco_pagina_cents": 3273
+    },
+    {
+      "slug": "axila-cera-masc",
+      "pagina": "products/axila-cera-masc.html",
+      "nome": "Axila – Cera",
+      "pid_antes": "2319",
+      "pid_depois": "49975",
+      "variacoes": 13,
+      "preco_pagina_cents": 3307
+    },
+    {
+      "slug": "barba-cera-masc",
+      "pagina": "products/barba-cera-masc.html",
+      "nome": "Barba – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51005",
+      "variacoes": 13,
+      "preco_pagina_cents": 4837
+    },
+    {
+      "slug": "barba-laser-masc",
+      "pagina": "products/barba-laser-masc.html",
+      "nome": "Barba Laser",
+      "pid_antes": "9173",
+      "pid_depois": "50983",
+      "variacoes": 10,
+      "preco_pagina_cents": 42800
+    },
+    {
+      "slug": "barba-modeladora-cera-masc",
+      "pagina": "products/barba-modeladora-cera-masc.html",
+      "nome": "Barba Modeladora – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51019",
+      "variacoes": 13,
+      "preco_pagina_cents": 6367
+    },
+    {
+      "slug": "bigode-cera-masc",
+      "pagina": "products/bigode-cera-masc.html",
+      "nome": "Bigode – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51033",
+      "variacoes": 13,
+      "preco_pagina_cents": 3273
+    },
+    {
+      "slug": "bigode-laser-masc",
+      "pagina": "products/bigode-laser-masc.html",
+      "nome": "Bigode Laser",
+      "pid_antes": "10271",
+      "pid_depois": "50899",
+      "variacoes": 10,
+      "preco_pagina_cents": 20200
+    },
+    {
+      "slug": "bracos-cera-masc",
+      "pagina": "products/bracos-cera-masc.html",
+      "nome": "Braços – Cera",
+      "pid_antes": "5232",
+      "pid_depois": "50114",
+      "variacoes": 13,
+      "preco_pagina_cents": 6290
+    },
+    {
+      "slug": "buco-linha",
+      "pagina": "products/buco-linha.html",
+      "nome": "Buço – Linha",
+      "pid_antes": "16394",
+      "pid_depois": "16394",
+      "variacoes": 2,
+      "preco_pagina_cents": 1987
+    },
+    {
+      "slug": "costas-cera-masc",
+      "pagina": "products/costas-cera-masc.html",
+      "nome": "Costas – Cera",
+      "pid_antes": "3565",
+      "pid_depois": "50200",
+      "variacoes": 13,
+      "preco_pagina_cents": 5092
+    },
+    {
+      "slug": "coxa-cera-masc",
+      "pagina": "products/coxa-cera-masc.html",
+      "nome": "Coxa – Cera",
+      "pid_antes": "3601",
+      "pid_depois": "50286",
+      "variacoes": 13,
+      "preco_pagina_cents": 5262
+    },
+    {
+      "slug": "coxa-laser-masc",
+      "pagina": "products/coxa-laser-masc.html",
+      "nome": "Coxa Laser",
+      "pid_antes": "9965",
+      "pid_depois": "50939",
+      "variacoes": 10,
+      "preco_pagina_cents": 91200
+    },
+    {
+      "slug": "design-sobrancelha-masc",
+      "pagina": "products/design-sobrancelha-masc.html",
+      "nome": "Design de Sobrancelha – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51103",
+      "variacoes": 13,
+      "preco_pagina_cents": 5942
+    },
+    {
+      "slug": "esfoliacao-abdomen",
+      "pagina": "products/esfoliacao-abdomen.html",
+      "nome": "Esfoliação de abdômen",
+      "pid_antes": "2285",
+      "pid_depois": "49837",
+      "variacoes": 35,
+      "preco_pagina_cents": 2465
+    },
+    {
+      "slug": "esfoliacao-abdomen-masc",
+      "pagina": "products/esfoliacao-abdomen-masc.html",
+      "nome": "Esfoliação de abdômen",
+      "pid_antes": "2285",
+      "pid_depois": "49903",
+      "variacoes": 35,
+      "preco_pagina_cents": 2461
+    },
+    {
+      "slug": "esfoliacao-axilas",
+      "pagina": "products/esfoliacao-axilas.html",
+      "nome": "Esfoliação de axilas",
+      "pid_antes": "2319",
+      "pid_depois": "49939",
+      "variacoes": 35,
+      "preco_pagina_cents": 1403
+    },
+    {
+      "slug": "esfoliacao-axilas-masc",
+      "pagina": "products/esfoliacao-axilas-masc.html",
+      "nome": "Esfoliação de axilas",
+      "pid_antes": "2319",
+      "pid_depois": "49989",
+      "variacoes": 35,
+      "preco_pagina_cents": 1653
+    },
+    {
+      "slug": "esfoliacao-braco",
+      "pagina": "products/esfoliacao-braco.html",
+      "nome": "Esfoliação de braço",
+      "pid_antes": "5232",
+      "pid_depois": "50078",
+      "variacoes": 35,
+      "preco_pagina_cents": 2971
+    },
+    {
+      "slug": "esfoliacao-braco-masc",
+      "pagina": "products/esfoliacao-braco-masc.html",
+      "nome": "Esfoliação de braço",
+      "pid_antes": "5232",
+      "pid_depois": "50128",
+      "variacoes": 35,
+      "preco_pagina_cents": 3145
+    },
+    {
+      "slug": "esfoliacao-costas",
+      "pagina": "products/esfoliacao-costas.html",
+      "nome": "Esfoliação de costas",
+      "pid_antes": "3565",
+      "pid_depois": "50164",
+      "variacoes": 35,
+      "preco_pagina_cents": 2338
+    },
+    {
+      "slug": "esfoliacao-costas-masc",
+      "pagina": "products/esfoliacao-costas-masc.html",
+      "nome": "Esfoliação de costas",
+      "pid_antes": "3565",
+      "pid_depois": "50214",
+      "variacoes": 35,
+      "preco_pagina_cents": 2546
+    },
+    {
+      "slug": "esfoliacao-coxa",
+      "pagina": "products/esfoliacao-coxa.html",
+      "nome": "Esfoliação de coxa",
+      "pid_antes": "3601",
+      "pid_depois": "50250",
+      "variacoes": 35,
+      "preco_pagina_cents": 2121
+    },
+    {
+      "slug": "esfoliacao-coxa-masc",
+      "pagina": "products/esfoliacao-coxa-masc.html",
+      "nome": "Esfoliação de coxa",
+      "pid_antes": "3601",
+      "pid_depois": "50300",
+      "variacoes": 35,
+      "preco_pagina_cents": 2631
+    },
+    {
+      "slug": "esfoliacao-faixa",
+      "pagina": "products/esfoliacao-faixa.html",
+      "nome": "Esfoliação Faixa 01",
+      "pid_antes": "3674",
+      "pid_depois": "50336",
+      "variacoes": 35,
+      "preco_pagina_cents": 1105
+    },
+    {
+      "slug": "esfoliacao-faixa-masc",
+      "pagina": "products/esfoliacao-faixa-masc.html",
+      "nome": "Esfoliação Faixa 01",
+      "pid_antes": "3674",
+      "pid_depois": "50386",
+      "variacoes": 35,
+      "preco_pagina_cents": 1445
+    },
+    {
+      "slug": "esfoliacao-meia-nadega",
+      "pagina": "products/esfoliacao-meia-nadega.html",
+      "nome": "Esfoliação de meia nádega",
+      "pid_antes": "3843",
+      "pid_depois": "50508",
+      "variacoes": 35,
+      "preco_pagina_cents": 1063
+    },
+    {
+      "slug": "esfoliacao-meia-perna",
+      "pagina": "products/esfoliacao-meia-perna.html",
+      "nome": "Esfoliação de meia perna",
+      "pid_antes": "4013",
+      "pid_depois": "50644",
+      "variacoes": 35,
+      "preco_pagina_cents": 2121
+    },
+    {
+      "slug": "esfoliacao-meia-perna-masc",
+      "pagina": "products/esfoliacao-meia-perna-masc.html",
+      "nome": "Esfoliação de meia perna",
+      "pid_antes": "4013",
+      "pid_depois": "50694",
+      "variacoes": 35,
+      "preco_pagina_cents": 2631
+    },
+    {
+      "slug": "esfoliacao-meio-braco",
+      "pagina": "products/esfoliacao-meio-braco.html",
+      "nome": "Esfoliação de meio braço",
+      "pid_antes": "2250",
+      "pid_depois": "50028",
+      "variacoes": 35,
+      "preco_pagina_cents": 2121
+    },
+    {
+      "slug": "esfoliacao-nadegas",
+      "pagina": "products/esfoliacao-nadegas.html",
+      "nome": "Esfoliação de nádegas",
+      "pid_antes": "3908",
+      "pid_depois": "50422",
+      "variacoes": 35,
+      "preco_pagina_cents": 2121
+    },
+    {
+      "slug": "esfoliacao-nadegas-masc",
+      "pagina": "products/esfoliacao-nadegas-masc.html",
+      "nome": "Esfoliação de nádegas",
+      "pid_antes": "3908",
+      "pid_depois": "50472",
+      "variacoes": 35,
+      "preco_pagina_cents": 2231
+    },
+    {
+      "slug": "esfoliacao-perna",
+      "pagina": "products/esfoliacao-perna.html",
+      "nome": "Esfoliação de perna inteira",
+      "pid_antes": "3973",
+      "pid_depois": "50558",
+      "variacoes": 35,
+      "preco_pagina_cents": 3651
+    },
+    {
+      "slug": "esfoliacao-perna-masc",
+      "pagina": "products/esfoliacao-perna-masc.html",
+      "nome": "Esfoliação de perna inteira",
+      "pid_antes": "3973",
+      "pid_depois": "50608",
+      "variacoes": 35,
+      "preco_pagina_cents": 4888
+    },
+    {
+      "slug": "esfoliacao-seios",
+      "pagina": "products/esfoliacao-seios.html",
+      "nome": "Esfoliação de seios",
+      "pid_antes": "4114",
+      "pid_depois": "50730",
+      "variacoes": 35,
+      "preco_pagina_cents": 1186
+    },
+    {
+      "slug": "esfoliacao-virilha",
+      "pagina": "products/esfoliacao-virilha.html",
+      "nome": "Esfoliação de virilha",
+      "pid_antes": "4213",
+      "pid_depois": "50802",
+      "variacoes": 35,
+      "preco_pagina_cents": 1636
+    },
+    {
+      "slug": "esfoliacao-virilha-faixa",
+      "pagina": "products/esfoliacao-virilha-faixa.html",
+      "nome": "Esfoliação de virilha + faixa",
+      "pid_antes": "4347",
+      "pid_depois": "50766",
+      "variacoes": 35,
+      "preco_pagina_cents": 2189
+    },
+    {
+      "slug": "esfoliacao-virilha-masc",
+      "pagina": "products/esfoliacao-virilha-masc.html",
+      "nome": "Esfoliação de virilha",
+      "pid_antes": "4213",
+      "pid_depois": "50852",
+      "variacoes": 35,
+      "preco_pagina_cents": 2503
+    },
+    {
+      "slug": "faixa-cera-masc",
+      "pagina": "products/faixa-cera-masc.html",
+      "nome": "Faixa – Cera",
+      "pid_antes": "3674",
+      "pid_depois": "50372",
+      "variacoes": 13,
+      "preco_pagina_cents": 2890
+    },
+    {
+      "slug": "faixa-linha",
+      "pagina": "products/faixa-linha.html",
+      "nome": "Faixa – Linha",
+      "pid_antes": "17255",
+      "pid_depois": "17255",
+      "variacoes": 2,
+      "preco_pagina_cents": 2423
+    },
+    {
+      "slug": "mamilo-laser-masc",
+      "pagina": "products/mamilo-laser-masc.html",
+      "nome": "Mamilo Laser",
+      "pid_antes": "9659",
+      "pid_depois": "50888",
+      "variacoes": 10,
+      "preco_pagina_cents": 18400
+    },
+    {
+      "slug": "mamilos-cera-masc",
+      "pagina": "products/mamilos-cera-masc.html",
+      "nome": "Mamilos – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51075",
+      "variacoes": 13,
+      "preco_pagina_cents": 2797
+    },
+    {
+      "slug": "meia-nadega-cera-masc",
+      "pagina": "products/meia-nadega-cera-masc.html",
+      "nome": "Meia nádega – Cera",
+      "pid_antes": "3843",
+      "pid_depois": "50544",
+      "variacoes": 13,
+      "preco_pagina_cents": 2376
+    },
+    {
+      "slug": "meia-perna-cera-masc",
+      "pagina": "products/meia-perna-cera-masc.html",
+      "nome": "Meia Perna – Cera",
+      "pid_antes": "4013",
+      "pid_depois": "50680",
+      "variacoes": 13,
+      "preco_pagina_cents": 5262
+    },
+    {
+      "slug": "nadegas-cera-masc",
+      "pagina": "products/nadegas-cera-masc.html",
+      "nome": "Nádegas – Cera",
+      "pid_antes": "3908",
+      "pid_depois": "50458",
+      "variacoes": 13,
+      "preco_pagina_cents": 4463
+    },
+    {
+      "slug": "orelha-cera-masc",
+      "pagina": "products/orelha-cera-masc.html",
+      "nome": "Orelha – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51047",
+      "variacoes": 13,
+      "preco_pagina_cents": 2797
+    },
+    {
+      "slug": "peito-cera-masc",
+      "pagina": "products/peito-cera-masc.html",
+      "nome": "Peito – Cera",
+      "pid_antes": "2285",
+      "pid_depois": "49873",
+      "variacoes": 13,
+      "preco_pagina_cents": 4242
+    },
+    {
+      "slug": "peito-laser-masc",
+      "pagina": "products/peito-laser-masc.html",
+      "nome": "Tórax Laser",
+      "pid_antes": "9625",
+      "pid_depois": "50950",
+      "variacoes": 10,
+      "preco_pagina_cents": 56800
+    },
+    {
+      "slug": "perna-cera-masc",
+      "pagina": "products/perna-cera-masc.html",
+      "nome": "Perna Inteira – Cera",
+      "pid_antes": "3973",
+      "pid_depois": "50594",
+      "variacoes": 13,
+      "preco_pagina_cents": 9775
+    },
+    {
+      "slug": "pescoco-cera-masc",
+      "pagina": "products/pescoco-cera-masc.html",
+      "nome": "Pescoço – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51061",
+      "variacoes": 13,
+      "preco_pagina_cents": 2797
+    },
+    {
+      "slug": "queixo-linha",
+      "pagina": "products/queixo-linha.html",
+      "nome": "Queixo – Linha",
+      "pid_antes": "17216",
+      "pid_depois": "17216",
+      "variacoes": 2,
+      "preco_pagina_cents": 2651
+    },
+    {
+      "slug": "rosto-inteiro-laser-masc",
+      "pagina": "products/rosto-inteiro-laser-masc.html",
+      "nome": "Rosto Inteiro Laser (Barba + NZ + PSD P)",
+      "pid_antes": "9173",
+      "pid_depois": "50994",
+      "variacoes": 10,
+      "preco_pagina_cents": 63800
+    },
+    {
+      "slug": "saco-escrotal-cera-masc",
+      "pagina": "products/saco-escrotal-cera-masc.html",
+      "nome": "Saco Escrotal – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51131",
+      "variacoes": 13,
+      "preco_pagina_cents": 5007
+    },
+    {
+      "slug": "sobrancelha-cera-masc",
+      "pagina": "products/sobrancelha-cera-masc.html",
+      "nome": "Sobrancelha – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51089",
+      "variacoes": 13,
+      "preco_pagina_cents": 4497
+    },
+    {
+      "slug": "torax-abdomen-cera-masc",
+      "pagina": "products/torax-abdomen-cera-masc.html",
+      "nome": "Tórax + Abdômen – Cera",
+      "pid_antes": "0",
+      "pid_depois": "51117",
+      "variacoes": 13,
+      "preco_pagina_cents": 7642
+    },
+    {
+      "slug": "torax-abdomen-laser-masc",
+      "pagina": "products/torax-abdomen-laser-masc.html",
+      "nome": "Tórax + Abdômen Laser",
+      "pid_antes": "9625",
+      "pid_depois": "50972",
+      "variacoes": 10,
+      "preco_pagina_cents": 94600
+    },
+    {
+      "slug": "virilha-cera-masc",
+      "pagina": "products/virilha-cera-masc.html",
+      "nome": "Virilha Total – Cera",
+      "pid_antes": "4213",
+      "pid_depois": "50838",
+      "variacoes": 13,
+      "preco_pagina_cents": 7557
+    },
+    {
+      "slug": "virilha-laser",
+      "pagina": "products/virilha-laser.html",
+      "nome": "Virilha Total Laser",
+      "pid_antes": "9863",
+      "pid_depois": "50910",
+      "variacoes": 17,
+      "preco_pagina_cents": 83600
+    },
+    {
+      "slug": "virilha-laser-masc",
+      "pagina": "products/virilha-laser-masc.html",
+      "nome": "Virilha Laser",
+      "pid_antes": "9863",
+      "pid_depois": "50928",
+      "variacoes": 10,
+      "preco_pagina_cents": 55960
+    },
+    {
+      "slug": "virilha-total-laser-masc",
+      "pagina": "products/virilha-total-laser-masc.html",
+      "nome": "Virilha Total Laser",
+      "pid_antes": "9863",
+      "pid_depois": "9727",
+      "variacoes": 10,
+      "preco_pagina_cents": 86800
+    }
+  ],
+  "abortados": []
+}
